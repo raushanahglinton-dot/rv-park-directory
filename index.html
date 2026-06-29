@@ -125,7 +125,16 @@
   </div>
 </footer>
 
-<script src="data.js"></script>
-<script src="app.js"></script>
+<script>
+  (function() {
+    var v = Date.now();
+    ["data.js", "app.js"].forEach(function(src) {
+      var s = document.createElement("script");
+      s.src = src + "?v=" + v;
+      s.async = false;
+      document.head.appendChild(s);
+    });
+  })();
+</script>
 </body>
 </html>
