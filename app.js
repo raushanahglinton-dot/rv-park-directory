@@ -1,5 +1,5 @@
 // ============================================================
-//  app.js — Small RV Parks USA
+//  app.js â€” Small RV Parks USA
 //  Handles rendering, filtering, sorting, and state tabs
 // ============================================================
 
@@ -158,11 +158,15 @@ function cardHTML(p) {
   const badge  = TYPE_BADGE[p.type] || `<span class="badge badge-none">${p.type}</span>`;
   const tags   = p.tags.map(t => `<span class="tag">${t}</span>`).join("");
   const webCell = p.web
-    ? `<div class="card-web"><a href="https://${p.web}" target="_blank" rel="noopener">🔗 ${domainLabel(p.web)}</a></div>`
+    ? `<div class="card-web"><a href="https://${p.web}" target="_blank" rel="noopener">ðŸ”— ${domainLabel(p.web)}</a></div>`
     : `<div class="card-web"><span class="no-web">No website</span></div>`;
   const phoneCell = p.phone
-    ? `<div class="card-phone">📞 <a href="tel:${p.phone}">${p.phone}</a></div>`
+    ? `<div class="card-phone">ðŸ“ž <a href="tel:${p.phone}">${p.phone}</a></div>`
     : `<div class="card-phone"><span class="no-web">Phone not listed</span></div>`;
+
+  const addrCell = p.address
+    ? `<div class="card-addr">ðŸ“ ${p.address}</div>`
+    : "";
 
   return `
   <div class="park-card">
@@ -173,7 +177,8 @@ function cardHTML(p) {
         <div class="card-sites-label">SITES</div>
       </div>
     </div>
-    <div class="card-loc">${p.city}, ${p.county} Co. &nbsp;·&nbsp; ${p.state}</div>
+    <div class="card-loc">${p.city}, ${p.county} Co. &nbsp;Â·&nbsp; ${p.state}</div>
+    ${addrCell}
     <div class="card-badges">${badge}<span class="badge badge-none">${p.region}</span></div>
     <div class="card-hookup"><strong>Hookups:</strong> ${p.hookup}</div>
     <div class="card-tags">${tags}</div>
