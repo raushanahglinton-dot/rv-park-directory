@@ -158,14 +158,14 @@ function cardHTML(p) {
   const badge  = TYPE_BADGE[p.type] || `<span class="badge badge-none">${p.type}</span>`;
   const tags   = p.tags.map(t => `<span class="tag">${t}</span>`).join("");
   const webCell = p.web
-    ? `<div class="card-web"><a href="https://${p.web}" target="_blank" rel="noopener">ðŸ”— ${domainLabel(p.web)}</a></div>`
+    ? `<div class="card-web"><a href="https://${p.web}" target="_blank" rel="noopener">${domainLabel(p.web)}</a></div>`
     : `<div class="card-web"><span class="no-web">No website</span></div>`;
   const phoneCell = p.phone
-    ? `<div class="card-phone">ðŸ“ž <a href="tel:${p.phone}">${p.phone}</a></div>`
+    ? `<div class="card-phone"><a href="tel:${p.phone}">${p.phone}</a></div>`
     : `<div class="card-phone"><span class="no-web">Phone not listed</span></div>`;
 
   const addrCell = p.address
-    ? `<div class="card-addr">ðŸ“ ${p.address}</div>`
+    ? `<div class="card-addr">${p.address}</div>`
     : "";
 
   return `
