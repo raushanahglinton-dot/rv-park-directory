@@ -167,6 +167,9 @@ function cardHTML(p) {
   const addrCell = p.address
     ? `<div class="card-addr">${p.address}</div>`
     : "";
+  const yearCell = p.year
+    ? `<div class="card-year">Est. ${p.year}</div>`
+    : "";
 
   return `
   <div class="park-card">
@@ -177,8 +180,9 @@ function cardHTML(p) {
         <div class="card-sites-label">SITES</div>
       </div>
     </div>
-    <div class="card-loc">${p.city}, ${p.county} Co. &nbsp;Â·&nbsp; ${p.state}</div>
+    <div class="card-loc">${p.city}, ${p.county} Co., ${p.state}</div>
     ${addrCell}
+    ${yearCell}
     <div class="card-badges">${badge}<span class="badge badge-none">${p.region}</span></div>
     <div class="card-hookup"><strong>Hookups:</strong> ${p.hookup}</div>
     <div class="card-tags">${tags}</div>
