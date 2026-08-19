@@ -11,6 +11,9 @@ const TYPE_BADGE = {
 };
 
 let activeState = "";
+let largeMode   = false; // true = viewing the 100+ sites tab for activeState
+
+const isLarge = p => p.sites >= 100;
 
 // ---- Boot ----
 document.addEventListener("DOMContentLoaded", () => {
@@ -56,21 +59,28 @@ function buildStateTabs() {
   const wrap = document.getElementById("state-tabs");
   wrap.innerHTML = "";
 
-  const allTab = makeTab("All states", "", activeState === "");
+  const allTab = makeTab("All states", "", activeState === "" && !largeMode, false);
   wrap.appendChild(allTab);
 
   states.forEach(s => {
-    const count = PARKS.filter(p => p.state === s).length;
-    wrap.appendChild(makeTab(`${s} (${count})`, s, activeState === s));
+    const smallCount = PARKS.filter(p => p.state === s && !isLarge(p)).length;
+    const largeCount = PARKS.filter(p => p.state === s && isLarge(p)).length;
+
+    wrap.appendChild(makeTab(`${s} (${smallCount})`, s, activeState === s && !largeMode, false));
+
+    if (largeCount > 0) {
+      wrap.appendChild(makeTab(`${s} · 100+ sites (${largeCount})`, s, activeState === s && largeMode, true));
+    }
   });
 }
 
-function makeTab(label, value, isActive) {
+function makeTab(label, value, isActive, isLargeTab) {
   const btn = document.createElement("button");
-  btn.className = "state-tab" + (isActive ? " active" : "");
+  btn.className = "state-tab" + (isActive ? " active" : "") + (isLargeTab ? " state-tab-large" : "");
   btn.textContent = label;
   btn.onclick = () => {
     activeState = value;
+    largeMode = isLargeTab;
     document.getElementById("state-filter").value = value;
     buildRegionOptions(value);
     document.getElementById("region-filter").value = "";
@@ -85,6 +95,20 @@ function updateSiteSlider() {
   const val = document.getElementById("max-sites").value;
   document.getElementById("site-val").textContent = val == 99 ? "99" : val;
   applyFilters();
+}
+
+// ---- Toggle UI for the 100+ sites mode ----
+function updateModeUI() {
+  const sitesGroup = document.getElementById("max-sites-group");
+  const banner = document.getElementById("mode-banner");
+  if (largeMode) {
+    sitesGroup.style.display = "none";
+    banner.style.display = "block";
+    banner.textContent = `Showing ${activeState || "all states'"} parks with 100+ sites — bigger resorts we track for reference, outside our usual small-park focus.`;
+  } else {
+    sitesGroup.style.display = "";
+    banner.style.display = "none";
+  }
 }
 
 // ---- Main filter + render ----
@@ -102,15 +126,23 @@ function applyFilters() {
   // Sync state tab if sidebar select changed directly
   if (stateF !== activeState) {
     activeState = stateF;
+    largeMode = false; // the sidebar dropdown has no large-park mode of its own
     buildStateTabs();
     buildRegionOptions(stateF);
   }
+
+  updateModeUI();
 
   let filtered = PARKS.filter(p => {
     if (stateF  && p.state  !== stateF)  return false;
     if (typeF   && p.type   !== typeF)   return false;
     if (regionF && p.region !== regionF) return false;
-    if (p.sites > maxSites)              return false;
+    if (largeMode) {
+      if (!isLarge(p))                   return false;
+    } else {
+      if (isLarge(p))                    return false;
+      if (p.sites > maxSites)            return false;
+    }
 
     // Hookup filter (OR logic between checked boxes)
     if (ckFull || ckElec || ckNone) {
@@ -158,11 +190,18 @@ function cardHTML(p) {
   const badge  = TYPE_BADGE[p.type] || `<span class="badge badge-none">${p.type}</span>`;
   const tags   = p.tags.map(t => `<span class="tag">${t}</span>`).join("");
   const webCell = p.web
-    ? `<div class="card-web"><a href="https://${p.web}" target="_blank" rel="noopener">🔗 ${domainLabel(p.web)}</a></div>`
+    ? `<div class="card-web"><a href="https://${p.web}" target="_blank" rel="noopener">${domainLabel(p.web)}</a></div>`
     : `<div class="card-web"><span class="no-web">No website</span></div>`;
   const phoneCell = p.phone
-    ? `<div class="card-phone">📞 <a href="tel:${p.phone}">${p.phone}</a></div>`
+    ? `<div class="card-phone"><a href="tel:${p.phone}">${p.phone}</a></div>`
     : `<div class="card-phone"><span class="no-web">Phone not listed</span></div>`;
+
+  const addrCell = p.address
+    ? `<div class="card-addr">${p.address}</div>`
+    : "";
+  const yearCell = p.year
+    ? `<div class="card-year">Est. ${p.year}</div>`
+    : "";
 
   return `
   <div class="park-card">
@@ -173,7 +212,9 @@ function cardHTML(p) {
         <div class="card-sites-label">SITES</div>
       </div>
     </div>
-    <div class="card-loc">${p.city}, ${p.county} Co. &nbsp;·&nbsp; ${p.state}</div>
+    <div class="card-loc">${p.city}, ${p.county} Co., ${p.state}</div>
+    ${addrCell}
+    ${yearCell}
     <div class="card-badges">${badge}<span class="badge badge-none">${p.region}</span></div>
     <div class="card-hookup"><strong>Hookups:</strong> ${p.hookup}</div>
     <div class="card-tags">${tags}</div>
@@ -188,16 +229,19 @@ function domainLabel(web) {
 
 // ---- Results count ----
 function updateResultsCount(n) {
-  const total = PARKS.length;
+  const total = PARKS.filter(p => largeMode ? isLarge(p) : !isLarge(p)).length;
+  const label = largeMode ? "100+ site parks" : "parks";
   document.getElementById("results-count").textContent =
-    n === total ? `All ${total} parks` : `${n} of ${total} parks`;
+    n === total ? `All ${total} ${label}` : `${n} of ${total} ${label}`;
 }
 
 // ---- Hero stats ----
+// Reflects only the core small-park directory (under 100 sites) — the site's founding promise.
 function updateHeroStats() {
-  const states = new Set(PARKS.map(p => p.state)).size;
-  const noWeb  = PARKS.filter(p => !p.web).length;
-  document.getElementById("hs-parks").textContent  = PARKS.length;
+  const small  = PARKS.filter(p => !isLarge(p));
+  const states = new Set(small.map(p => p.state)).size;
+  const noWeb  = small.filter(p => !p.web).length;
+  document.getElementById("hs-parks").textContent  = small.length;
   document.getElementById("hs-states").textContent = states;
   document.getElementById("hs-noweb").textContent  = noWeb;
 }
@@ -215,6 +259,7 @@ function resetFilters() {
   document.getElementById("ck-none").checked        = false;
   document.getElementById("sort-by").value          = "name";
   activeState = "";
+  largeMode = false;
   buildStateTabs();
   buildRegionOptions();
   applyFilters();

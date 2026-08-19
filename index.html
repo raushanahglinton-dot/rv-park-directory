@@ -11,10 +11,9 @@
 <header class="site-header">
   <div class="header-inner">
     <div class="logo">
-      <span class="logo-icon">⛺</span>
       <div>
         <div class="logo-name">Small RV Parks USA</div>
-        <div class="logo-tagline">Under 100 sites · All states</div>
+        <div class="logo-tagline">Under 100 sites | All states</div>
       </div>
     </div>
     <nav class="header-nav">
@@ -63,7 +62,7 @@
         <option value="">All regions</option>
       </select>
     </div>
-    <div class="filter-group">
+    <div class="filter-group" id="max-sites-group">
       <label class="filter-label">Max sites</label>
       <div class="range-row">
         <input type="range" id="max-sites" min="1" max="99" value="99" step="1" oninput="updateSiteSlider()">
@@ -100,7 +99,7 @@
   <section class="results-area">
     <div class="results-bar">
       <div class="search-wrap">
-        <span class="search-icon">&#9906;</span>
+        <span class="search-icon">Search</span>
         <input type="text" id="search" placeholder="Search name, city, county, or tag…" oninput="applyFilters()">
       </div>
       <div class="results-count" id="results-count">Loading…</div>
@@ -108,10 +107,12 @@
 
     <div id="state-tabs" class="state-tabs"></div>
 
+    <div id="mode-banner" class="mode-banner" style="display:none"></div>
+
     <div id="cards-grid" class="cards-grid"></div>
 
     <div id="empty-state" class="empty-state" style="display:none">
-      <div class="empty-icon">🔍</div>
+      <div class="empty-icon"></div>
       <p>No parks match your filters. Try broadening your search or <button class="link-btn" onclick="resetFilters()">reset filters</button>.</p>
     </div>
   </section>
@@ -119,7 +120,7 @@
 
 <footer class="site-footer">
   <div class="footer-inner">
-    <div class="footer-brand">⛺ Small RV Parks USA</div>
+    <div class="footer-brand">RV Small RV Parks USA</div>
     <p class="footer-note">Data sourced from Recreation.gov, AllStays, Campendium, RV Life, Tennessee State Parks, and The Dyrt. Park counts and hookup info may change — always verify before visiting. This site is not affiliated with any campground or booking platform.</p>
     <p class="footer-copy">Built to stay small. Open to grow.</p>
   </div>
