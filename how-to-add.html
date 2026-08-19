@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>How to Add a State â€” Small RV Parks USA</title>
+<title>How to Add a State — Small RV Parks USA</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,10 +28,10 @@
   <h1>How to add a new state</h1>
   <p class="page-lead">The entire directory lives in one file: <span class="inline-code">data.js</span>. Adding a state means adding park objects to the <span class="inline-code">PARKS</span> array. The site handles all filtering, sorting, and display automatically.</p>
 
-  <h2>Step 1 â€” Open data.js</h2>
+  <h2>Step 1 — Open data.js</h2>
   <p>Find the file <span class="inline-code">data.js</span> in the root folder. Scroll to the bottom where you'll see the comment <span class="inline-code">// ADD YOUR NEXT STATE HERE</span>.</p>
 
-  <h2>Step 2 â€” Copy the template</h2>
+  <h2>Step 2 — Copy the template</h2>
   <p>Each park is a JavaScript object. Copy this template and fill in the fields:</p>
 
   <div class="code-block"><span class="cm">// One park entry</span>
@@ -39,7 +39,7 @@
   <span class="ck">city</span>:    <span class="cv">"Blue Ridge"</span>,
   <span class="ck">county</span>:  <span class="cv">"Fannin"</span>,
   <span class="ck">state</span>:   <span class="cv">"Georgia"</span>,          <span class="cm">// spelled out, e.g. "Georgia" not "GA"</span>
-  <span class="ck">region</span>:  <span class="cv">"North GA"</span>,          <span class="cm">// your choice â€” shows in filter + card</span>
+  <span class="ck">region</span>:  <span class="cv">"North GA"</span>,          <span class="cm">// your choice — shows in filter + card</span>
   <span class="ck">type</span>:    <span class="cv">"Private"</span>,           <span class="cm">// see valid types below</span>
   <span class="ck">sites</span>:   <span class="cv">48</span>,                  <span class="cm">// number, must be under 100</span>
   <span class="ck">hookup</span>:  <span class="cv">"Full hookups, 30/50A"</span>,
@@ -48,42 +48,42 @@
   <span class="ck">tags</span>:    <span class="cv">["Lake","Fishing","Blue Ridge Scenic Railway"]</span>
 },</div>
 
-  <h2>Step 3 â€” Valid values</h2>
+  <h2>Step 3 — Valid values</h2>
 
-  <p><strong>type</strong> â€” must be exactly one of these four strings:</p>
+  <p><strong>type</strong> — must be exactly one of these four strings:</p>
   <ul>
-    <li><span class="inline-code">"Federal / NPS"</span> â€” National Parks, National Forests (book at recreation.gov)</li>
-    <li><span class="inline-code">"State Park"</span> â€” any state-managed campground</li>
-    <li><span class="inline-code">"Corps of Engineers"</span> â€” US Army Corps lakes (also on recreation.gov)</li>
-    <li><span class="inline-code">"Private"</span> â€” commercial or family-owned parks</li>
+    <li><span class="inline-code">"Federal / NPS"</span> — National Parks, National Forests (book at recreation.gov)</li>
+    <li><span class="inline-code">"State Park"</span> — any state-managed campground</li>
+    <li><span class="inline-code">"Corps of Engineers"</span> — US Army Corps lakes (also on recreation.gov)</li>
+    <li><span class="inline-code">"Private"</span> — commercial or family-owned parks</li>
   </ul>
 
-  <p><strong>hookup</strong> â€” free text, but include at least one of these keywords so the hookup filter works:</p>
+  <p><strong>hookup</strong> — free text, but include at least one of these keywords so the hookup filter works:</p>
   <ul>
-    <li><span class="inline-code">"Full hookups"</span> â€” water, electric, and sewer</li>
-    <li><span class="inline-code">"Electric"</span> and/or <span class="inline-code">"water"</span> â€” partial hookups</li>
-    <li><span class="inline-code">"No hookups"</span> â€” dry camping only</li>
+    <li><span class="inline-code">"Full hookups"</span> — water, electric, and sewer</li>
+    <li><span class="inline-code">"Electric"</span> and/or <span class="inline-code">"water"</span> — partial hookups</li>
+    <li><span class="inline-code">"No hookups"</span> — dry camping only</li>
   </ul>
 
-  <p><strong>web</strong> â€” omit <span class="inline-code">https://</span>. The site adds it automatically. Use <span class="inline-code">""</span> if the park has no website â€” it will display "No website."</p>
+  <p><strong>web</strong> — omit <span class="inline-code">https://</span>. The site adds it automatically. Use <span class="inline-code">""</span> if the park has no website — it will display "No website."</p>
 
-  <p><strong>phone</strong> â€” standard US format preferred: <span class="inline-code">"(555) 123-4567"</span>. Use <span class="inline-code">""</span> if unknown.</p>
+  <p><strong>phone</strong> — standard US format preferred: <span class="inline-code">"(555) 123-4567"</span>. Use <span class="inline-code">""</span> if unknown.</p>
 
-  <p><strong>tags</strong> â€” 2â€“5 short descriptive strings. Used by the search bar. Good examples: nearby landmarks, activities, special features, lake names.</p>
+  <p><strong>tags</strong> — 2–5 short descriptive strings. Used by the search bar. Good examples: nearby landmarks, activities, special features, lake names.</p>
 
-  <h2>Step 4 â€” Where to find data</h2>
+  <h2>Step 4 — Where to find data</h2>
   <p>For parks with no website, these sources are the most reliable for finding site counts and contact info:</p>
   <ul>
-    <li><strong>Recreation.gov</strong> â€” all federal and Corps sites; site counts are listed on each campground page</li>
-    <li><strong>AllStays Camp &amp; RV app</strong> â€” covers 50,000+ campgrounds including tiny private parks; shows site counts</li>
-    <li><strong>Campendium</strong> â€” campendium.com â€” user reviews often include site counts and hookup details</li>
-    <li><strong>The Dyrt</strong> â€” thedyrt.com â€” good for private parks without websites; filter by state</li>
-    <li><strong>RV Life Campground Reviews</strong> â€” campgrounds.rvlife.com â€” searchable, includes site count data</li>
-    <li><strong>State park reservation systems</strong> â€” each state has its own; site maps show exact counts</li>
-    <li><strong>Google Maps</strong> â€” "Questions &amp; Answers" section on park listings often includes site counts from owners</li>
+    <li><strong>Recreation.gov</strong> — all federal and Corps sites; site counts are listed on each campground page</li>
+    <li><strong>AllStays Camp &amp; RV app</strong> — covers 50,000+ campgrounds including tiny private parks; shows site counts</li>
+    <li><strong>Campendium</strong> — campendium.com — user reviews often include site counts and hookup details</li>
+    <li><strong>The Dyrt</strong> — thedyrt.com — good for private parks without websites; filter by state</li>
+    <li><strong>RV Life Campground Reviews</strong> — campgrounds.rvlife.com — searchable, includes site count data</li>
+    <li><strong>State park reservation systems</strong> — each state has its own; site maps show exact counts</li>
+    <li><strong>Google Maps</strong> — "Questions &amp; Answers" section on park listings often includes site counts from owners</li>
   </ul>
 
-  <h2>Step 5 â€” Save and reload</h2>
+  <h2>Step 5 — Save and reload</h2>
   <p>Save <span class="inline-code">data.js</span> and refresh <span class="inline-code">index.html</span> in your browser. The new state will appear automatically in:</p>
   <ul>
     <li>The state tabs at the top of the directory</li>
@@ -98,12 +98,12 @@
     <li>Create a free GitHub account at github.com</li>
     <li>Create a new repository named <span class="inline-code">your-username.github.io</span></li>
     <li>Upload all four files: <span class="inline-code">index.html</span>, <span class="inline-code">style.css</span>, <span class="inline-code">app.js</span>, <span class="inline-code">data.js</span>, plus the two helper pages</li>
-    <li>Go to Settings â†’ Pages â†’ set Source to "main" branch</li>
+    <li>Go to Settings → Pages → set Source to "main" branch</li>
     <li>Your site goes live at <span class="inline-code">https://your-username.github.io</span> within a minute</li>
   </ul>
   <p>To add a custom <span class="inline-code">.io</span> domain (e.g. <span class="inline-code">smallrvparks.io</span>), register the domain at a registrar like Namecheap or Cloudflare, then point it to GitHub Pages using a CNAME record. GitHub's documentation at <span class="inline-code">docs.github.com/pages</span> walks through this in detail.</p>
 
-  <p>To update the directory with new parks, edit <span class="inline-code">data.js</span> and push to GitHub â€” the site updates immediately, no build step required.</p>
+  <p>To update the directory with new parks, edit <span class="inline-code">data.js</span> and push to GitHub — the site updates immediately, no build step required.</p>
 </div>
 
 <footer class="site-footer">

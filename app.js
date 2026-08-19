@@ -1,5 +1,5 @@
 // ============================================================
-//  app.js â€” Small RV Parks USA
+//  app.js — Small RV Parks USA
 //  Handles rendering, filtering, sorting, and state tabs
 // ============================================================
 
