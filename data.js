@@ -1,9 +1,9 @@
 // ============================================================
-//  data.js — Small RV Parks USA
+//  data.js â€” Small RV Parks USA
 //  HOW TO ADD A NEW STATE:
 //  1. Copy one of the state objects below as a template
 //  2. Change the "state" field on every park entry
-//  3. Push your changes — the site rebuilds automatically
+//  3. Push your changes â€” the site rebuilds automatically
 //
 //  REQUIRED FIELDS PER PARK:
 //    name, city, county, state, region, type, sites,
@@ -49,9 +49,9 @@ const PARKS = [
   { name:"Graceland RV Park & Campground", address:"3691 Elvis Presley Blvd, Memphis, TN 38116", year:"", city:"Memphis", county:"Shelby", state:"Tennessee", region:"West TN", type:"Private", sites:65, hookup:"Full hookups (W/E/S), pull-throughs", phone:"(901) 396-7125", web:"graceland.com/rv-park-campground", tags:["Memphis","Elvis Presley Blvd","Year-round"] },
   { name:"Thousand Trails Natchez Trace", address:"1363 Napier Rd, Hohenwald, TN 38462", year:"", city:"Hohenwald", county:"Lewis", state:"Tennessee", region:"West TN", type:"Private", sites:99, hookup:"Full hookups, 30/50A", phone:"(888) 707-1477", web:"thousandtrails.com", tags:["Membership park","Lake","Dog park","Pool"] },
 
-  // ──────────────────────────────────────────────────────────
+  // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   //  ALABAMA  (8 parks)
-  // ──────────────────────────────────────────────────────────
+  // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
   { name:"Arrowhead RV Resort at Smith Lake", address:"761 County Rd 941, Crane Hill, AL 35053", year:"", city:"Crane Hill", county:"Cullman", state:"Alabama", region:"North AL", type:"Private", sites:60, hookup:"Full hookups, 30/50A, lakeside sites", phone:"(256) 739-6767", web:"arrowheadsmithlake.com", tags:["Lewis Smith Lake","Boat dock","Bar & Grill","Fishing"] },
   { name:"Desoto Caverns Family Campground", address:"5181 DeSoto Caverns Pkwy, Childersburg, AL 35044", year:"", city:"Childersburg", county:"Talladega", state:"Alabama", region:"North AL", type:"Private", sites:50, hookup:"Full hookups, 30A + some 50A", phone:"(256) 378-7252", web:"desotocavernspark.com", tags:["Caverns","Family activities","Talladega NF nearby"] },
@@ -62,9 +62,9 @@ const PARKS = [
   { name:"Tropical Island RV Resort", address:"2252 Creek Winds Rd, Foley, AL 36535", year:"", city:"Foley", county:"Baldwin", state:"Alabama", region:"South AL", type:"Private", sites:85, hookup:"Full hookups, 30/50A, WiFi", phone:"(251) 943-3456", web:"", tags:["Gulf Shores area","Pool","15 min to beach"] },
   { name:"Lakeside Landing RV Park", address:"22206 US Hwy 431, Guntersville, AL 35976", year:"", city:"Guntersville", county:"Marshall", state:"Alabama", region:"North AL", type:"Private", sites:45, hookup:"Full hookups (W/E/S), 30/50A, waterfront sites", phone:"(256) 582-2622", web:"", tags:["Guntersville Lake","Fishing","Boat ramp"] },
 
-  // ──────────────────────────────────────────────────────────
+  // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   //  NORTH CAROLINA  (10 parks)
-  // ──────────────────────────────────────────────────────────
+  // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
   { name:"Creekwood Farm RV Park", address:"4696 Jonathan Creek Rd, Waynesville, NC 28785", year:"", city:"Maggie Valley", county:"Haywood", state:"North Carolina", region:"Mountains NC", type:"Private", sites:55, hookup:"Full hookups, 30/50A, pull-throughs", phone:"(828) 926-7977", web:"creekwoodfarm.com", tags:["Nantahala NF gateway","Jonathan Creek","Cherokee area"] },
   { name:"Foxfire Mountain RV Sites", address:"1820 Tilson Rd, Murphy, NC 28906", year:"", city:"Murphy", county:"Cherokee", state:"North Carolina", region:"Mountains NC", type:"Private", sites:40, hookup:"Full hookups, 30/50A, WiFi", phone:"(828) 835-9706", web:"foxfiremountain.com", tags:["Western NC","Mountain views","Quiet"] },
@@ -77,9 +77,9 @@ const PARKS = [
   { name:"Cape Hatteras KOA Resort", address:"25099 NC Hwy 12, Rodanthe, NC 27968", year:"", city:"Rodanthe", county:"Dare", state:"North Carolina", region:"Coastal NC", type:"Private", sites:90, hookup:"Full hookups (W/E/S), 30/50A, WiFi, pool", phone:"(252) 987-2307", web:"koa.com/campgrounds/cape-hatteras", tags:["Outer Banks","Beach access","Kiteboarding","Fishing"] },
   { name:"Frisco Woods Campground", address:"53124 NC 12 Hwy, Frisco, NC 27936", year:"", city:"Frisco", county:"Dare", state:"North Carolina", region:"Coastal NC", type:"Private", sites:96, hookup:"Full hookups (W/E/S), 30/50A, WiFi", phone:"(252) 995-5208", web:"outer-banks.com/friscwoods", tags:["Outer Banks","Sound access","Windsurfing","Kiteboarding"] },
 
-  // ──────────────────────────────────────────────────────────
+  // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   //  SOUTH CAROLINA  (7 parks)
-  // ──────────────────────────────────────────────────────────
+  // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
   { name:"The Point at Lake Hartwell RV Resort", address:"400 Ponderosa Point Rd, Townville, SC 29689", year:"", city:"Townville", county:"Anderson", state:"South Carolina", region:"Upstate SC", type:"Private", sites:65, hookup:"Full hookups, 30/50A, waterfront sites", phone:"(864) 287-3376", web:"thepointatlakerv.com", tags:["Hartwell Lake","Boat ramp","Fishing","Swimming"] },
   { name:"Clemson RV Park at the Grove", address:"150 Dalton Dr, Pendleton, SC 29670", year:"", city:"Clemson", county:"Pickens", state:"South Carolina", region:"Upstate SC", type:"Private", sites:97, hookup:"Full hookups (W/E/S), 30/50A, paved pads", phone:"(864) 654-2626", web:"clemsonrv.com", tags:["Clemson area","Lake Hartwell access","WiFi","Year-round"] },
@@ -173,10 +173,10 @@ const PARKS = [
   { name:"Seven Oaks Resort", address:"801 South Inspiration Road, Mission, TX 78572", year:"", city:"Mission", county:"Hidalgo", state:"Texas", region:"Rio Grande Valley TX", type:"Private", sites:232, hookup:"Full hookups", phone:"(956) 581-0068", web:"sevenoaksresort.com", tags:["55+ resort","Pool & spa","Winter Texan destination"] },
   { name:"Paradise South RV Resort", address:"9099 N Mile 2 West Rd, Mercedes, TX 78570", year:"", city:"Mercedes", county:"Hidalgo", state:"Texas", region:"Rio Grande Valley TX", type:"Private", sites:493, hookup:"Full hookups", phone:"(956) 565-2044", web:"thousandtrails.com", tags:["55+ resort","Encore/Thousand Trails network","Winter Texan destination"] },
 
-  // ──────────────────────────────────────────────────────────
+  // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   //  ADD YOUR NEXT STATE HERE
   //  Example template (copy and fill in):
-  // ──────────────────────────────────────────────────────────
+  // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   //
   // { name:"Park Name",
   //   address:"123 Main St, City, ST 12345",
