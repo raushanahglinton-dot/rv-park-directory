@@ -128,7 +128,7 @@ const PARKS = [
   { name:"Oak Plantation Campground", address:"3540 Savannah Hwy, Johns Island, SC 29455", year:"", city:"Johns Island", county:"Charleston", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:298, hookup:"20/30/50A, full-hookup and pull-through sites", phone:"(843) 766-5936", web:"oakplantationcampground.com", tags:["Near Charleston","Pull-through sites","Pool","Big rig friendly"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (84 parks)
+  //  TEXAS  (89 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -232,8 +232,14 @@ const PARKS = [
   { name:"Sundowner RV Park", address:"11595 CR 439, Princeton, TX 75407", year:"", city:"Princeton", county:"Collin", state:"Texas", region:"North TX", type:"Private", sites:95, hookup:"Full hookups, sub-metered electric, water, sewer", phone:"(214) 449-1533", web:"sundownerrvpark.com", tags:["Covered sites","Concrete patios","Monthly rates"] },
   { name:"Hidden Acres RV Park", address:"10364 County Rd 740, Princeton, TX 75407", year:"", city:"Princeton", county:"Collin", state:"Texas", region:"North TX", type:"Private", sites:38, hookup:"Full hookups, 20/30/50 amp, water, sewer", phone:"(972) 736-1264", web:"hiddenacresrv.com", tags:["Lake Lavon beach access","High-speed internet included"] },
 
+  { name:"Cardinal RV Park", address:"2575 W Cardinal Dr, Beaumont, TX 77705", year:"", city:"Beaumont", county:"Jefferson", state:"Texas", region:"Golden Triangle TX", type:"Private", sites:60, hookup:"Full hookups, paved back-in and pull-thru sites", phone:"(409) 554-0156", web:"cardinalrvparks.com", tags:["Paved sites","Pull-thru & back-in","Dog park","Near US-96"] },
+  { name:"Pleasure Island RV Park", address:"540 S Spoil Levee Rd, Port Arthur, TX 77640", year:"", city:"Port Arthur", county:"Jefferson", state:"Texas", region:"Golden Triangle TX", type:"Private", sites:46, hookup:"Full hookups, level concrete pads", phone:"(409) 651-4171", web:"pleasureislandtx.com", tags:["Sabine Lake waterfront","Concrete pads","Nature trail","Bike path"] },
+  { name:"Blue Elbow RV Park", address:"5573 Turner Rd, Orange, TX 77630", year:"", city:"Orange", county:"Orange", state:"Texas", region:"Golden Triangle TX", type:"Private", sites:10, hookup:"Full hookups: water, electric & sewer, 30/50 amp", phone:"(409) 330-1920", web:"blueelbow.com", tags:["Small park","Long pull-through sites","Monthly rates"] },
+  { name:"East Lucas RV Park", address:"2590 E Lucas Dr, Beaumont, TX 77703", year:"", city:"Beaumont", county:"Jefferson", state:"Texas", region:"Golden Triangle TX", type:"Private", sites:50, hookup:"47 full hookup sites plus 3 electric/water sites; pull-thru and back-in", phone:"(409) 899-9209", web:"eastlucasrvpark.webflow.io", tags:["Long-term stays","Fiber WiFi","Pull-thru & back-in"] },
+  { name:"Access RV Park", address:"2565 95th St, Port Arthur, TX 77640", year:"", city:"Port Arthur", county:"Jefferson", state:"Texas", region:"Golden Triangle TX", type:"Private", sites:85, hookup:"Full hookups, 30/50 amp, concrete driveways and pads", phone:"(409) 729-8000", web:"accessrvpark.com", tags:["Concrete pads","Cabin rentals","Long-term sites"] },
+
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (34 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (37 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -278,6 +284,10 @@ const PARKS = [
   { name:"Treetops RV Resort", address:"1901 W Arbrook Blvd, Arlington, TX 76015", year:"", city:"Arlington", county:"Tarrant", state:"Texas", region:"North TX", type:"Private", sites:169, hookup:"Full hookups, 30/50 amp, concrete patios", phone:"(817) 467-7943", web:"sunoutdoors.com/texas/treetops-rv-community", tags:["Concrete patios","Shade trees","Cable TV"] },
   { name:"Flying Dutchman RV Resort", address:"2356 FM 66, Waxahachie, TX 75167", year:"", city:"Waxahachie", county:"Ellis", state:"Texas", region:"North TX", type:"Private", sites:113, hookup:"Full hookups, 30/50 amp, paved parking", phone:"(214) 949-0310", web:"flyingdutchmanrvresort.com", tags:["Gated entry","Big-rig friendly","Paved sites"] },
   { name:"Wagon Master RV Park & Alpaca Farm", address:"3926 FM 455 W, Sanger, TX 76266", year:"", city:"Sanger", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:102, hookup:"Full hookups, 20/30/50 amp, water & sewer", phone:"(940) 500-8973", web:"wagonmasterrv.com", tags:["Alpaca farm on-site","Pool","North of Denton"] },
+
+  { name:"Golden Triangle RV Resort", address:"5760 W Port Arthur Rd, Port Arthur, TX 77640", year:"", city:"Port Arthur", county:"Jefferson", state:"Texas", region:"Golden Triangle TX", type:"Private", sites:137, hookup:"Full 30/50 amp hookups, water, and sewer; concrete pads", phone:"(409) 299-8208", web:"goldentrianglervresort.com", tags:["Concrete pads","Pool & hot tub","Fitness center","Clubhouse"] },
+  { name:"Orange Texas RV Resort", address:"18017 Hwy 62 S, Orange, TX 77630", year:"", city:"Orange", county:"Orange", state:"Texas", region:"Golden Triangle TX", type:"Private", sites:194, hookup:"Full hookups, 30/50 amp service, 30x60 concrete lots", phone:"(409) 883-3400", web:"orangetxrvresort.com", tags:["Large concrete lots","30/50 amp","Near I-10"] },
+  { name:"Grand Pines of Texas RV Resort", address:"18179 I-10, Beaumont, TX 77705", year:"", city:"Beaumont", county:"Jefferson", state:"Texas", region:"Golden Triangle TX", type:"Private", sites:100, hookup:"Full hookups, concrete pads", phone:"(409) 333-0322", web:"grandpinesrvresort.com", tags:["Fishing lagoon","Pool","Dog park","Nature trail"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
