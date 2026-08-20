@@ -97,7 +97,7 @@ function updateModeUI() {
   if (largeMode) {
     sitesGroup.style.display = "none";
     banner.style.display = "block";
-    banner.textContent = `Showing ${activeState || "all states'"} parks with 100+ sites — bigger resorts we track for reference, outside our usual small-park focus.`;
+    banner.textContent = `Showing ${activeState || "all states'"} larger parks and resorts — 100+ sites.`;
   } else {
     sitesGroup.style.display = "";
     banner.style.display = "none";
@@ -231,12 +231,11 @@ function updateResultsCount(n) {
 }
 
 // ---- Hero stats ----
-// Reflects only the core small-park directory (under 100 sites) — the site's founding promise.
+// Reflects the whole directory — both small (<100 site) and large (100+ site) parks.
 function updateHeroStats() {
-  const small  = PARKS.filter(p => !isLarge(p));
-  const states = new Set(small.map(p => p.state)).size;
-  const noWeb  = small.filter(p => !p.web).length;
-  document.getElementById("hs-parks").textContent  = small.length;
+  const states = new Set(PARKS.map(p => p.state)).size;
+  const noWeb  = PARKS.filter(p => !p.web).length;
+  document.getElementById("hs-parks").textContent  = PARKS.length;
   document.getElementById("hs-states").textContent = states;
   document.getElementById("hs-noweb").textContent  = noWeb;
 }

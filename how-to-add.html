@@ -41,7 +41,7 @@
   <span class="ck">state</span>:   <span class="cv">"Georgia"</span>,          <span class="cm">// spelled out, e.g. "Georgia" not "GA"</span>
   <span class="ck">region</span>:  <span class="cv">"North GA"</span>,          <span class="cm">// your choice — shows in filter + card</span>
   <span class="ck">type</span>:    <span class="cv">"Private"</span>,           <span class="cm">// see valid types below</span>
-  <span class="ck">sites</span>:   <span class="cv">48</span>,                  <span class="cm">// number, must be under 100</span>
+  <span class="ck">sites</span>:   <span class="cv">48</span>,                  <span class="cm">// any number — 100+ auto-sorts into the "100+ sites" filter</span>
   <span class="ck">hookup</span>:  <span class="cv">"Full hookups, 30/50A"</span>,
   <span class="ck">phone</span>:   <span class="cv">"(706) 555-0100"</span>,    <span class="cm">// "" if unknown</span>
   <span class="ck">web</span>:     <span class="cv">"blueridgervpark.com"</span>,<span class="cm">// no https:// prefix; "" if none</span>
@@ -50,13 +50,7 @@
 
   <h2>Step 3 — Valid values</h2>
 
-  <p><strong>type</strong> — must be exactly one of these four strings:</p>
-  <ul>
-    <li><span class="inline-code">"Federal / NPS"</span> — National Parks, National Forests (book at recreation.gov)</li>
-    <li><span class="inline-code">"State Park"</span> — any state-managed campground</li>
-    <li><span class="inline-code">"Corps of Engineers"</span> — US Army Corps lakes (also on recreation.gov)</li>
-    <li><span class="inline-code">"Private"</span> — commercial or family-owned parks</li>
-  </ul>
+  <p><strong>type</strong> — currently always <span class="inline-code">"Private"</span>. The directory only tracks privately owned/operated parks for now.</p>
 
   <p><strong>hookup</strong> — free text, but include at least one of these keywords so the hookup filter works:</p>
   <ul>
@@ -93,7 +87,7 @@
   </ul>
 
   <h2>Hosting on GitHub Pages (free .io domain)</h2>
-  <p>To publish your site at a custom domain like <span class="inline-code">smallrvparks.github.io</span>:</p>
+  <p>To publish your site at a custom domain like <span class="inline-code">rvparksusa.github.io</span>:</p>
   <ul>
     <li>Create a free GitHub account at github.com</li>
     <li>Create a new repository named <span class="inline-code">your-username.github.io</span></li>
@@ -101,7 +95,7 @@
     <li>Go to Settings → Pages → set Source to "main" branch</li>
     <li>Your site goes live at <span class="inline-code">https://your-username.github.io</span> within a minute</li>
   </ul>
-  <p>To add a custom <span class="inline-code">.io</span> domain (e.g. <span class="inline-code">smallrvparks.io</span>), register the domain at a registrar like Namecheap or Cloudflare, then point it to GitHub Pages using a CNAME record. GitHub's documentation at <span class="inline-code">docs.github.com/pages</span> walks through this in detail.</p>
+  <p>To add a custom <span class="inline-code">.io</span> domain (e.g. <span class="inline-code">rvparksusa.io</span>), register the domain at a registrar like Namecheap or Cloudflare, then point it to GitHub Pages using a CNAME record. GitHub's documentation at <span class="inline-code">docs.github.com/pages</span> walks through this in detail.</p>
 
   <p>To update the directory with new parks, edit <span class="inline-code">data.js</span> and push to GitHub — the site updates immediately, no build step required.</p>
 </div>
@@ -110,7 +104,7 @@
   <div class="footer-inner">
     <div class="footer-brand">RV Parks USA</div>
     <p class="footer-note">Data sourced from Recreation.gov, AllStays, Campendium, RV Life, Tennessee State Parks, and The Dyrt.</p>
-    <p class="footer-copy">Built to stay small. Open to grow.</p>
+    <p class="footer-copy">Every size. Every state. Open to grow.</p>
   </div>
 </footer>
 
