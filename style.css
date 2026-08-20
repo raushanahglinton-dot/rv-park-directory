@@ -1,5 +1,5 @@
 /* ===================================
-   Small RV Parks USA — style.css
+   RV Parks USA — style.css
    Palette: forest green + warm cream + amber accent
    =================================== */
 
@@ -195,10 +195,6 @@ body {
 }
 .state-tab:hover { border-color: var(--green-400); color: var(--green-700); }
 .state-tab.active { background: var(--green-700); color: #fff; border-color: var(--green-700); }
-
-.state-tab-large { border-style: dashed; color: var(--amber-700); }
-.state-tab-large:hover { border-color: var(--amber-400); color: var(--amber-700); }
-.state-tab-large.active { background: var(--amber-500); color: #fff; border-color: var(--amber-500); border-style: solid; }
 
 .mode-banner {
   background: var(--amber-50); border: 1px solid var(--amber-100);

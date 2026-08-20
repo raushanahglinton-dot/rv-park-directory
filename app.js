@@ -1,5 +1,5 @@
 // ============================================================
-//  app.js — Small RV Parks USA
+//  app.js — RV Parks USA
 //  Handles rendering, filtering, sorting, and state tabs
 // ============================================================
 
@@ -54,33 +54,26 @@ function buildRegionOptions(stateFilter = "") {
 }
 
 // ---- State quick-tabs ----
+// Tabs pick the state only; the Site count dropdown independently picks small vs. 100+.
 function buildStateTabs() {
   const states = [...new Set(PARKS.map(p => p.state))].sort();
   const wrap = document.getElementById("state-tabs");
   wrap.innerHTML = "";
 
-  const allTab = makeTab("All states", "", activeState === "" && !largeMode, false);
-  wrap.appendChild(allTab);
+  wrap.appendChild(makeTab("All states", "", activeState === ""));
 
   states.forEach(s => {
-    const smallCount = PARKS.filter(p => p.state === s && !isLarge(p)).length;
-    const largeCount = PARKS.filter(p => p.state === s && isLarge(p)).length;
-
-    wrap.appendChild(makeTab(`${s} (${smallCount})`, s, activeState === s && !largeMode, false));
-
-    if (largeCount > 0) {
-      wrap.appendChild(makeTab(`${s} · 100+ sites (${largeCount})`, s, activeState === s && largeMode, true));
-    }
+    const count = PARKS.filter(p => p.state === s && !isLarge(p)).length;
+    wrap.appendChild(makeTab(`${s} (${count})`, s, activeState === s));
   });
 }
 
-function makeTab(label, value, isActive, isLargeTab) {
+function makeTab(label, value, isActive) {
   const btn = document.createElement("button");
-  btn.className = "state-tab" + (isActive ? " active" : "") + (isLargeTab ? " state-tab-large" : "");
+  btn.className = "state-tab" + (isActive ? " active" : "");
   btn.textContent = label;
   btn.onclick = () => {
     activeState = value;
-    largeMode = isLargeTab;
     document.getElementById("state-filter").value = value;
     buildRegionOptions(value);
     document.getElementById("region-filter").value = "";
@@ -117,6 +110,7 @@ function applyFilters() {
   const stateF  = document.getElementById("state-filter").value;
   const typeF   = document.getElementById("type-filter").value;
   const regionF = document.getElementById("region-filter").value;
+  const sizeF   = document.getElementById("size-filter").value; // "" = under 100, "100+" = large
   const maxSites= parseInt(document.getElementById("max-sites").value, 10);
   const sortBy  = document.getElementById("sort-by").value;
   const ckFull  = document.getElementById("ck-full").checked;
@@ -126,10 +120,11 @@ function applyFilters() {
   // Sync state tab if sidebar select changed directly
   if (stateF !== activeState) {
     activeState = stateF;
-    largeMode = false; // the sidebar dropdown has no large-park mode of its own
     buildStateTabs();
     buildRegionOptions(stateF);
   }
+
+  largeMode = sizeF === "100+";
 
   updateModeUI();
 
@@ -252,6 +247,7 @@ function resetFilters() {
   document.getElementById("state-filter").value     = "";
   document.getElementById("type-filter").value      = "";
   document.getElementById("region-filter").value    = "";
+  document.getElementById("size-filter").value      = "";
   document.getElementById("max-sites").value        = 99;
   document.getElementById("site-val").textContent   = "99";
   document.getElementById("ck-full").checked        = false;

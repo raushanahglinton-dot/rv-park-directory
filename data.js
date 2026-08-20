@@ -1,5 +1,5 @@
 // ============================================================
-//  data.js — Small RV Parks USA
+//  data.js — RV Parks USA
 //  HOW TO ADD A NEW STATE:
 //  1. Copy one of the state objects below as a template
 //  2. Change the "state" field on every park entry
@@ -50,6 +50,15 @@ const PARKS = [
   { name:"Thousand Trails Natchez Trace", address:"1363 Napier Rd, Hohenwald, TN 38462", year:"", city:"Hohenwald", county:"Lewis", state:"Tennessee", region:"West TN", type:"Private", sites:99, hookup:"Full hookups, 30/50A", phone:"(888) 707-1477", web:"thousandtrails.com", tags:["Membership park","Lake","Dog park","Pool"] },
 
   // ──────────────────────────────────────────────────────────
+  //  TENNESSEE — LARGE PARKS, 100+ sites  (4 parks)
+  // ──────────────────────────────────────────────────────────
+
+  { name:"Greenbrier Campground", address:"2353 East Pkwy, Gatlinburg, TN 37738", year:"", city:"Gatlinburg", county:"Sevier", state:"Tennessee", region:"East TN", type:"Private", sites:120, hookup:"Full hookups, 20/30/50 amp, cable TV, WiFi", phone:"(865) 430-7415", web:"smokymountaincamping.com", tags:["Little Pigeon River","Near Greenbrier entrance to Smokies","Cabins available","River-frontage sites"] },
+  { name:"Pigeon Forge/Gatlinburg KOA Holiday", address:"3122 Veterans Blvd, Pigeon Forge, TN 37863", year:"", city:"Pigeon Forge", county:"Sevier", state:"Tennessee", region:"East TN", type:"Private", sites:187, hookup:"Full hookups, 30/50 amp, cable, WiFi", phone:"(865) 453-7903", web:"koa.com", tags:["Big rig friendly","Pool","Near Dollywood","Cabins & pull-through sites"] },
+  { name:"Pigeon Forge Landing RV Resort", address:"455 Lonesome Valley Rd, Sevierville, TN 37862", year:"", city:"Sevierville", county:"Sevier", state:"Tennessee", region:"East TN", type:"Private", sites:237, hookup:"Full hookups, 30/50/100 amp, concrete pads, cable, WiFi", phone:"(865) 446-1500", web:"rvcoutdoors.com", tags:["Little Pigeon River","Big rig friendly","Zip line & pool","Near Dollywood"] },
+  { name:"Sun Outdoors Pigeon Forge", address:"1004 Parkway, Sevierville, TN 37862", year:"", city:"Sevierville", county:"Sevier", state:"Tennessee", region:"East TN", type:"Private", sites:297, hookup:"Full hookups, 20/30/50 amp, concrete pads, cable TV, WiFi", phone:"(800) 758-5267", web:"sunoutdoors.com", tags:["Formerly River Plantation RV Resort","On the Little Pigeon River","Lazy river pool","Big rig friendly"] },
+
+  // ──────────────────────────────────────────────────────────
   //  ALABAMA  (8 parks)
   // ──────────────────────────────────────────────────────────
 
@@ -61,6 +70,16 @@ const PARKS = [
   { name:"Winner's Circle RV Resort", address:"7970 Bellingrath Rd, Theodore, AL 36582", year:"", city:"Theodore", county:"Mobile", state:"Alabama", region:"South AL", type:"Private", sites:99, hookup:"Full hookups (W/E/S), pull-throughs, 30/50A", phone:"(251) 653-9220", web:"", tags:["Mobile area","I-10 corridor","Monthly rates"] },
   { name:"Tropical Island RV Resort", address:"2252 Creek Winds Rd, Foley, AL 36535", year:"", city:"Foley", county:"Baldwin", state:"Alabama", region:"South AL", type:"Private", sites:85, hookup:"Full hookups, 30/50A, WiFi", phone:"(251) 943-3456", web:"", tags:["Gulf Shores area","Pool","15 min to beach"] },
   { name:"Lakeside Landing RV Park", address:"22206 US Hwy 431, Guntersville, AL 35976", year:"", city:"Guntersville", county:"Marshall", state:"Alabama", region:"North AL", type:"Private", sites:45, hookup:"Full hookups (W/E/S), 30/50A, waterfront sites", phone:"(256) 582-2622", web:"", tags:["Guntersville Lake","Fishing","Boat ramp"] },
+
+  // ──────────────────────────────────────────────────────────
+  //  ALABAMA — LARGE PARKS, 100+ sites  (5 parks)
+  // ──────────────────────────────────────────────────────────
+
+  { name:"Gulf Shores RV Resort", address:"18717 Barefoot Way, Gulf Shores, AL 36542", year:"", city:"Gulf Shores", county:"Baldwin", state:"Alabama", region:"South AL", type:"Private", sites:176, hookup:"Full hookups, 30/50 amp, water, sewer, cable, concrete pads", phone:"(251) 244-1015", web:"rvcoutdoors.com/gulf-shores-rv-resort", tags:["Waterfront lake sites","Heated pool","Pickleball","Stocked fishing lakes"] },
+  { name:"Island Retreat RV Park", address:"18201 State Highway 180, Gulf Shores, AL 36542", year:"", city:"Gulf Shores", county:"Baldwin", state:"Alabama", region:"South AL", type:"Private", sites:173, hookup:"Full hookups, 20/30/50 amp, concrete pads", phone:"(251) 967-1666", web:"islandretreatrvpark.com", tags:["Pull-thru & back-in sites","Pool","Clubhouse","RVs only, 15-years-or-newer rule"] },
+  { name:"Bay Palms RV Resort", address:"15440 Dauphin Island Pkwy, Coden, AL 36523", year:"", city:"Coden", county:"Mobile", state:"Alabama", region:"South AL", type:"Private", sites:170, hookup:"Full hookups, 30/50 amp, sewer, paved sites", phone:"(251) 873-4700", web:"baypalmsrvresort.com", tags:["Big rig friendly (up to 70 ft)","Pool","Dog park","RV-only resort"] },
+  { name:"Sun Outdoors Orange Beach", address:"22800 Canal Rd, Orange Beach, AL 36561", year:"", city:"Orange Beach", county:"Baldwin", state:"Alabama", region:"South AL", type:"Private", sites:142, hookup:"Full hookups, some pull-thru sites", phone:"(844) 707-4343", web:"sunoutdoors.com/alabama/sun-outdoors-orange-beach", tags:["Pull-thru sites","Resort amenities","Year-round"] },
+  { name:"Two Lakes RV Resort", address:"22353 Twin Lakes Circle, Gulf Shores, AL 36542", year:"", city:"Gulf Shores", county:"Baldwin", state:"Alabama", region:"South AL", type:"Private", sites:110, hookup:"Full hookups, 50 amp only, concrete pads, cable/fiber WiFi", phone:"(251) 714-2709", web:"twolakesrvresort.com", tags:["Lakeside premium sites","Pool","Clubhouse","Pickleball"] },
 
   // ──────────────────────────────────────────────────────────
   //  NORTH CAROLINA  (10 parks)
@@ -78,6 +97,15 @@ const PARKS = [
   { name:"Frisco Woods Campground", address:"53124 NC 12 Hwy, Frisco, NC 27936", year:"", city:"Frisco", county:"Dare", state:"North Carolina", region:"Coastal NC", type:"Private", sites:96, hookup:"Full hookups (W/E/S), 30/50A, WiFi", phone:"(252) 995-5208", web:"outer-banks.com/friscwoods", tags:["Outer Banks","Sound access","Windsurfing","Kiteboarding"] },
 
   // ──────────────────────────────────────────────────────────
+  //  NORTH CAROLINA — LARGE PARKS, 100+ sites  (4 parks)
+  // ──────────────────────────────────────────────────────────
+
+  { name:"Camp Hatteras RV Resort", address:"24798 NC Hwy 12, Rodanthe, NC 27968", year:"", city:"Rodanthe", county:"Dare", state:"North Carolina", region:"Coastal NC", type:"Private", sites:403, hookup:"Full hookups (W/E/S), 30/50A, concrete pads", phone:"(252) 987-2777", web:"camphatteras.com", tags:["Outer Banks","Oceanfront to soundfront","Concrete pads","Big rig friendly"] },
+  { name:"Cape Woods Campground", address:"47649 Buxton Back Rd, Buxton, NC 27920", year:"", city:"Buxton", county:"Dare", state:"North Carolina", region:"Coastal NC", type:"Private", sites:130, hookup:"Full and partial hookups (W/E/S), 30/50A, pull-throughs", phone:"(252) 996-3600", web:"capewoods.com", tags:["Outer Banks","Hatteras Island","Pool","Near Cape Hatteras Lighthouse"] },
+  { name:"Camping World Racing Resort", address:"6600 Bruton Smith Blvd, Concord, NC 28027", year:"", city:"Concord", county:"Cabarrus", state:"North Carolina", region:"Piedmont NC", type:"Private", sites:380, hookup:"Full hookups (W/E/S), 30/50A", phone:"(704) 455-4445", web:"charlottemotorspeedway.com", tags:["Charlotte Motor Speedway","Year-round camping","Big rig friendly","NASCAR events nearby"] },
+  { name:"Emerald Isle RV Resort", address:"9102 Coast Guard Rd, Emerald Isle, NC 28594", year:"", city:"Emerald Isle", county:"Carteret", state:"North Carolina", region:"Coastal NC", type:"Private", sites:313, hookup:"Full hookups, 30/50A, water, sewer, grassy pull-through sites", phone:"(252) 354-2250", web:"emeraldislervresort.com", tags:["Crystal Coast","Oceanfront","Pool","Big rig friendly"] },
+
+  // ──────────────────────────────────────────────────────────
   //  SOUTH CAROLINA  (7 parks)
   // ──────────────────────────────────────────────────────────
 
@@ -88,6 +116,16 @@ const PARKS = [
   { name:"Sesquicentennial State Park - Camp Lake Adger", address:"9564 Two Notch Rd, Columbia, SC 29223", year:"", city:"Columbia", county:"Richland", state:"South Carolina", region:"Midlands SC", type:"Private", sites:87, hookup:"Full hookups, 30/50A, WiFi", phone:"(803) 788-2706", web:"", tags:["Columbia area","Lake","Fishing","Quiet pines"] },
   { name:"Oaks at Point South RV Resort", address:"1292 Campground Rd, Yemassee, SC 29945", year:"", city:"Yemassee", county:"Hampton", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:95, hookup:"Full hookups (W/E/S), 30/50A, pull-throughs", phone:"(843) 726-5728", web:"oaksatpointsouth.com", tags:["I-95 corridor","Hilton Head day trip","Pool","WiFi"] },
   { name:"Savannah Lakes RV Resort", address:"170 Savannah Lakes Dr, Hardeeville, SC 29927", year:"", city:"Hardeeville", county:"Jasper", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:90, hookup:"Full hookups (W/E/S), 30/50A, WiFi", phone:"(843) 784-2313", web:"savannahlakesrv.com", tags:["Near Savannah GA","Pool","Hot tub","Birding"] },
+
+  // ──────────────────────────────────────────────────────────
+  //  SOUTH CAROLINA — LARGE PARKS, 100+ sites  (5 parks)
+  // ──────────────────────────────────────────────────────────
+
+  { name:"Ocean Lakes Family Campground", address:"6001 South Kings Hwy, Myrtle Beach, SC 29575", year:"", city:"Myrtle Beach", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:859, hookup:"20/30/50A electric, water, sewer, cable TV, concrete pads on most sites", phone:"(877) 510-1413", web:"oceanlakes.com", tags:["Oceanfront","One-mile beachfront","Family campground","Big rig friendly"] },
+  { name:"Lakewood Camping Resort", address:"5901 S Kings Hwy, Myrtle Beach, SC 29575", year:"", city:"Myrtle Beach", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:1043, hookup:"Full hookups, 20/30/50A, water, sewer", phone:"(843) 238-5161", web:"lakewoodcampground.com", tags:["Oceanfront","Lakefront sites","Water park","Pet-friendly"] },
+  { name:"WillowTree RV Resort", address:"520 Southern Sights Dr, Longs, SC 29568", year:"", city:"Longs", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:107, hookup:"Full hookups, 20/30/50A, paved pull-through sites", phone:"(843) 756-4334", web:"willowtreervr.com", tags:["Paved pull-throughs","Big rig friendly","Fire rings","Concrete patios"] },
+  { name:"Hilton Head Island Motorcoach Resort", address:"133 Arrow Rd, Hilton Head Island, SC 29928", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:401, hookup:"Full hookups, 30/50A, water, sewer, cable TV (motorcoach only)", phone:"(843) 785-7699", web:"hhimotorcoachresort.com", tags:["Motorcoach-only resort","Gated","Pool & hot tub","Pickleball","Dog park"] },
+  { name:"Oak Plantation Campground", address:"3540 Savannah Hwy, Johns Island, SC 29455", year:"", city:"Johns Island", county:"Charleston", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:298, hookup:"20/30/50A, full-hookup and pull-through sites", phone:"(843) 766-5936", web:"oakplantationcampground.com", tags:["Near Charleston","Pull-through sites","Pool","Big rig friendly"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS  (54 parks)
