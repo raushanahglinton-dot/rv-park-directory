@@ -128,7 +128,7 @@ const PARKS = [
   { name:"Oak Plantation Campground", address:"3540 Savannah Hwy, Johns Island, SC 29455", year:"", city:"Johns Island", county:"Charleston", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:298, hookup:"20/30/50A, full-hookup and pull-through sites", phone:"(843) 766-5936", web:"oakplantationcampground.com", tags:["Near Charleston","Pull-through sites","Pool","Big rig friendly"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (251 parks)
+  //  TEXAS  (254 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -427,6 +427,9 @@ const PARKS = [
   { name:"Whispering Oaks RV Park", address:"2965 US Hwy 90, Weimar, TX 78962", year:"", city:"Weimar", county:"Colorado", state:"Texas", region:"Central TX", type:"Private", sites:51, hookup:"Full hookups, 30/50 amp", phone:"(979) 732-9494", web:"whisperingoaksrvpark.com", tags:["Big rig friendly","Near I-10","Pull-through sites"] },
   { name:"Iron Horse RV Resort", address:"2049 I-10, Weimar, TX 78962", year:"", city:"Weimar", county:"Colorado", state:"Texas", region:"Central TX", type:"Private", sites:55, hookup:"Full hookups, 30/50 amp", phone:"(979) 263-4305", web:"ironhorservtexas.com", tags:["Lazy river","Adults-only pool","Stocked fishing pond"] },
   { name:"Schulenburg RV Park", address:"65 N. Kessler Ave, Schulenburg, TX 78956", year:"", city:"Schulenburg", county:"Fayette", state:"Texas", region:"Central TX", type:"Private", sites:45, hookup:"Full hookups, 30/50 amp", phone:"(979) 743-4388", web:"schulenburgrvpark.com", tags:["Big rig friendly","Oak & pecan trees","Near I-10"] },
+  { name:"Sunset Cove Marina, RV Park and Grill", address:"3001 FM 2859, Corsicana, TX 75109", year:"", city:"Corsicana", county:"Navarro", state:"Texas", region:"North TX", type:"Private", sites:27, hookup:"Full hookups, 30/50 amp on 24 sites; water & electric only on 3 waterfront sites", phone:"(903) 874-2300", web:"sunsetcovecorsicana.com", tags:["Lakefront","Boat ramp","Pet-friendly"] },
+  { name:"Oak Cove Marina and Campground", address:"10411 South US Highway 287, Corsicana, TX 75109", year:"", city:"Corsicana", county:"Navarro", state:"Texas", region:"North TX", type:"Private", sites:47, hookup:"Full hookups, 30/50 amp on 32 sites; electric & water only on 15 sites", phone:"(903) 872-0888", web:"", tags:["Lakefront","Boat launch","Dump station"] },
+  { name:"Pelican Isle RV Resort", address:"1015 SE CR 3300, Kerens, TX 75144", year:"", city:"Kerens", county:"Navarro", state:"Texas", region:"North TX", type:"Private", sites:32, hookup:"Full hookups, concrete pads", phone:"(903) 396-7777", web:"pelicanislervresort.com", tags:["Lakefront","Swimming pool","Boat ramp"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS — LARGE PARKS, 100+ sites  (112 parks)
