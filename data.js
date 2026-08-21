@@ -128,7 +128,7 @@ const PARKS = [
   { name:"Oak Plantation Campground", address:"3540 Savannah Hwy, Johns Island, SC 29455", year:"", city:"Johns Island", county:"Charleston", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:298, hookup:"20/30/50A, full-hookup and pull-through sites", phone:"(843) 766-5936", web:"oakplantationcampground.com", tags:["Near Charleston","Pull-through sites","Pool","Big rig friendly"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (138 parks)
+  //  TEXAS  (149 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -299,8 +299,21 @@ const PARKS = [
 
   { name:"Wrigley's RV at Monte Cristo", address:"3712 Mondego St, Edinburg, TX 78541", year:"", city:"Edinburg", county:"Hidalgo", state:"Texas", region:"Rio Grande Valley TX", type:"Private", sites:50, hookup:"Full hookups, 50 amp electric, water, sewer, concrete patios", phone:"(956) 287-7356", web:"", tags:["Pet-friendly","Near 18-hole golf course","Seasonal Oct-Apr"] },
 
+  { name:"American Campground RV and Mobile Home Park", address:"10348 US Hwy 90 West, Del Rio, TX 78840", year:"", city:"Del Rio", county:"Val Verde", state:"Texas", region:"South TX", type:"Private", sites:88, hookup:"Water and 50 amp electric; some full-hookup covered pull-thru sites", phone:"(830) 775-6484", web:"amcamptx.com", tags:["Lake Amistad","Cabins available","Big rig access"] },
+  { name:"Broke Mill RV Park", address:"6069 W US Hwy 90, Del Rio, TX 78840", year:"", city:"Del Rio", county:"Val Verde", state:"Texas", region:"South TX", type:"Private", sites:80, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(830) 422-2961", web:"brokemillrvpark.com", tags:["Lake Amistad","Big rig friendly","Boat parking"] },
+  { name:"Sleeping Lady RV Park", address:"7706 Hwy 90 West, Del Rio, TX 78840", year:"", city:"Del Rio", county:"Val Verde", state:"Texas", region:"South TX", type:"Private", sites:12, hookup:"Full hookups, 30/50 amp, concrete pads", phone:"(830) 488-6257", web:"sleepingladyrvpark.com", tags:["Small quiet park","Cabin rentals","Near Lake Amistad"] },
+
+  { name:"Lake Texoma RV Resort", address:"745 Highport Road, Pottsboro, TX 75076", year:"", city:"Pottsboro", county:"Grayson", state:"Texas", region:"North TX", type:"Private", sites:46, hookup:"Full hookups, 20/30/50 amp electric, water, sewer, concrete pads", phone:"(903) 647-7077", web:"laketexomarvresort.com", tags:["Lake Texoma","Luxury resort","Concrete pads"] },
+  { name:"Silo Creek RV Resort", address:"7863 US Hwy 82, Sherman, TX 75090", year:"", city:"Sherman", county:"Grayson", state:"Texas", region:"North TX", type:"Private", sites:50, hookup:"Full hookups, 50/30/20 amp metered electric", phone:"(903) 444-6300", web:"silocreekrvresort.com", tags:["Big rig friendly","Metered electric","Deep sites"] },
+  { name:"Lazy L RV Park", address:"310 W Wilson St, Sherman, TX 75090", year:"", city:"Sherman", county:"Grayson", state:"Texas", region:"North TX", type:"Private", sites:97, hookup:"Full hookup sites, 30/50 amp, pull-through", phone:"(903) 870-7772", web:"thelazylrvpark.com", tags:["RV-only park","Pull-through sites","Big rig friendly"] },
+  { name:"Hidden Creeks RV Park", address:"1448 Cedar Mills Rd, Gordonville, TX 76245", year:"", city:"Gordonville", county:"Grayson", state:"Texas", region:"North TX", type:"Private", sites:25, hookup:"Full hookups, 20/30/50 amp electric, water, sewer", phone:"(972) 800-0985", web:"hiddencreeksrvpark.com", tags:["Small private park","Near Lake Texoma","Gathering house"] },
+  { name:"Four Aces RV Park", address:"11667 E US Hwy 82, Whitesboro, TX 76273", year:"", city:"Whitesboro", county:"Grayson", state:"Texas", region:"North TX", type:"Private", sites:24, hookup:"Full hookups, 50/30/20 amp electric, water and sewer", phone:"(214) 641-2132", web:"fouracesrvpark.net", tags:["Small park","Weekly trash service","Pull-through and back-in"] },
+  { name:"Queen & Duke RV Resort", address:"23646 US Hwy 377, Whitesboro, TX 76273", year:"", city:"Whitesboro", county:"Grayson", state:"Texas", region:"North TX", type:"Private", sites:30, hookup:"Full hookups, 20/30/50 amp, pull-thrus", phone:"(903) 375-9775", web:"queenanddukervresort.com", tags:["Pool","Playground","Pet-friendly"] },
+  { name:"Texoma RV Park", address:"37 Raccoon Drive, Sherman, TX 75092", year:"", city:"Sherman", county:"Grayson", state:"Texas", region:"North TX", type:"Private", sites:13, hookup:"Full hookups, 50/30/20 amp electric", phone:"(727) 415-8600", web:"texomarvpark.com", tags:["Private stocked pond","Hillside views","Pet-friendly"] },
+  { name:"Maverick's RV Park", address:"30660 US 82, Whitesboro, TX 76273", year:"", city:"Whitesboro", county:"Grayson", state:"Texas", region:"North TX", type:"Private", sites:21, hookup:"Full hookups, back-in gravel sites", phone:"(903) 662-1740", web:"mavericksrvpark.com", tags:["Long-term stays","Fenced dog park","Storage units"] },
+
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (76 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (78 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -399,6 +412,10 @@ const PARKS = [
   { name:"Victoria Palms RV Resort", address:"602 N Victoria Rd, Donna, TX 78537", year:"", city:"Donna", county:"Hidalgo", state:"Texas", region:"Rio Grande Valley TX", type:"Private", sites:1122, hookup:"Full hookups, 30/50-amp electric, water, sewer, cable TV, WiFi", phone:"(956) 464-7801", web:"victoriapalms.com", tags:["55+ age-qualified","Concrete pull-through sites","On-site restaurant"] },
   { name:"1015 RV Park", address:"1402 S International Blvd, Weslaco, TX 78596", year:"", city:"Weslaco", county:"Hidalgo", state:"Texas", region:"Rio Grande Valley TX", type:"Private", sites:153, hookup:"Full hookups, 30/50-amp electric, water, sewer", phone:"(956) 968-7516", web:"1015rvpark.com", tags:["55+ resort community","Near Nuevo Progreso border","Heated pool"] },
   { name:"Fig Tree RV Resort", address:"15257 US 83 Expy, Harlingen, TX 78552", year:"", city:"Harlingen", county:"Cameron", state:"Texas", region:"Rio Grande Valley TX", type:"Private", sites:188, hookup:"Full hookups, 30/50-amp electric, water, sewer, fiber internet", phone:"(956) 423-6699", web:"figtreervresort.com", tags:["High-speed fiber internet","Long-term stays"] },
+
+  { name:"Holiday Trav-L-Park", address:"11490 US Hwy 90 West, Del Rio, TX 78840", year:"", city:"Del Rio", county:"Val Verde", state:"Texas", region:"South TX", type:"Private", sites:150, hookup:"Full hookups, 20/30/50 amp", phone:"(830) 775-7275", web:"holidaytrav-l-park.com", tags:["Lake Amistad","Swimming pool","Pull-through sites"] },
+
+  { name:"Thousand Trails Lake Texoma", address:"209 Thousand Trails Dr, Gordonville, TX 76245", year:"", city:"Gordonville", county:"Grayson", state:"Texas", region:"North TX", type:"Private", sites:414, hookup:"Full and partial hookup sites, 30/50 amp", phone:"(903) 523-5218", web:"thousandtrails.com", tags:["Lake Texoma waterfront","Boat dock","Membership campground"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
