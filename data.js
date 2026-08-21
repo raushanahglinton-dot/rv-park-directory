@@ -128,7 +128,7 @@ const PARKS = [
   { name:"Oak Plantation Campground", address:"3540 Savannah Hwy, Johns Island, SC 29455", year:"", city:"Johns Island", county:"Charleston", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:298, hookup:"20/30/50A, full-hookup and pull-through sites", phone:"(843) 766-5936", web:"oakplantationcampground.com", tags:["Near Charleston","Pull-through sites","Pool","Big rig friendly"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (120 parks)
+  //  TEXAS  (125 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -274,8 +274,14 @@ const PARKS = [
   { name:"Holiday Village RV Park", address:"6610 S State Hwy 78, Sachse, TX 75048", year:"", city:"Sachse", county:"Dallas", state:"Texas", region:"North TX", type:"Private", sites:16, hookup:"Full hookups", phone:"(214) 473-5961", web:"hv-rvpark.com", tags:["Near Lake Ray Hubbard","Small park","Year-round"] },
   { name:"Plantation Place RV Park", address:"345 Barnes Bridge Rd, Sunnyvale, TX 75182", year:"", city:"Sunnyvale", county:"Dallas", state:"Texas", region:"North TX", type:"Private", sites:60, hookup:"Full hookups, 20/30/50 amp, pull-through, cable TV", phone:"(469) 846-9839", web:"plantationplacerv.com", tags:["Private 5-acre lake","24-hour security","Pull-through sites"] },
 
+  { name:"Marshall Meadows RV & Tiny Home Village", address:"2226 Blocker Road, Marshall, TX 75672", year:"", city:"Marshall", county:"Harrison", state:"Texas", region:"East TX", type:"Private", sites:38, hookup:"Full hookups", phone:"(903) 303-2268", web:"marshallmeadowsrvpark.com", tags:["Private fishing pond","Tiny homes on-site","Extended stay"] },
+  { name:"Forest Country RV Park", address:"5001 US Highway 59 N, Nacogdoches, TX 75964", year:"", city:"Nacogdoches", county:"Nacogdoches", state:"Texas", region:"East TX", type:"Private", sites:50, hookup:"Full hookups, 50 amp", phone:"(936) 559-1645", web:"forestcountryrvparktx.com", tags:["Pool","Pet-friendly"] },
+  { name:"Nacogdoches RV Park", address:"3915 NW Stallings Dr, Nacogdoches, TX 75964", year:"", city:"Nacogdoches", county:"Nacogdoches", state:"Texas", region:"East TX", type:"Private", sites:15, hookup:"Full hookups, 30/50 amp", phone:"", web:"", tags:["RV storage on-site","Small park"] },
+  { name:"Ford Chapel RV Park", address:"4220 FM 841, Lufkin, TX 75901", year:"", city:"Lufkin", county:"Angelina", state:"Texas", region:"East TX", type:"Private", sites:40, hookup:"Full hookups, 30/50 amp", phone:"(936) 632-7096", web:"lufkinrv.com", tags:["12-acre park","Security cameras"] },
+  { name:"Good Life RV Park", address:"8747 US Highway 59, Burke, TX 75941", year:"", city:"Burke", county:"Angelina", state:"Texas", region:"East TX", type:"Private", sites:50, hookup:"Full hookups, 30/50 amp", phone:"(936) 526-2123", web:"thegoodlifervpark.com", tags:["Fishing pond","Pull-through sites","Near Lufkin"] },
+
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (49 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (52 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -340,6 +346,10 @@ const PARKS = [
 
   { name:"Lakeshore RV Resort", address:"1233 E Interstate 30, Garland, TX 75043", year:"", city:"Garland", county:"Dallas", state:"Texas", region:"North TX", type:"Private", sites:192, hookup:"Full hookups, concrete streets and pads, electric/water/sewer/cable/WiFi", phone:"(469) 661-3827", web:"lakeshorervresort.com", tags:["Lake Ray Hubbard","Pool and hot tub","Pull-through and waterfront sites"] },
   { name:"Waterfront Hideaway Ranch", address:"640 Lloyds Rd, Little Elm, TX 75068", year:"", city:"Little Elm", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:100, hookup:"Full hookups, 30/50 amp, water, sewer", phone:"(972) 782-9722", web:"waterfronthideawayranch.com", tags:["Lake Lewisville","Private shoreline","Cabins on site"] },
+
+  { name:"Fernbrook RV Park", address:"2073 FM 2011, Longview, TX 75603", year:"", city:"Longview", county:"Gregg", state:"Texas", region:"East TX", type:"Private", sites:128, hookup:"Full hookups, concrete pads, 30/50 amp", phone:"(903) 643-8888", web:"fernbrookpark.com", tags:["Big rig friendly","Pool","Clubhouse"] },
+  { name:"Antique Capital RV Park", address:"500 S Loop 485, Gladewater, TX 75647", year:"", city:"Gladewater", county:"Gregg", state:"Texas", region:"East TX", type:"Private", sites:142, hookup:"Full hookups, concrete pads, 30/50 amp, cable TV", phone:"(903) 845-7378", web:"acrvpark.com", tags:["Fishing pond","Big rig friendly","Antiques town"] },
+  { name:"Stillwater RV Resort", address:"11684 Barber Rd, Winona, TX 75792", year:"", city:"Winona", county:"Smith", state:"Texas", region:"East TX", type:"Private", sites:171, hookup:"Full hookups, concrete pads", phone:"(903) 483-4414", web:"stillwaterrvresort.com", tags:["Lazy river","Saltwater pools","Luxury resort","Off I-20"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
