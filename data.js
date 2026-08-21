@@ -128,7 +128,7 @@ const PARKS = [
   { name:"Oak Plantation Campground", address:"3540 Savannah Hwy, Johns Island, SC 29455", year:"", city:"Johns Island", county:"Charleston", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:298, hookup:"20/30/50A, full-hookup and pull-through sites", phone:"(843) 766-5936", web:"oakplantationcampground.com", tags:["Near Charleston","Pull-through sites","Pool","Big rig friendly"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (216 parks)
+  //  TEXAS  (227 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -391,8 +391,21 @@ const PARKS = [
   { name:"Red Rock Ranch RV Park", address:"300 Anderson County Road 2141, Palestine, TX 75801", year:"", city:"Palestine", county:"Anderson", state:"Texas", region:"East TX", type:"Private", sites:28, hookup:"27 full hookups plus 1 electric-water site, 30 amp", phone:"(903) 723-1836", web:"", tags:["RVs only","Showers and laundry"] },
   { name:"Songbird RV Park", address:"664 N US Highway 287, Elkhart, TX 75839", year:"", city:"Elkhart", county:"Anderson", state:"Texas", region:"East TX", type:"Private", sites:30, hookup:"Full hookups, 30/50 amp back-in and pull-through sites", phone:"(903) 764-9845", web:"songbirdrvpark.com", tags:["Near Palestine","Community fire pits"] },
 
+  { name:"Timber Ridge RV Park", address:"1360 N. Harvey Mitchell Pkwy, Bryan, TX 77803", year:"", city:"Bryan", county:"Brazos", state:"Texas", region:"Central TX", type:"Private", sites:91, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(979) 307-5568", web:"timberridgervpark.com", tags:["Paved pull-through sites","Big-rig friendly","Fenced & gated"] },
+  { name:"Jones Road RV Park", address:"5249 Jones Rd, Bryan, TX 77807", year:"", city:"Bryan", county:"Brazos", state:"Texas", region:"Central TX", type:"Private", sites:55, hookup:"Full hookups, water, sewer, 30/50 amp electric", phone:"(979) 205-7141", web:"jonesroadrvpark.com", tags:["Shaded sites","24/7 security","Dog park"] },
+  { name:"Aggieland RV Park", address:"3203 Colson Rd, Bryan, TX 77808", year:"", city:"Bryan", county:"Brazos", state:"Texas", region:"Central TX", type:"Private", sites:50, hookup:"Full hookups, 30/50 amp and 25 amp electric, water", phone:"(979) 703-7937", web:"aggielandrvpark.com", tags:["Aggie owned and operated","Near Texas A&M","Football season specials"] },
+  { name:"Galloping Snail RV Park", address:"5893 Jones Rd, Bryan, TX 77807", year:"", city:"Bryan", county:"Brazos", state:"Texas", region:"Central TX", type:"Private", sites:68, hookup:"Full hookups, 20/30/50 amp electric, water, sewer", phone:"(979) 775-3562", web:"gallopingsnailrv.com", tags:["Near Kyle Field","Clubhouse with bowling lane","Two dog parks"] },
+  { name:"Lazy G RV Park", address:"16554 S. HWY 6, College Station, TX 77845", year:"", city:"College Station", county:"Brazos", state:"Texas", region:"Central TX", type:"Private", sites:35, hookup:"Full hookups, 30/50 amp electric, cable, internet", phone:"(979) 690-8658", web:"lazygrvpark.com", tags:["Bunkhouse rooms","Boat storage","Wildlife viewing"] },
+
+  { name:"Rockdale RV Park", address:"711 E Cameron Ave, Rockdale, TX 76567", year:"", city:"Rockdale", county:"Milam", state:"Texas", region:"Austin Area TX", type:"Private", sites:81, hookup:"Full hookups, 30/50 amp, pull-thru and back-in, up to 43 ft", phone:"(512) 402-6900", web:"rvparkrockdale.com", tags:["Pet-friendly","Laundry facility","Propane service"] },
+  { name:"Cosmic Duck RV Park", address:"3360 US-77, Rockdale, TX 76567", year:"", city:"Rockdale", county:"Milam", state:"Texas", region:"Austin Area TX", type:"Private", sites:22, hookup:"Full hookups, 30/50 amp back-in and pull-thru", phone:"(512) 961-6699", web:"cosmicduckrvpark.com", tags:["Duck pond","Dog park","Newly opened 2023"] },
+  { name:"Downtown Texas RV Park", address:"9119 FM 908, Rockdale, TX 76567", year:"", city:"Rockdale", county:"Milam", state:"Texas", region:"Austin Area TX", type:"Private", sites:46, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(512) 430-2005", web:"apachepass.com", tags:["San Gabriel River","RVs only"] },
+  { name:"Hidden Valley Oaks RV Park", address:"3392 US-77, Rockdale, TX 76567", year:"", city:"Rockdale", county:"Milam", state:"Texas", region:"Austin Area TX", type:"Private", sites:25, hookup:"16 full hookup sites (30/50 amp) and 9 pull-through water/electric sites, dump station", phone:"(512) 446-0605", web:"", tags:["Pet-friendly","Small park"] },
+  { name:"Nomad Villages and Community Parks", address:"1704 N Travis Ave, Cameron, TX 76520", year:"", city:"Cameron", county:"Milam", state:"Texas", region:"Austin Area TX", type:"Private", sites:12, hookup:"Full hookups, 30/50 amp, max RV length 35 ft", phone:"(254) 217-7820", web:"", tags:["RVs only","Small park"] },
+  { name:"Shady Acres RV Park", address:"3601 US-67, Cleburne, TX 76031", year:"", city:"Cleburne", county:"Johnson", state:"Texas", region:"North TX", type:"Private", sites:72, hookup:"Full hookup pull-through sites, 20/30/50 amp, 30x60 ft concrete pads", phone:"(817) 774-1495", web:"shadyacresrvparktx.com", tags:["Pool","Recreation center","Operating 50+ years"] },
+
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (101 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (105 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -527,6 +540,12 @@ const PARKS = [
 
   { name:"Jamaica Beach RV Resort", address:"17200 Termini-San Luis Pass Rd, Galveston, TX 77554", year:"", city:"Galveston", county:"Galveston", state:"Texas", region:"Gulf Coast TX", type:"Private", sites:181, hookup:"Full hookups, concrete pull-thrus, 30/50 amp, sewer, cable TV", phone:"(409) 632-0200", web:"jamaicabeachrvresort.com", tags:["Beachfront","Lazy river","Big rig friendly"] },
   { name:"Stella Mare RV Resort", address:"3418 Stella Mare Ln, Galveston, TX 77554", year:"", city:"Galveston", county:"Galveston", state:"Texas", region:"Gulf Coast TX", type:"Private", sites:195, hookup:"Full hookups, concrete pads, 30/50 amp", phone:"(409) 632-7017", web:"stellamarervresort.com", tags:["Splash pad","Heated pool","Bay & gulf views"] },
+
+  { name:"Great Escapes RV Resorts Bryan-College Station", address:"4600 Leonard Rd, Bryan, TX 77807", year:"", city:"Bryan", county:"Brazos", state:"Texas", region:"Central TX", type:"Private", sites:309, hookup:"Full hookups, water/sewer, 30/50 amp electric", phone:"(979) 810-8200", web:"greatescapesrvresorts.com", tags:["Two pools","Pickleball & sports courts","Near Texas A&M"] },
+  { name:"Reveille Ridge RV Park", address:"549 Marino Rd, Bryan, TX 77808", year:"", city:"Bryan", county:"Brazos", state:"Texas", region:"Central TX", type:"Private", sites:130, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(979) 777-6167", web:"reveilleridgervpark.com", tags:["Near Texas A&M","Pool","Newly upgraded"] },
+  { name:"Primrose Lane RV Park", address:"2929 Stevens Dr, Bryan, TX 77803", year:"", city:"Bryan", county:"Brazos", state:"Texas", region:"Central TX", type:"Private", sites:104, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(979) 778-0119", web:"primrose-lane.org", tags:["Shaded pull-through sites","Good Sam approved","Pool"] },
+
+  { name:"RV Ranch of Keene", address:"325 W Business Hwy 67, Keene, TX 76059", year:"", city:"Keene", county:"Johnson", state:"Texas", region:"North TX", type:"Private", sites:253, hookup:"Full hookups, 20/30/50 amp, pull-through sites", phone:"(817) 517-5522", web:"rvranch.com", tags:["Large resort","Adult and family sections","Long-term residents"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
