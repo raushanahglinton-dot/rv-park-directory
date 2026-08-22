@@ -1035,7 +1035,7 @@ const PARKS = [
   { name:"Clear Creek RV Park", address:"5265 Duck Creek Rd, Sanger, TX 76266", year:"", city:"Sanger", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:24, hookup:"Full hookups, 30/50 amp at all sites", phone:"(940) 206-0881", web:"myclearcreek.com", tags:["Family owned","Small park","Dog park","Near I-35"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (147 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (148 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -1225,6 +1225,7 @@ const PARKS = [
   { name:"The Retreat at Shady Creek", address:"15038 Fishtrap Road, Aubrey, TX 76227", year:"", city:"Aubrey", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:115, hookup:"Full hookups, water, sewer, WiFi, electric available (extra cost), 75ft sites", phone:"(972) 347-5384", web:"theretreatatshadycreek.com", tags:["10|10|10 Good Sam rated","Concrete patios","Pool and putting green","Fishing pond"] },
   { name:"Aubrey RV Park", address:"6774 Zachery Rd, Aubrey, TX 76227", year:"", city:"Aubrey", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:130, hookup:"Full hookups, water, sewer, 20/30/50 amp electric, standard and covered sites", phone:"(972) 214-5147", web:"aubreyrvparktexas.com", tags:["Covered site options","Long-term stays","Near two local lakes"] },
   { name:"Sanger/Denton North KOA Journey", address:"13037 Interstate 35, Sanger, TX 76266", year:"", city:"Sanger", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:168, hookup:"Full hookups, 30/50 amp, big-rig friendly, pull-throughs up to 90ft", phone:"(940) 458-5979", web:"koa.com/campgrounds/sanger", tags:["KOA franchise","Pool","Catch-and-release fishing ponds","Dog park"] },
+  { name:"Lovely RV Resort", address:"901 Highway 276, West Tawakoni, TX 75474", year:"", city:"West Tawakoni", county:"Hunt", state:"Texas", region:"North TX", type:"Private", sites:105, hookup:"Full hookups, back-in and pull-through, shaded and unshaded sites", phone:"(903) 513-2098", web:"lovelyrvresort.com", tags:["Lake Tawakoni access","Pet friendly","Monthly rates available"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
