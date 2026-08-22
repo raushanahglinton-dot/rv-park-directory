@@ -333,7 +333,7 @@ const PARKS = [
   { name:"Spacious Skies Peach Haven", address:"160 Sarratt School Rd, Gaffney, SC 29341", year:"", city:"Gaffney", county:"Cherokee", state:"South Carolina", region:"Upstate SC", type:"Private", sites:140, hookup:"Full hookups plus water/electric-only sites, 30/50 amp", phone:"(864) 489-2022", web:"spaciousskiescampgrounds.com/peach-haven", tags:["Pool and mini golf","Two dog parks","Fishing ponds"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (372 parks)
+  //  TEXAS  (384 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -754,9 +754,21 @@ const PARKS = [
   { name:"Log Cabin RV Park", address:"3550 Hwy 190 W, Jasper, TX 75951", year:"", city:"Jasper", county:"Jasper", state:"Texas", region:"East TX", type:"Private", sites:32, hookup:"Full hookups, 30/50 amp, pull-throughs", phone:"(409) 384-4900", web:"logcabinrvpark.com", tags:["Near B.A. Steinhagen Lake","Pavilion/rec room","Pet-friendly"] },
   { name:"Whispering Creek Lodging & RV Park", address:"3713 US Hwy 190 E, Newton, TX 75966", year:"", city:"Newton", county:"Newton", state:"Texas", region:"East TX", type:"Private", sites:28, hookup:"Full hookups, mix of 18/30/50 amp, pull-thrus", phone:"(409) 379-8400", web:"", tags:["Pull-through sites","On-site motel/lodging","Pet-friendly"] },
   { name:"Artesian Springs Resort", address:"2518 County Road 2016, Newton, TX 75966", year:"", city:"Newton", county:"Newton", state:"Texas", region:"East TX", type:"Private", sites:70, hookup:"60 full hookups + 10 water/electric, mix of 20/30/50 amp", phone:"(409) 379-8826", web:"", tags:["Spring-fed swimming area","Walking trails","Golf-cart friendly"] },
+  { name:"Buckhorn RV Park", address:"5435 E US Highway 82, Gainesville, TX 76240", year:"", city:"Gainesville", county:"Cooke", state:"Texas", region:"North TX", type:"Private", sites:28, hookup:"Full hookups, 30/50 amp electric, water, dump station, pull-through sites", phone:"(940) 665-3212", web:"", tags:["Pull-through sites","Big rig friendly","Pet friendly"] },
+  { name:"Lake Kiowa RV Park", address:"4977 FM 902, Gainesville, TX 76240", year:"", city:"Gainesville", county:"Cooke", state:"Texas", region:"North TX", type:"Private", sites:20, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(940) 390-5997", web:"lakekiowarvpark.com", tags:["Near Lake Kiowa","Laundry facility","Workout facility"] },
+  { name:"Lone Star Refuge RV Park", address:"3778 County Road 200, Valley View, TX 76272", year:"", city:"Valley View", county:"Cooke", state:"Texas", region:"North TX", type:"Private", sites:14, hookup:"Full hookups, 50/30/20 amp electric, water, sewer", phone:"(940) 343-5135", web:"lonestarrefugervpark.com", tags:["Near I-35","Fiber internet available","Laundry facility"] },
+  { name:"35 & Liberty RV Park", address:"4321 North I-35, Gainesville, TX 76240", year:"", city:"Gainesville", county:"Cooke", state:"Texas", region:"North TX", type:"Private", sites:20, hookup:"Full hookups, 20/30/50 amp electric, water, sewer, pull-through", phone:"(940) 277-2550", web:"thirtyfiveandlibertyrvpark.com", tags:["Pull-through sites","Near WinStar Casino","WiFi"] },
+  { name:"Lone Oak RV Park", address:"1690 E Lone Oak Rd, Valley View, TX 76272", year:"", city:"Valley View", county:"Cooke", state:"Texas", region:"North TX", type:"Private", sites:26, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(940) 218-0120", web:"loneoakrv.com", tags:["Boat launch","Near Lake Ray Roberts","Pet friendly"] },
+  { name:"WillowBend RV Park", address:"11921 S I-35, Valley View, TX 76272", year:"", city:"Valley View", county:"Cooke", state:"Texas", region:"North TX", type:"Private", sites:69, hookup:"Full hookups (water, sewer, electric)", phone:"(940) 372-8718", web:"willowbendrvpark.com", tags:["Fiber internet","Community garden","Near Ray Roberts Lake"] },
+  { name:"Tejano Ranch RV Park", address:"1145 FM 2848, Valley View, TX 76272", year:"", city:"Valley View", county:"Cooke", state:"Texas", region:"North TX", type:"Private", sites:51, hookup:"Full hookups, 30/50 amp electric, water, sewer, wired internet", phone:"(940) 208-3753", web:"tejanoranchrv.com", tags:["Fishing pond","Dog park","Amenity center"] },
+  { name:"Hidden Valley RV & Tiny Home Park", address:"100 Hidden Valley Cir, Wylie, TX 75098", year:"", city:"Wylie", county:"Collin", state:"Texas", region:"North TX", type:"Private", sites:40, hookup:"Full hookups, 30/50 amp, water, sewer, pull-through sites", phone:"(972) 442-3798", web:"", tags:["Adults-only","Pet friendly","RVs only"] },
+  { name:"Collin Park Marina", address:"2200 St. Paul Rd, Wylie, TX 75098", year:"", city:"Wylie", county:"Collin", state:"Texas", region:"North TX", type:"Private", sites:53, hookup:"Full hookups, 30/50 amp", phone:"(972) 442-5755", web:"collinpark.com", tags:["Lake Lavon marina","Boat ramp","Big rig friendly"] },
+  { name:"Sugar Hill RV Resort", address:"115 Sugar Hill Ln, Anna, TX 75409", year:"", city:"Anna", county:"Collin", state:"Texas", region:"North TX", type:"Private", sites:78, hookup:"Full hookups, 30/50 amp, water, sewer", phone:"(469) 425-4200", web:"sugarhillrv.com", tags:["Luxury resort","Heated pool & hot tub","Fitness center"] },
+  { name:"Whiterock RV Resort", address:"6003 FM 66, Maypearl, TX 76064", year:"", city:"Maypearl", county:"Ellis", state:"Texas", region:"North TX", type:"Private", sites:84, hookup:"Full hookups, 30/50 amp, concrete pads", phone:"(214) 282-8424", web:"thewhiterockrvresort.com", tags:["Swimming pool","Clubhouse","Dog park"] },
+  { name:"The Range Vintage Trailer Resort", address:"325 Slate Rock Rd, Ennis, TX 75119", year:"", city:"Ennis", county:"Ellis", state:"Texas", region:"North TX", type:"Private", sites:22, hookup:"15 full-hookup sites (30/50 amp), plus 3 electric-only sites", phone:"972-210-2900", web:"therangevtr.com", tags:["Vintage Airstream rentals","Pool","On-site bar/restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (129 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (130 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -928,6 +940,7 @@ const PARKS = [
 
   { name:"Frontier Park Marina", address:"Highway 21, Milam, TX 75959", year:"", city:"Milam", county:"Sabine", state:"Texas", region:"East TX", type:"Private", sites:100, hookup:"Electric 30/50 amp, water, dump station (40 pull-through sites)", phone:"(409) 625-4712", web:"", tags:["Toledo Bend Lake","Clubhouse","Swimming pool"] },
   { name:"Crockett Lakefront RV Resort & Marina", address:"75 Dogwood Ln W, Crockett, TX 75835", year:"", city:"Crockett", county:"Houston", state:"Texas", region:"East TX", type:"Private", sites:115, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(936) 544-8466", web:"crockettresort.com", tags:["Houston County Lake","Private beach & boat ramp","Pool & splash pad"] },
+  { name:"Lake Point RV Resort", address:"3100 E FM 922, Valley View, TX 76272", year:"", city:"Valley View", county:"Cooke", state:"Texas", region:"North TX", type:"Private", sites:115, hookup:"Full hookups, 30/50 amp electric, water, sewer, trash", phone:"(940) 637-1021", web:"lakepointrv.com", tags:["Lake Ray Roberts access","Dog park","Playground"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
