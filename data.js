@@ -333,7 +333,7 @@ const PARKS = [
   { name:"Spacious Skies Peach Haven", address:"160 Sarratt School Rd, Gaffney, SC 29341", year:"", city:"Gaffney", county:"Cherokee", state:"South Carolina", region:"Upstate SC", type:"Private", sites:140, hookup:"Full hookups plus water/electric-only sites, 30/50 amp", phone:"(864) 489-2022", web:"spaciousskiescampgrounds.com/peach-haven", tags:["Pool and mini golf","Two dog parks","Fishing ponds"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (400 parks)
+  //  TEXAS  (407 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -782,9 +782,16 @@ const PARKS = [
   { name:"La Vedera RV Park", address:"1800 Seminole Hwy, Lamesa, TX 79331", year:"", city:"Lamesa", county:"Dawson", state:"Texas", region:"Panhandle TX", type:"Private", sites:66, hookup:"Full hookups, 20/30/50 amp, 85 ft pull-through sites", phone:"(806) 332-8386", web:"lavedera.com", tags:["Pull-through big-rig sites","On-site convenience store & RV repair","Long-term tenants welcome"] },
   { name:"A & W Hogg RV Park", address:"2007 County Rd L, Lamesa, TX 79331", year:"", city:"Lamesa", county:"Dawson", state:"Texas", region:"Panhandle TX", type:"Private", sites:3, hookup:"30/50 amp electrical hookups, water, septic", phone:"(806) 543-2205", web:"awhoggrv.com", tags:["Pet-friendly","24/7 operation","Short-term & extended stay"] },
   { name:"2T RV Park", address:"1615 N US Highway 87, Lamesa, TX 79331", year:"", city:"Lamesa", county:"Dawson", state:"Texas", region:"Panhandle TX", type:"Private", sites:50, hookup:"Water, sewer, WiFi, 20/30/50 amp electric boxes", phone:"(432) 940-0344", web:"", tags:["Highway 87 location","WiFi"] },
+  { name:"Rockin R RV Park", address:"2121 Highway 87 North, Brady, TX 76825", year:"", city:"Brady", county:"McCulloch", state:"Texas", region:"Hill Country TX", type:"Private", sites:38, hookup:"Full hookups, 30/50 amp, water, sewer", phone:"(210) 860-8226", web:"rockingr-rvpark.com", tags:["Working ranch setting","Pet-friendly with dog area","Pull-through and back-in sites"] },
+  { name:"Eastland RV Park and Storage", address:"202 CR 237, Eastland, TX 76448", year:"", city:"Eastland", county:"Eastland", state:"Texas", region:"North TX", type:"Private", sites:25, hookup:"Full hookups, 30/50 amp", phone:"(254) 433-1359", web:"eastlandrvs.com", tags:["Lake Leon access","Boat ramp","Dog park"] },
+  { name:"Solid Rock RV Park", address:"2250 Hwy 2461, Eastland, TX 76448", year:"", city:"Eastland", county:"Eastland", state:"Texas", region:"North TX", type:"Private", sites:56, hookup:"Full hookups, 30 amp electric, water", phone:"(254) 647-3200", web:"solidrockrvpark.net", tags:["RVs only","Cable TV","Laundry"] },
+  { name:"The Tired Traveler RV Park", address:"712 I-20, Cisco, TX 76437", year:"", city:"Cisco", county:"Eastland", state:"Texas", region:"North TX", type:"Private", sites:33, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(682) 302-9484", web:"", tags:["Pull-through sites","Big rig friendly","I-20 access"] },
+  { name:"Bridgeview RV Park", address:"5300 US Hwy 180, Breckenridge, TX 76424", year:"", city:"Breckenridge", county:"Stephens", state:"Texas", region:"North TX", type:"Private", sites:30, hookup:"Full hookups, 30/50 amp (26 full-hookup + 4 electric/water sites)", phone:"(254) 559-8582", web:"thebridgeviewrvpark.com", tags:["Hubbard Creek Lake","Dog park","General store"] },
+  { name:"Village Inn Breckenridge", address:"3128 County Road 315, Breckenridge, TX 76424", year:"", city:"Breckenridge", county:"Stephens", state:"Texas", region:"North TX", type:"Private", sites:50, hookup:"Full hookups, 30/50 amp, water, septic, electric", phone:"(254) 559-3472", web:"villageinnbreckenridge.com", tags:["Hubbard Creek Lake","Boat ramp","Marina/boat slips"] },
+  { name:"Lonestar Lake Spot", address:"7195 US Hwy 180 W, Breckenridge, TX 76424", year:"", city:"Breckenridge", county:"Stephens", state:"Texas", region:"North TX", type:"Private", sites:12, hookup:"30/50 amp electric, water", phone:"(682) 433-3070", web:"lonestarlakespottx.com", tags:["Hubbard Creek Lake","Dog park","Convenience store"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (132 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (133 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -959,6 +966,7 @@ const PARKS = [
   { name:"Lake Point RV Resort", address:"3100 E FM 922, Valley View, TX 76272", year:"", city:"Valley View", county:"Cooke", state:"Texas", region:"North TX", type:"Private", sites:115, hookup:"Full hookups, 30/50 amp electric, water, sewer, trash", phone:"(940) 637-1021", web:"lakepointrv.com", tags:["Lake Ray Roberts access","Dog park","Playground"] },
   { name:"Alamo Fiesta RV Resort", address:"33000 Interstate 10 W, Boerne, TX 78006", year:"", city:"Boerne", county:"Kendall", state:"Texas", region:"Hill Country TX", type:"Private", sites:221, hookup:"217 full hookups + 4 electric-water only, 30/50 amp, 154 pull-throughs", phone:"(830) 249-4700", web:"alamofiestarv.com", tags:["Big rig friendly","Pool","Fitness center"] },
   { name:"Top of the Hill RV Resort & Cabins", address:"12 Green Cedar Rd, Boerne, TX 78006", year:"", city:"Boerne", county:"Kendall", state:"Texas", region:"Hill Country TX", type:"Private", sites:103, hookup:"103 full hookup sites, 30/50 amp", phone:"(830) 537-3666", web:"topofthehillrvresort.com", tags:["Cabins on site","Pool","Clubhouse"] },
+  { name:"Wandering Oaks RV Resort", address:"10502 I-20 Frontage Rd, Eastland, TX 76448", year:"", city:"Eastland", county:"Eastland", state:"Texas", region:"North TX", type:"Private", sites:107, hookup:"Full hookups, 30/50 amp", phone:"(254) 433-9090", web:"wanderingoaksrvpark.com", tags:["Big rig friendly","Pull-through sites","I-20 access"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
