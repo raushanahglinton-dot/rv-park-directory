@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (504 parks)
+  //  TEXAS  (509 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1036,9 +1036,14 @@ const PARKS = [
   { name:"Sam Rayburn Marina Resort", address:"4404 W Recreational Rd 255, Brookeland, TX 75931", year:"", city:"Brookeland", county:"Jasper", state:"Texas", region:"East TX", type:"Private", sites:22, hookup:"Full hookups, 30/50 amp electric, water, sewer, cable TV", phone:"(409) 698-2696", web:"samrayburnmarinaresort.com", tags:["Lake Sam Rayburn","Marina","Cabin rentals","Pet-free"] },
   { name:"Kervins RV Park", address:"5972 State Highway 147, Zavalla, TX 75980", year:"", city:"Zavalla", county:"Angelina", state:"Texas", region:"East TX", type:"Private", sites:71, hookup:"Full hookups, 30/50 amp, pull-through sites, dump station", phone:"(936) 427-7998", web:"kervinsrvparktx.com", tags:["Angelina National Forest","Lake Sam Rayburn access","Pool","Pet-friendly"] },
   { name:"Crankbait Cove RV Park", address:"1207 SH-147 North, Zavalla, TX 75980", year:"", city:"Zavalla", county:"Angelina", state:"Texas", region:"East TX", type:"Private", sites:34, hookup:"Full hookup sites", phone:"(903) 752-2294", web:"crankbaitcove.com", tags:["Gated community","Lake Sam Rayburn","Full hookups"] },
+  { name:"Lake Medina RV Resort", address:"1218 Leibolds Pt, Lakehills, TX 78063", year:"", city:"Lakehills", county:"Bandera", state:"Texas", region:"Hill Country TX", type:"Private", sites:95, hookup:"93 full hookups, 2 water-only sites, 25/30/50 amp electric, cable", phone:"(830) 751-2640", web:"lmrvresort.com", tags:["Gated resort","Historic ranch since 1882","Pool & hot tub","Pickleball court"] },
+  { name:"Harbour RV Resort on Medina Lake", address:"645 Harbour Way, Lakehills, TX 78063", year:"", city:"Lakehills", county:"Bandera", state:"Texas", region:"Hill Country TX", type:"Private", sites:10, hookup:"Full hookups, 30/50 amp electric", phone:"(830) 384-2909", web:"", tags:["Medina Lake","Boat launch","Big rig friendly","Pet-friendly"] },
+  { name:"Medina River RV Park and Camping", address:"605 Lakeshore Ln, Bandera, TX 78003", year:"", city:"Bandera", county:"Bandera", state:"Texas", region:"Hill Country TX", type:"Private", sites:16, hookup:"Partial and full 20/30/50 amp hookups, water, sewer, WiFi", phone:"(830) 423-6922", web:"medinariverrvparkandcamping.com", tags:["Veteran & family-owned","Medina River access","Boat launch","Pet-friendly"] },
+  { name:"Riverside RV Park", address:"760 State Hwy 16 S, Bandera, TX 78003", year:"", city:"Bandera", county:"Bandera", state:"Texas", region:"Hill Country TX", type:"Private", sites:78, hookup:"Full hookups, 30/50 amp electric, cable TV, WiFi", phone:"(830) 796-3636", web:"riversidervbandera.com", tags:["Medina River","Cowboy Capital of the World","Coin laundry","Recreation hall"] },
+  { name:"Big Oak RV Park", address:"2261 US-90, Castroville, TX 78009", year:"", city:"Castroville", county:"Medina", state:"Texas", region:"South TX", type:"Private", sites:16, hookup:"RV hookups available", phone:"(830) 521-9111", web:"bigoakrvpark.wixsite.com/borv", tags:["Family-owned","Established 2020","Quiet atmosphere"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (148 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (149 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -1229,6 +1234,7 @@ const PARKS = [
   { name:"Aubrey RV Park", address:"6774 Zachery Rd, Aubrey, TX 76227", year:"", city:"Aubrey", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:130, hookup:"Full hookups, water, sewer, 20/30/50 amp electric, standard and covered sites", phone:"(972) 214-5147", web:"aubreyrvparktexas.com", tags:["Covered site options","Long-term stays","Near two local lakes"] },
   { name:"Sanger/Denton North KOA Journey", address:"13037 Interstate 35, Sanger, TX 76266", year:"", city:"Sanger", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:168, hookup:"Full hookups, 30/50 amp, big-rig friendly, pull-throughs up to 90ft", phone:"(940) 458-5979", web:"koa.com/campgrounds/sanger", tags:["KOA franchise","Pool","Catch-and-release fishing ponds","Dog park"] },
   { name:"Lovely RV Resort", address:"901 Highway 276, West Tawakoni, TX 75474", year:"", city:"West Tawakoni", county:"Hunt", state:"Texas", region:"North TX", type:"Private", sites:105, hookup:"Full hookups, back-in and pull-through, shaded and unshaded sites", phone:"(903) 513-2098", web:"lovelyrvresort.com", tags:["Lake Tawakoni access","Pet friendly","Monthly rates available"] },
+  { name:"Thousand Trails Medina Lake", address:"215 Spettle Rd, Lakehills, TX 78063", year:"", city:"Lakehills", county:"Bandera", state:"Texas", region:"Hill Country TX", type:"Private", sites:387, hookup:"220 full hookups, 167 electric/water sites, 30/50 amp available", phone:"(830) 751-2406", web:"thousandtrails.com", tags:["Medina Lake","Membership campground","Fishing","Open year-round"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
