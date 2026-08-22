@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (498 parks)
+  //  TEXAS  (501 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1030,9 +1030,12 @@ const PARKS = [
   { name:"Omega Farms RV Park", address:"11895 Old Montgomery Road, Willis, TX 77318", year:"", city:"Willis", county:"Montgomery", state:"Texas", region:"Houston Metro TX", type:"Private", sites:60, hookup:"Pull-through and back-in sites, 30/50 amp electric", phone:"(936) 890-3800", web:"omegafarmsrv.com", tags:["Big rig friendly","Onsite laundry and showers","Tent sites also available"] },
   { name:"Towering Oaks RV Park", address:"21760 Bailey Grove Rd, Montgomery, TX 77356", year:"", city:"Montgomery", county:"Montgomery", state:"Texas", region:"Houston Metro TX", type:"Private", sites:44, hookup:"Full hookups, 20/30/50 amp electric", phone:"(936) 443-2038", web:"toweringoaksrv.com", tags:["Fishing ponds on site","Dog park","Laundromat with free WiFi"] },
   { name:"Countrywide RV Park", address:"16365 First Street, Splendora, TX 77372", year:"", city:"Splendora", county:"Montgomery", state:"Texas", region:"Houston Metro TX", type:"Private", sites:20, hookup:"Water hookups, RV-only (no tent camping)", phone:"(281) 399-0888", web:"", tags:["Small park","Pet friendly","Pool","Open year-round"] },
+  { name:"Waggin' Tail Ranch RV Resort", address:"10801 FM 2931, Pilot Point, TX 76258", year:"", city:"Pilot Point", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:98, hookup:"Full hookups, electric (20/30/50 amp), water, sewer", phone:"(940) 595-2510", web:"waggintailrv.com", tags:["Fenced dog park with pond","Pool with hot tub","Fenced RV yards","Pet grooming on-site"] },
+  { name:"Sharktooth RV Ranch", address:"11670 Massey Road, Pilot Point, TX 76258", year:"", city:"Pilot Point", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:90, hookup:"Full hookups (utilities included daily/weekly), free WiFi, propane fill station", phone:"(940) 600-2749", web:"sharktoothrvranch.com", tags:["Adjacent to Sharkarosa Wildlife Ranch","Two fishing ponds","Walking trails"] },
+  { name:"Clear Creek RV Park", address:"5265 Duck Creek Rd, Sanger, TX 76266", year:"", city:"Sanger", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:24, hookup:"Full hookups, 30/50 amp at all sites", phone:"(940) 206-0881", web:"myclearcreek.com", tags:["Family owned","Small park","Dog park","Near I-35"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (144 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (147 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -1219,6 +1222,9 @@ const PARKS = [
   { name:"Water's Edge on Lake Conroe RV Resort", address:"12922 Longstreet Rd, Willis, TX 77318", year:"", city:"Willis", county:"Montgomery", state:"Texas", region:"Houston Metro TX", type:"Private", sites:105, hookup:"Back-in sites, 30/50 amp electric, water, sewer", phone:"(936) 856-2949", web:"robertsresorts.com", tags:["Lake Conroe waterfront cove","Cabin rentals also on site","Resort-style pool"] },
   { name:"Willis RV Resort", address:"13421 E FM 1097 Road, Willis, TX 77378", year:"", city:"Willis", county:"Montgomery", state:"Texas", region:"Houston Metro TX", type:"Private", sites:171, hookup:"Paved sites, 30/50 amp electric, water, sewer", phone:"(936) 873-7854", web:"willisrvresort.com", tags:["20-acre landscaped grounds","Short and long-term stays","Near Lake Conroe"] },
   { name:"Woodland Lakes RV Park", address:"17110 Firehouse Rd, Conroe, TX 77385", year:"", city:"Conroe", county:"Montgomery", state:"Texas", region:"Houston Metro TX", type:"Private", sites:120, hookup:"Full hookups, 30/50 amp electric", phone:"(936) 273-6666", web:"", tags:["Three fishing ponds","Shaded sites","Free cable and WiFi","Near The Woodlands"] },
+  { name:"The Retreat at Shady Creek", address:"15038 Fishtrap Road, Aubrey, TX 76227", year:"", city:"Aubrey", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:115, hookup:"Full hookups, water, sewer, WiFi, electric available (extra cost), 75ft sites", phone:"(972) 347-5384", web:"theretreatatshadycreek.com", tags:["10|10|10 Good Sam rated","Concrete patios","Pool and putting green","Fishing pond"] },
+  { name:"Aubrey RV Park", address:"6774 Zachery Rd, Aubrey, TX 76227", year:"", city:"Aubrey", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:130, hookup:"Full hookups, water, sewer, 20/30/50 amp electric, standard and covered sites", phone:"(972) 214-5147", web:"aubreyrvparktexas.com", tags:["Covered site options","Long-term stays","Near two local lakes"] },
+  { name:"Sanger/Denton North KOA Journey", address:"13037 Interstate 35, Sanger, TX 76266", year:"", city:"Sanger", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:168, hookup:"Full hookups, 30/50 amp, big-rig friendly, pull-throughs up to 90ft", phone:"(940) 458-5979", web:"koa.com/campgrounds/sanger", tags:["KOA franchise","Pool","Catch-and-release fishing ponds","Dog park"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
