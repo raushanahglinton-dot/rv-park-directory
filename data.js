@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (439 parks)
+  //  TEXAS  (444 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -971,6 +971,11 @@ const PARKS = [
   { name:"Container City at Spider Mountain", address:"570 County Road 133, Burnet, TX 78611", year:"", city:"Burnet", county:"Burnet", state:"Texas", region:"Hill Country TX", type:"Private", sites:9, hookup:"Full hookups, 30/50 amp, water, sewer", phone:"(512) 705-8916", web:"containercitytx.com", tags:["Lake Buchanan shoreline","Disc golf","On-site restaurant/bar"] },
   { name:"Krause Springs", address:"424 County Road 404, Spicewood, TX 78669", year:"", city:"Spicewood", county:"Burnet", state:"Texas", region:"Hill Country TX", type:"Private", sites:24, hookup:"Water & electric, 20/30/50 amp", phone:"", web:"krausesprings.net", tags:["Natural springs swimming","115-acre property","Family-owned 50+ years"] },
   { name:"Texas Hills RV Haven", address:"111 Willow Shores Dr, Tow, TX 78672", year:"", city:"Tow", county:"Llano", state:"Texas", region:"Hill Country TX", type:"Private", sites:15, hookup:"Full hookups, power, water, sewer", phone:"(325) 379-1119", web:"texashillsrvhaven.com", tags:["Lake Buchanan waterfront","Family-owned since 2008","Boat ramp"] },
+  { name:"Sky Camp", address:"641 Sky Camp Road, Graford, TX 76449", year:"", city:"Graford", county:"Palo Pinto", state:"Texas", region:"North TX", type:"Private", sites:6, hookup:"Cable hookup available at some sites (limited hookup detail published)", phone:"(940) 779-2741", web:"skycamp.com", tags:["Possum Kingdom Lake","Boat launch","Fishing docks","Cabins on-site"] },
+  { name:"Brazos Hideaway RV Park and Campground", address:"522 Racetrack Road, Graham, TX 76450", year:"", city:"Graham", county:"Young", state:"Texas", region:"North TX", type:"Private", sites:83, hookup:"Full hookups, 30/50/15 amp, pull-through sites with electric and sewer", phone:"(940) 521-9999", web:"brazoshideaway.com", tags:["Brazos River frontage","Pecan trees","Laundry facilities","Big rig friendly"] },
+  { name:"Dark Canyon RV Park", address:"4908 TX-16 S, Graham, TX 76450", year:"", city:"Graham", county:"Young", state:"Texas", region:"North TX", type:"Private", sites:42, hookup:"Full hookups, 30/50 amp, pull-through sites, water, sewer", phone:"(940) 549-7530", web:"darkcanyonrvpark.com", tags:["Family-owned","Tent camping also available","Clubhouse","Wooded setting"] },
+  { name:"Finis Road RV Park", address:"1660 Finis Road, Graham, TX 76450", year:"", city:"Graham", county:"Young", state:"Texas", region:"North TX", type:"Private", sites:20, hookup:"Full hookups, 30/50 amp, pull-through and back-in sites, sewer, water", phone:"(254) 833-0390", web:"finisroadrvpark.com", tags:["Laundry facilities","Monthly rates available"] },
+  { name:"Over Yonder RV Park", address:"104 E Springcreek Rd, Olney, TX 76374", year:"", city:"Olney", county:"Young", state:"Texas", region:"North TX", type:"Private", sites:22, hookup:"Full hookups, 30/50 amp, water, sewer, pull-through sites", phone:"(940) 564-4229", web:"", tags:["RV-only, no tents","Pet friendly","24-hour on-site management"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS — LARGE PARKS, 100+ sites  (135 parks)
