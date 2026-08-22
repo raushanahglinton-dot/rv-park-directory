@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (454 parks)
+  //  TEXAS  (457 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -986,6 +986,9 @@ const PARKS = [
   { name:"Miss Ellie's RV Park", address:"1517 S Interstate 20 W, Waskom, TX 75692", year:"", city:"Waskom", county:"Harrison", state:"Texas", region:"East TX", type:"Private", sites:55, hookup:"Full hookups, 30/50A, 25A sites available", phone:"(903) 687-3688", web:"", tags:["Near TX/LA state line","Cable TV","Laundry facilities"] },
   { name:"Marshall RV Park", address:"4812 Elysian Fields Rd, Marshall, TX 75672", year:"", city:"Marshall", county:"Harrison", state:"Texas", region:"East TX", type:"Private", sites:42, hookup:"Full hookups, 20/30/50A, pull-through & back-in", phone:"(903) 923-0044", web:"marshallrvparktexas.com", tags:["Near I-20","Pet friendly","Laundry facilities"] },
   { name:"Bobcat Crossing RV Community", address:"1674 FM 450 S, Hallsville, TX 75650", year:"", city:"Hallsville", county:"Harrison", state:"Texas", region:"East TX", type:"Private", sites:57, hookup:"Full hookups, 30/50A, 9 pull-through sites", phone:"(903) 668-3572", web:"", tags:["RVs only","Playground","Clubhouse"] },
+  { name:"Paradise on Lake Texoma", address:"503 Paradise Park Dr, Pottsboro, TX 75076", year:"", city:"Pottsboro", county:"Grayson", state:"Texas", region:"North TX", type:"Private", sites:40, hookup:"Full hookups available, 50 amp electric, rock/grass pads", phone:"(903) 419-1009", web:"paradisetexoma.com", tags:["Lake Texoma waterfront","Two site loops","Picnic tables & fire pits"] },
+  { name:"RV Texoma", address:"1644 Greer Rd, Sadler, TX 76264", year:"", city:"Sadler", county:"Grayson", state:"Texas", region:"North TX", type:"Private", sites:8, hookup:"Full hookups, 50/30/20 amp electric, water, sewer", phone:"(972) 795-4230", web:"rvtexoma.com", tags:["Gated, key-code access","Stocked fish pond","33-acre wooded property","Veteran-owned"] },
+  { name:"Gone Fishing RV Resort", address:"730 Oxford Drive, Gordonville, TX 76245", year:"", city:"Gordonville", county:"Grayson", state:"Texas", region:"North TX", type:"Private", sites:34, hookup:"Full hookups, 30/50 amp electric, pull-through and back-in", phone:"(903) 523-3474", web:"gonefishingrvresort.com", tags:["Near Lake Texoma","Fishing pond & pier","Dog park","Pull-through sites"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS — LARGE PARKS, 100+ sites  (135 parks)
