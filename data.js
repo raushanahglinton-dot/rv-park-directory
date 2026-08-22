@@ -128,7 +128,7 @@ const PARKS = [
   { name:"Oak Plantation Campground", address:"3540 Savannah Hwy, Johns Island, SC 29455", year:"", city:"Johns Island", county:"Charleston", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:298, hookup:"20/30/50A, full-hookup and pull-through sites", phone:"(843) 766-5936", web:"oakplantationcampground.com", tags:["Near Charleston","Pull-through sites","Pool","Big rig friendly"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (361 parks)
+  //  TEXAS  (372 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -538,9 +538,20 @@ const PARKS = [
   { name:"Mill Creek Ranch Resort", address:"1880 N. Trade Days Blvd, Canton, TX 75103", year:"", city:"Canton", county:"Van Zandt", state:"Texas", region:"Northeast TX", type:"Private", sites:99, hookup:"Full hookup, 20/30/50 amp", phone:"(903) 567-6020", web:"millcreekranchresort.com", tags:["200-acre resort","Stocked ponds","Pools/hot tub"] },
   { name:"Bedrock RV", address:"1995 County Road 1803, Grand Saline, TX 75140", year:"", city:"Grand Saline", county:"Van Zandt", state:"Texas", region:"Northeast TX", type:"Private", sites:38, hookup:"Full hookups, 20/30/50 amp, water, sewer", phone:"(903) 372-1451", web:"bedrockrv.com", tags:["Gravel pull-through pads","Big rig friendly"] },
   { name:"Big Tex Campgrounds", address:"13577 State Hwy 64, Ben Wheeler, TX 75754", year:"", city:"Ben Wheeler", county:"Van Zandt", state:"Texas", region:"Northeast TX", type:"Private", sites:34, hookup:"Full hookups, 30/50 amp, water, sewer", phone:"(903) 833-7766", web:"bigtexcampgrounds.com", tags:["Wooded/shaded sites","Dog park","Laundromat"] },
+  { name:"Pecan Place RV Park", address:"418 TX-19 South, Crockett, TX 75835", year:"", city:"Crockett", county:"Houston", state:"Texas", region:"East TX", type:"Private", sites:36, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(936) 300-4180", web:"pecanparkrvpark.com", tags:["Big rig friendly","Pet-friendly","Long-term stays"] },
+  { name:"South 19 RV Park", address:"572 State Hwy 19 South, Crockett, TX 75835", year:"", city:"Crockett", county:"Houston", state:"Texas", region:"East TX", type:"Private", sites:12, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(936) 204-0446", web:"crocketttexasrvpark.com", tags:["Pull-through sites","Wildlife/bird viewing","Quiet rural setting"] },
+  { name:"Legion RV Park", address:"1700 Edmiston Dr, Crockett, TX 75835", year:"", city:"Crockett", county:"Houston", state:"Texas", region:"East TX", type:"Private", sites:32, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(936) 400-0952", web:"legionrvpark.com", tags:["In-town location","On-site laundry","Walking distance to Walmart/HEB"] },
+  { name:"Sandy Pines RV Park", address:"10749 US Hwy 287, Grapeland, TX 75844", year:"", city:"Grapeland", county:"Houston", state:"Texas", region:"East TX", type:"Private", sites:20, hookup:"Full hookups, 20/30/50 amp electric, city water/sewer", phone:"(903) 708-1190", web:"sandypinesrvpark.com", tags:["Extra-large concrete pads","Wooded pine setting","On-site laundry"] },
+  { name:"Grapeland RV Park & Cabins", address:"12946 US-287, Grapeland, TX 75844", year:"", city:"Grapeland", county:"Houston", state:"Texas", region:"East TX", type:"Private", sites:20, hookup:"Water and electric hookups", phone:"(936) 222-3049", web:"grapelandrvparkandcabins.com", tags:["Cabin rentals on-site","On-site washateria","Weekly/monthly stays"] },
+  { name:"Sunset RV Park and Cabins", address:"1445 US Hwy 69 N, Woodville, TX 75979", year:"", city:"Woodville", county:"Tyler", state:"Texas", region:"East TX", type:"Private", sites:32, hookup:"Full hookups, 30/50 amp, pull-through sites", phone:"(409) 283-2290", web:"sunsetrvparkandcabins.com", tags:["Pull-through sites","Cabins on-site","Big rig friendly"] },
+  { name:"The Homestead RV Park", address:"207 W Elder St, Colmesneil, TX 75938", year:"", city:"Colmesneil", county:"Tyler", state:"Texas", region:"East TX", type:"Private", sites:14, hookup:"50 amp electric hookups", phone:"(409) 200-5797", web:"", tags:["Locally owned and operated","Fenced pet yard","Near Big Thicket National Preserve"] },
+  { name:"Westwood RV Park", address:"245 Private Road 3037, Jasper, TX 75951", year:"", city:"Jasper", county:"Jasper", state:"Texas", region:"East TX", type:"Private", sites:58, hookup:"Full hookups, 30/50 amp", phone:"(409) 594-2901", web:"westwoodrvpark.com", tags:["Lake Sam Rayburn access","Angelina National Forest","Bass fishing"] },
+  { name:"Log Cabin RV Park", address:"3550 Hwy 190 W, Jasper, TX 75951", year:"", city:"Jasper", county:"Jasper", state:"Texas", region:"East TX", type:"Private", sites:32, hookup:"Full hookups, 30/50 amp, pull-throughs", phone:"(409) 384-4900", web:"logcabinrvpark.com", tags:["Near B.A. Steinhagen Lake","Pavilion/rec room","Pet-friendly"] },
+  { name:"Whispering Creek Lodging & RV Park", address:"3713 US Hwy 190 E, Newton, TX 75966", year:"", city:"Newton", county:"Newton", state:"Texas", region:"East TX", type:"Private", sites:28, hookup:"Full hookups, mix of 18/30/50 amp, pull-thrus", phone:"(409) 379-8400", web:"", tags:["Pull-through sites","On-site motel/lodging","Pet-friendly"] },
+  { name:"Artesian Springs Resort", address:"2518 County Road 2016, Newton, TX 75966", year:"", city:"Newton", county:"Newton", state:"Texas", region:"East TX", type:"Private", sites:70, hookup:"60 full hookups + 10 water/electric, mix of 20/30/50 amp", phone:"(409) 379-8826", web:"", tags:["Spring-fed swimming area","Walking trails","Golf-cart friendly"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (128 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (129 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -711,6 +722,7 @@ const PARKS = [
   { name:"Caney Point RV Resort", address:"3535 TX-154, Yantis, TX 75497", year:"", city:"Yantis", county:"Wood", state:"Texas", region:"Northeast TX", type:"Private", sites:175, hookup:"Full hookups, private wastewater system, concrete pads (annual lease only)", phone:"(903) 524-5311", web:"caneypointrvresort.com", tags:["Lake Fork waterfront","Gated with night security","Private boat ramps"] },
 
   { name:"Frontier Park Marina", address:"Highway 21, Milam, TX 75959", year:"", city:"Milam", county:"Sabine", state:"Texas", region:"East TX", type:"Private", sites:100, hookup:"Electric 30/50 amp, water, dump station (40 pull-through sites)", phone:"(409) 625-4712", web:"", tags:["Toledo Bend Lake","Clubhouse","Swimming pool"] },
+  { name:"Crockett Lakefront RV Resort & Marina", address:"75 Dogwood Ln W, Crockett, TX 75835", year:"", city:"Crockett", county:"Houston", state:"Texas", region:"East TX", type:"Private", sites:115, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(936) 544-8466", web:"crockettresort.com", tags:["Houston County Lake","Private beach & boat ramp","Pool & splash pad"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
