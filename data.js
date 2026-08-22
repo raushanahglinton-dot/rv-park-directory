@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (572 parks)
+  //  TEXAS  (576 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1104,9 +1104,13 @@ const PARKS = [
   { name:"Home Place RV Park", address:"138 Texas St, Gladewater, TX 75647", year:"", city:"Gladewater", county:"Gregg", state:"Texas", region:"East TX", type:"Private", sites:56, hookup:"Full hookups, 20/30/50 amp, city water, septic", phone:"(903) 845-3377", web:"homeplacervpark.com", tags:["Laundry facility","Free Wi-Fi","Central location","Long-term stays"] },
   { name:"Shallow Creek RV Park", address:"5261 State Hwy 135 N, Gladewater, TX 75647", year:"", city:"Gladewater", county:"Gregg", state:"Texas", region:"East TX", type:"Private", sites:63, hookup:"Water, electric, cable TV, wireless internet", phone:"(888) 984-4513", web:"shallowcreek.com", tags:["Award-winning","Clubhouse","Pool","Big rig friendly"] },
   { name:"The Ranch RV Park & Rentals", address:"115 PR 1301, Gladewater, TX 75647", year:"", city:"Gladewater", county:"Upshur", state:"Texas", region:"East TX", type:"Private", sites:12, hookup:"Full hookups, water/sewer/electric", phone:"(903) 845-2766", web:"", tags:["Long-term stays","Laundry facility","Fenced yard access","Storage building"] },
+  { name:"Peach Country RV Park", address:"14781 Highway 290 E, Stonewall, TX 78671", year:"", city:"Stonewall", county:"Gillespie", state:"Texas", region:"Hill Country TX", type:"Private", sites:72, hookup:"Full hookups, 20/30/50 amp electric, water, sewer, pull-through sites", phone:"(830) 644-2233", web:"peachcountryrv.com", tags:["Peach orchards","Hill Country Wine Trail","Clubhouse","Swimming pool"] },
+  { name:"Bankersmith Campground and RV Park", address:"8142 Old San Antonio Rd, Fredericksburg, TX 78624", year:"", city:"Fredericksburg", county:"Gillespie", state:"Texas", region:"Hill Country TX", type:"Private", sites:30, hookup:"Dry camping, no hookups; restrooms and water at adjacent saloon", phone:"(512) 953-9428", web:"", tags:["Near Luckenbach","Historic dance hall & saloon","Pet-friendly"] },
+  { name:"Heritage Oaks RV Park", address:"1692 Goehmann Ln, Fredericksburg, TX 78624", year:"", city:"Fredericksburg", county:"Gillespie", state:"Texas", region:"Hill Country TX", type:"Private", sites:88, hookup:"Full hookups, 30/50 amp electric, water, sewer, covered carports", phone:"(830) 992-3057", web:"heritageoaksrvpark.com", tags:["Covered parking carports","Near Main Street","Wine Trail access"] },
+  { name:"Stonewall Motor Lodge & RV Park", address:"14818 US Highway 290 E, Stonewall, TX 78671", year:"", city:"Stonewall", county:"Gillespie", state:"Texas", region:"Hill Country TX", type:"Private", sites:4, hookup:"Full hookups, 50 amp electric, sewer", phone:"(830) 644-1040", web:"stonewallmotorlodge.com", tags:["Restored 1960s motor lodge","Wine Trail location","Pet-friendly"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (153 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (154 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -1302,6 +1306,7 @@ const PARKS = [
   { name:"Basin RV Resort - Belton", address:"10502 FM-2410, Belton, TX 76513", year:"", city:"Belton", county:"Bell", state:"Texas", region:"Central TX", type:"Private", sites:139, hookup:"Full hookups, 30/50 amp electric", phone:"(254) 393-1450", web:"basinrvresorts.com", tags:["Pool & hot tub","Playground","Onsite library","20-acre resort"] },
   { name:"Phil's Boys Estates", address:"402 Arnold Blvd, Abilene, TX 79601", year:"", city:"Abilene", county:"Taylor", state:"Texas", region:"West TX", type:"Private", sites:120, hookup:"Full hookups, 30/50 amp, water, sewer", phone:"(956) 329-3560", web:"philsboysrvpark.com", tags:["Gated community","Mobile home & RV park","Big rig friendly"] },
   { name:"Mesquite Oasis RV Park", address:"7601 W 42nd St, Odessa, TX 79764", year:"", city:"Odessa", county:"Ector", state:"Texas", region:"Permian Basin TX", type:"Private", sites:241, hookup:"Full hookups, 30/50 amp, 110v GFI pedestals; concrete pads on select sites", phone:"(432) 381-2707", web:"mesquiteoasis.net", tags:["Gated with security monitoring","Seasonal pool","Fitness center","Dog park & wash station"] },
+  { name:"Oakwood RV Resort", address:"78 FM 2093, Fredericksburg, TX 78624", year:"1988", city:"Fredericksburg", county:"Gillespie", state:"Texas", region:"Hill Country TX", type:"Private", sites:132, hookup:"Full hookups, water, electric, sewer, free WiFi", phone:"(830) 997-9817", web:"oakwoodrvresort.com", tags:["Family-owned since 1988","Swimming pool","Pet-friendly","Near wineries"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
