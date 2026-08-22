@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (544 parks)
+  //  TEXAS  (548 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1076,6 +1076,10 @@ const PARKS = [
   { name:"Classy Hitches RV Park", address:"821 S Access Rd W, Clyde, TX 79510", year:"", city:"Clyde", county:"Callahan", state:"Texas", region:"West TX", type:"Private", sites:14, hookup:"Full hookups, 30/50 amp", phone:"", web:"classyhitchesrv.com", tags:["Newer park (opened 2022)","Near I-20","Long-term stays welcome"] },
   { name:"Davis RV Park", address:"902 N Swenson St, Stamford, TX 79553", year:"", city:"Stamford", county:"Jones", state:"Texas", region:"West TX", type:"Private", sites:48, hookup:"Full hookups, 30/50 amp, pull-thru, concrete patios", phone:"(325) 773-3704", web:"", tags:["Pull-through sites","Pet & kid friendly","Free WiFi"] },
   { name:"Cowboy Trails RV Park Village", address:"414 Windburn St, Stamford, TX 79553", year:"", city:"Stamford", county:"Jones", state:"Texas", region:"West TX", type:"Private", sites:28, hookup:"Full hookups, 30/50 amp, pull-thru sites", phone:"(325) 773-3777", web:"cowboytrailsrv.com", tags:["Pull-through sites","Laundry facility","Shower facility"] },
+  { name:"San Angelo KOA Holiday", address:"6699 Knickerbocker Rd, San Angelo, TX 76904", year:"", city:"San Angelo", county:"Tom Green", state:"Texas", region:"West TX", type:"Private", sites:80, hookup:"Full hookups, 30/50 amp, cable TV, pull-through up to 70 ft", phone:"(325) 949-3242", web:"koa.com/campgrounds/san-angelo", tags:["Seasonal pool","Big rig friendly","Pull-through sites"] },
+  { name:"Rustic RV Park", address:"2089 FM 2131, Coleman, TX 76834", year:"", city:"Coleman", county:"Coleman", state:"Texas", region:"West TX", type:"Private", sites:20, hookup:"Full hookups, 30/50 amp", phone:"(325) 348-3050", web:"rusticrvpark.com", tags:["Free WiFi","Free laundry","Pull-through sites"] },
+  { name:"Eden Valley RV Park", address:"161 N Main St, Eden, TX 76837", year:"", city:"Eden", county:"Concho", state:"Texas", region:"West TX", type:"Private", sites:24, hookup:"Full hookups, 30/50 amp, gravel pads", phone:"(325) 296-1234", web:"edenvalleyrvpark.com", tags:["Pull-through sites","Pet friendly","Fire pits","Year-round"] },
+  { name:"Texas Ranger Motel & RV Park", address:"401 Highway 67-84 West, Santa Anna, TX 76878", year:"", city:"Santa Anna", county:"Coleman", state:"Texas", region:"West TX", type:"Private", sites:10, hookup:"Full hookups, 30/50 amp, water, sewer", phone:"(325) 348-3150", web:"texasrangermotel.com", tags:["Laundry facilities","High-speed WiFi","Video security"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS — LARGE PARKS, 100+ sites  (152 parks)
