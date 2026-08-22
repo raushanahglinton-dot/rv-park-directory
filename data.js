@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (468 parks)
+  //  TEXAS  (472 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1000,9 +1000,13 @@ const PARKS = [
   { name:"East Austin RV Park", address:"16421 US-290, Elgin, TX 78621", year:"", city:"Elgin", county:"Bastrop", state:"Texas", region:"Austin Area TX", type:"Private", sites:68, hookup:"Full hookups, 30/50 amp electric", phone:"(737) 717-0166", web:"eastaustinrvpark.com", tags:["Formerly Willow Creek RV Park","Pet-friendly","RV storage available"] },
   { name:"Pleasant Grove RV Park", address:"568 Pleasant Grove Rd, Elgin, TX 78621", year:"", city:"Elgin", county:"Bastrop", state:"Texas", region:"Austin Area TX", type:"Private", sites:30, hookup:"Full hookups, 30/50 amp electric, individually metered", phone:"(512) 285-9335", web:"elginrvpark.com", tags:["Pecan orchard setting","Established 1984","Laundry on-site"] },
   { name:"Hope Hill Park", address:"2581 FM 1704, Elgin, TX 78621", year:"", city:"Elgin", county:"Bastrop", state:"Texas", region:"Austin Area TX", type:"Private", sites:45, hookup:"Full hookups, 30/50 amp electric, 25 pull-through", phone:"(512) 999-7917", web:"hopehillpark.com", tags:["48-acre property","Pull-through sites","Pet-friendly dog run"] },
+  { name:"Arbor Ranch RV Park", address:"200 Sunburst Ln, Canyon Lake, TX 78133", year:"", city:"Canyon Lake", county:"Comal", state:"Texas", region:"South TX", type:"Private", sites:29, hookup:"Full hookups, 20/30/50 amp electric, water, septic", phone:"(830) 488-7895", web:"arborranchrv.com", tags:["Near Canyon Lake","Fiber optic internet","Big rig friendly (up to 50 ft)","Fully fenced wooded sites"] },
+  { name:"B2 Hideaway RV Park", address:"357 Charter Oak Drive, Canyon Lake, TX 78133", year:"", city:"Canyon Lake", county:"Comal", state:"Texas", region:"South TX", type:"Private", sites:13, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(830) 237-0525", web:"b2hideaway.com", tags:["Between Sattler and Startzville","Near Canyon Lake","Hot tub area","Oak-shaded sites"] },
+  { name:"Yogi Bear's Jellystone Park Hill Country", address:"12915 FM 306, Canyon Lake, TX 78133", year:"", city:"Canyon Lake", county:"Comal", state:"Texas", region:"South TX", type:"Private", sites:78, hookup:"Full hookups, electric, water, sewer", phone:"(830) 256-0088", web:"jellystonehillcountry.com", tags:["Family resort","Back-in & pull-thru sites","Near Canyon Lake","Three swimming pools"] },
+  { name:"Guadalupe's Best RV Park", address:"104 GBRV Loop, Canyon Lake, TX 78133", year:"", city:"Canyon Lake", county:"Comal", state:"Texas", region:"South TX", type:"Private", sites:30, hookup:"Full hookups, 30/50 amp electric, water, sewer, pull-through sites", phone:"(830) 964-3393", web:"rvparkcanyonlaketx.com", tags:["Below Canyon Lake Dam","Guadalupe River access","Pull-through sites","Free WiFi"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (137 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (138 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -1182,6 +1186,7 @@ const PARKS = [
   { name:"4L RV Ranch", address:"26 Lucas Lane, Gonzales, TX 78629", year:"", city:"Gonzales", county:"Gonzales", state:"Texas", region:"South TX", type:"Private", sites:132, hookup:"30/50 amp electric, septic, city water", phone:"(830) 672-6057", web:"4lrvandcabins.com", tags:["Pool","Free Dish Network","Laundry with wash-and-fold"] },
   { name:"Centennial Creekside RV Park", address:"450 E State Highway 71, Smithville, TX 78957", year:"", city:"Smithville", county:"Bastrop", state:"Texas", region:"Austin Area TX", type:"Private", sites:166, hookup:"Full hookups, 30/50 amp electric, rock/concrete pads", phone:"(512) 237-0912", web:"centennialcreeksiderv.com", tags:["Catch-and-release fishing","Walking trail under oak trees","Dog park","Clubhouse"] },
   { name:"Hwy 71 RV Park", address:"931 Union Chapel Rd, Cedar Creek, TX 78612", year:"", city:"Cedar Creek", county:"Bastrop", state:"Texas", region:"Austin Area TX", type:"Private", sites:189, hookup:"Full hookups, 15/20/30/50 amp electric, 107 pull-through", phone:"(512) 321-7275", web:"hwy71rvpark.com", tags:["34-acre property","Pool & fitness center","Dog park","Fishing pond"] },
+  { name:"Summit Vacation & RV Resort", address:"13105 River Rd, New Braunfels, TX 78132", year:"", city:"New Braunfels", county:"Comal", state:"Texas", region:"South TX", type:"Private", sites:110, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(830) 964-2531", web:"summitresorttexas.com", tags:["Guadalupe River frontage (253 ft)","Three swimming pools","4 miles from Canyon Lake","Tubing access"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
