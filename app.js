@@ -173,11 +173,11 @@ function applyFilters() {
 }
 
 // ---- CSV export (for CRM import) ----
-// Company Name, Contact Name, and Email aren't tracked in this dataset —
-// those columns are exported blank so a CRM can still map them.
+// Company Name, Contact Name, and Email are sparse — most parks don't
+// publish them. Columns fall back to blank when a park has no value.
 function downloadCSV() {
   const headers = ["Park Name", "Company Name", "Contact Name", "Phone", "Email", "City", "State"];
-  const rows = lastFiltered.map(p => [p.name, "", "", p.phone || "", "", p.city, p.state]);
+  const rows = lastFiltered.map(p => [p.name, p.company || "", p.contact || "", p.phone || "", p.email || "", p.city, p.state]);
   const csv = [headers, ...rows].map(row => row.map(csvEscape).join(",")).join("\r\n");
 
   const blob = new Blob(["﻿" + csv], { type: "text/csv;charset=utf-8;" });
