@@ -131,7 +131,7 @@ const PARKS = [
   { name:"Deer Run RV Resort", address:"3609 Peavine Firetower Rd, Crossville, TN 38571", year:"", city:"Crossville", county:"Cumberland", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:100, hookup:"Full hookups, water, 30/50 amp electric, sewer", phone:"931-484-3333", web:"deerrunrvresort.com", tags:["Gated entrance","Private lake","Pool"] },
 
   // ──────────────────────────────────────────────────────────
-  //  ALABAMA  (83 parks)
+  //  ALABAMA  (89 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Arrowhead RV Resort at Smith Lake", address:"761 County Rd 941, Crane Hill, AL 35053", year:"", city:"Crane Hill", county:"Cullman", state:"Alabama", region:"North AL", type:"Private", sites:60, hookup:"Full hookups, 30/50A, lakeside sites", phone:"(256) 739-6767", web:"arrowheadsmithlake.com", tags:["Lewis Smith Lake","Boat dock","Bar & Grill","Fishing"] },
@@ -217,6 +217,12 @@ const PARKS = [
   { name:"Hanceville RV Park LLC", address:"15959 AL Highway 91, Hanceville, AL 35077", year:"", city:"Hanceville", county:"Cullman", state:"Alabama", region:"Birmingham Metro AL", type:"Private", sites:33, hookup:"Full hookups, 30/50 amp, all pull-through", phone:"(256) 352-4678", web:"myrvhanceville.com", tags:["RV-only","Fenced dog park","Near I-65"] },
   { name:"Good Hope Campground", address:"330 Super Saver Road, Cullman, AL 35055", year:"", city:"Cullman", county:"Cullman", state:"Alabama", region:"Birmingham Metro AL", type:"Private", sites:36, hookup:"Full hookups, 30 amp, electric only sites", phone:"(256) 739-1319", web:"", tags:["Pull-through sites","Dump station","Laundry facilities"] },
   { name:"Little Creek RV Park", address:"185 County Road 1843, Arab, AL 35016", year:"", city:"Arab", county:"Marshall", state:"Alabama", region:"North AL", type:"Private", sites:7, hookup:"Full hookups, 20/30/50 amp", phone:"(256) 486-3358", web:"", tags:["Small/quiet","Big-rig friendly","Pet friendly"] },
+  { name:"Point A Park RV Park and Campground", address:"25882 Sailboat Rd, Andalusia, AL 36421", year:"", city:"Andalusia", county:"Covington", state:"Alabama", region:"South AL", type:"Private", sites:25, hookup:"Electric & water hookups, 30/50A, 16 pull-through sites, dump station", phone:"(334) 388-0342", web:"", tags:["Point A Lake","Boat launch","Fishing","Pull-through sites"] },
+  { name:"Cypress Landing RV Park & Lakeside Club", address:"32249 Riverland Dr, Dozier, AL 36028", year:"", city:"Dozier", county:"Covington", state:"Alabama", region:"South AL", type:"Private", sites:63, hookup:"Full hookups, 20/30/50 amp", phone:"(334) 388-1008", web:"clrvpark.com", tags:["Gantt Lake","Family-owned","Cabins available","Clubhouse"] },
+  { name:"Lake Naomi RV Park", address:"2765 Alabama Highway 55, Florala, AL 36442", year:"", city:"Florala", county:"Covington", state:"Alabama", region:"South AL", type:"Private", sites:20, hookup:"Water/sewer, 30/50 amp, 10 pull-thru + 10 back-in", phone:"(334) 343-6354", web:"", tags:["Near Lake Jackson","Boat launch","Pet-friendly","FL state line"] },
+  { name:"Sara's Campground", address:"1210 Third St, Florala, AL 36442", year:"", city:"Florala", county:"Covington", state:"Alabama", region:"South AL", type:"Private", sites:15, hookup:"Full hookups, electric 30 amp, water", phone:"(334) 858-7581", web:"", tags:["Near FL state line","Laundry","Playground","Dump station"] },
+  { name:"Ozark / Fort Rucker KOA Journey", address:"2414 N US Hwy 231, Ozark, AL 36360", year:"", city:"Ozark", county:"Dale", state:"Alabama", region:"South AL", type:"Private", sites:65, hookup:"Full hookups, 20/30/50 amp, pull-through, big-rig friendly", phone:"(334) 774-3219", web:"koa.com/campgrounds/ozark", tags:["Near Fort Rucker/Fort Novosel","Pool","Playground","Pet-friendly"] },
+  { name:"Camp Rucker RV Park", address:"505 Troy Edmundson Rd, Daleville, AL 36322", year:"", city:"Daleville", county:"Dale", state:"Alabama", region:"South AL", type:"Private", sites:27, hookup:"Full hookups, electric/water/sewer", phone:"(334) 500-2256", web:"campruckerrv.com", tags:["Near Fort Rucker/Fort Novosel","Military discounts","WiFi"] },
 
   // ──────────────────────────────────────────────────────────
   //  ALABAMA — LARGE PARKS, 100+ sites  (23 parks)
