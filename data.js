@@ -18,7 +18,7 @@
 const PARKS = [
 
   // ──────────────────────────────────────────────────────────
-  //  TENNESSEE  (92 parks)
+  //  TENNESSEE  (94 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Mountain Glen RV Park", address:"6182 Brockdell Rd, Greeneville, TN 37745", year:"", city:"Greeneville", county:"Greene", state:"Tennessee", region:"East TN", type:"Private", sites:45, hookup:"Full hookups, 50A, pull-throughs", phone:"(423) 234-0404", web:"mountainglenrv.com", tags:["Fishing pond","Pavilion","WiFi"] },
@@ -113,6 +113,8 @@ const PARKS = [
   { name:"Sportsman's Resort", address:"100 Sportsmans Resort Lane, Tiptonville, TN 38079", year:"", city:"Tiptonville", county:"Lake", state:"Tennessee", region:"West TN", type:"Private", sites:40, hookup:"Full hookups, 30/50A electric", phone:"(731) 253-6581", web:"", tags:["Reelfoot Lake","Fishing packages","Big rig friendly (up to 70ft)"] },
   { name:"Whispering Falls at Burgess RV Park", address:"2091 Coles Chapel Road, Sparta, TN 38583", year:"", city:"Sparta", county:"White", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:23, hookup:"Full hookups (water, electric, sewer), 50/30/20 amp", phone:"(931) 761-7275", web:"whisperingfallsrvpark.com", tags:["Next to Burgess Falls State Park entrance","Big-rig friendly, 20x60 pads","Near Center Hill Lake"] },
   { name:"Fishlipz Resort & Grill at Pates Ford Marina", address:"6323 Jefferson Road, Smithville, TN 37166", year:"", city:"Smithville", county:"DeKalb", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:30, hookup:"Sewer, water, 30/50 amp electric", phone:"(615) 597-4807", web:"fishlipzmarina.com", tags:["Center Hill Lake marina","On-site restaurant and bar","Boat and pontoon rentals"] },
+  { name:"Heritage Campground and RV Park", address:"1004 Brewer Rd, Ethridge, TN 38456", year:"", city:"Ethridge", county:"Lawrence", state:"Tennessee", region:"South Central TN", type:"Private", sites:50, hookup:"Full hookups, 30/50A, water, sewer, gravel pads, RVs up to 50 ft", phone:"(931) 279-3772", web:"", tags:["Amish community setting","Big rig friendly","Dump station","WiFi"] },
+  { name:"Fall Hollow Campground", address:"1329 Columbia Hwy, Hohenwald, TN 38462", year:"", city:"Hohenwald", county:"Lewis", state:"Tennessee", region:"South Central TN", type:"Private", sites:42, hookup:"Full hookups, 30/50A electric, water, sewer, pull-through big rig sites", phone:"(931) 796-1480", web:"fallhollow.com", tags:["Adjacent to Natchez Trace Parkway","Big Swan Creek","Waterfall hike","B&B on-site"] },
 
   // ──────────────────────────────────────────────────────────
   //  TENNESSEE — LARGE PARKS, 100+ sites  (13 parks)
