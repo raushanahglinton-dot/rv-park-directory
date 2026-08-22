@@ -18,7 +18,7 @@
 const PARKS = [
 
   // ──────────────────────────────────────────────────────────
-  //  TENNESSEE  (94 parks)
+  //  TENNESSEE  (99 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Mountain Glen RV Park", address:"6182 Brockdell Rd, Greeneville, TN 37745", year:"", city:"Greeneville", county:"Greene", state:"Tennessee", region:"East TN", type:"Private", sites:45, hookup:"Full hookups, 50A, pull-throughs", phone:"(423) 234-0404", web:"mountainglenrv.com", tags:["Fishing pond","Pavilion","WiFi"] },
@@ -115,6 +115,11 @@ const PARKS = [
   { name:"Fishlipz Resort & Grill at Pates Ford Marina", address:"6323 Jefferson Road, Smithville, TN 37166", year:"", city:"Smithville", county:"DeKalb", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:30, hookup:"Sewer, water, 30/50 amp electric", phone:"(615) 597-4807", web:"fishlipzmarina.com", tags:["Center Hill Lake marina","On-site restaurant and bar","Boat and pontoon rentals"] },
   { name:"Heritage Campground and RV Park", address:"1004 Brewer Rd, Ethridge, TN 38456", year:"", city:"Ethridge", county:"Lawrence", state:"Tennessee", region:"South Central TN", type:"Private", sites:50, hookup:"Full hookups, 30/50A, water, sewer, gravel pads, RVs up to 50 ft", phone:"(931) 279-3772", web:"", tags:["Amish community setting","Big rig friendly","Dump station","WiFi"] },
   { name:"Fall Hollow Campground", address:"1329 Columbia Hwy, Hohenwald, TN 38462", year:"", city:"Hohenwald", county:"Lewis", state:"Tennessee", region:"South Central TN", type:"Private", sites:42, hookup:"Full hookups, 30/50A electric, water, sewer, pull-through big rig sites", phone:"(931) 796-1480", web:"fallhollow.com", tags:["Adjacent to Natchez Trace Parkway","Big Swan Creek","Waterfall hike","B&B on-site"] },
+  { name:"Crossville / I-40 KOA Holiday", address:"6575 US-70, Crossville, TN 38555", year:"", city:"Crossville", county:"Cumberland", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:48, hookup:"Full hookups, electric/water, and amp-only sites; 20/30/50 amp; pull-through and back-in", phone:"(931) 707-5349", web:"koa.com/campgrounds/crossville", tags:["Big rig friendly (70 ft max)","Pool","Dog parks","Cumberland Plateau"] },
+  { name:"Ballyhoo Family Campground", address:"256 Werthwyle Dr, Crossville, TN 38555", year:"", city:"Crossville", county:"Cumberland", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:43, hookup:"Full hookups, 30/50 amp, pull-through sites", phone:"(931) 484-0860", web:"ballyhoofamilycampground.com", tags:["Catch-and-release fishing pond","Seasonal (April-November)","Pet-friendly","50-acre property"] },
+  { name:"Timber Ridge Horse Campground", address:"1426 Darrow Ridge Rd, Jamestown, TN 38556", year:"", city:"Jamestown", county:"Fentress", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:24, hookup:"30/50 amp electric and water hookups, pull-through sites, dump station", phone:"(931) 310-1530", web:"timberridgehorsecampground.com", tags:["Big South Fork trail access","Horse camping","Cabin rentals","Pet-friendly"] },
+  { name:"True West Campground & Stables", address:"3341 Leatherwood Ford Rd, Jamestown, TN 38556", year:"", city:"Jamestown", county:"Fentress", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:34, hookup:"Water and electric hookups, some sites with sewer, RV dump station", phone:"(931) 752-8272", web:"truewestcampgroundandstables.com", tags:["Big South Fork","Stocked fishing ponds","Horse stables","WiFi"] },
+  { name:"Laurel Creek Campground", address:"150 Laurel Creek Campground Rd, Jamestown, TN 38556", year:"", city:"Jamestown", county:"Fentress", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:37, hookup:"Full hookups and electric/water sites, 30/50 amp", phone:"(931) 879-7696", web:"camplaurelcreek.com", tags:["In-ground pool","Near Pickett State Park & Big South Fork","Free WiFi","Fishing"] },
 
   // ──────────────────────────────────────────────────────────
   //  TENNESSEE — LARGE PARKS, 100+ sites  (13 parks)
