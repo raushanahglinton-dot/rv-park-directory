@@ -131,7 +131,7 @@ const PARKS = [
   { name:"Deer Run RV Resort", address:"3609 Peavine Firetower Rd, Crossville, TN 38571", year:"", city:"Crossville", county:"Cumberland", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:100, hookup:"Full hookups, water, 30/50 amp electric, sewer", phone:"931-484-3333", web:"deerrunrvresort.com", tags:["Gated entrance","Private lake","Pool"] },
 
   // ──────────────────────────────────────────────────────────
-  //  ALABAMA  (89 parks)
+  //  ALABAMA  (90 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Arrowhead RV Resort at Smith Lake", address:"761 County Rd 941, Crane Hill, AL 35053", year:"", city:"Crane Hill", county:"Cullman", state:"Alabama", region:"North AL", type:"Private", sites:60, hookup:"Full hookups, 30/50A, lakeside sites", phone:"(256) 739-6767", web:"arrowheadsmithlake.com", tags:["Lewis Smith Lake","Boat dock","Bar & Grill","Fishing"] },
@@ -223,6 +223,7 @@ const PARKS = [
   { name:"Sara's Campground", address:"1210 Third St, Florala, AL 36442", year:"", city:"Florala", county:"Covington", state:"Alabama", region:"South AL", type:"Private", sites:15, hookup:"Full hookups, electric 30 amp, water", phone:"(334) 858-7581", web:"", tags:["Near FL state line","Laundry","Playground","Dump station"] },
   { name:"Ozark / Fort Rucker KOA Journey", address:"2414 N US Hwy 231, Ozark, AL 36360", year:"", city:"Ozark", county:"Dale", state:"Alabama", region:"South AL", type:"Private", sites:65, hookup:"Full hookups, 20/30/50 amp, pull-through, big-rig friendly", phone:"(334) 774-3219", web:"koa.com/campgrounds/ozark", tags:["Near Fort Rucker/Fort Novosel","Pool","Playground","Pet-friendly"] },
   { name:"Camp Rucker RV Park", address:"505 Troy Edmundson Rd, Daleville, AL 36322", year:"", city:"Daleville", county:"Dale", state:"Alabama", region:"South AL", type:"Private", sites:27, hookup:"Full hookups, electric/water/sewer", phone:"(334) 500-2256", web:"campruckerrv.com", tags:["Near Fort Rucker/Fort Novosel","Military discounts","WiFi"] },
+  { name:"Sunset RV Park", address:"5001 JVC Rd, Cottondale, AL 35453", year:"", city:"Cottondale", county:"Tuscaloosa", state:"Alabama", region:"West AL", type:"Private", sites:93, hookup:"Full hookups, 30/50A electric, water, sewer, WiFi, cable TV", phone:"(205) 553-9233", web:"sunsetrvparks.com", tags:["Near I-20/59 Exit 76","Alabama football gameday camping","Two sections (Sunset East & West)"] },
 
   // ──────────────────────────────────────────────────────────
   //  ALABAMA — LARGE PARKS, 100+ sites  (23 parks)
