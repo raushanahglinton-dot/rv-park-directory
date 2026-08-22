@@ -18,7 +18,7 @@
 const PARKS = [
 
   // ──────────────────────────────────────────────────────────
-  //  TENNESSEE  (106 parks)
+  //  TENNESSEE  (112 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Mountain Glen RV Park", address:"6182 Brockdell Rd, Greeneville, TN 37745", year:"", city:"Greeneville", county:"Greene", state:"Tennessee", region:"East TN", type:"Private", sites:45, hookup:"Full hookups, 50A, pull-throughs", phone:"(423) 234-0404", web:"mountainglenrv.com", tags:["Fishing pond","Pavilion","WiFi"] },
@@ -127,9 +127,15 @@ const PARKS = [
   { name:"Sunset Cove RV Park", address:"345 Hickory Valley Rd, Maynardville, TN 37807", year:"", city:"Maynardville", county:"Union", state:"Tennessee", region:"East TN", type:"Private", sites:20, hookup:"Full hookups, 15/20/30/50 amp electric, water, sewer, WiFi, back-in sites only", phone:"(865) 745-3000", web:"sunsetcovervparktn.com", tags:["Norris Lake access","Fishing pond","Pool","Petting farm"] },
   { name:"Knoxville Campground", address:"2423 N Charles G Seivers Blvd, Clinton, TN 37716", year:"", city:"Clinton", county:"Anderson", state:"Tennessee", region:"East TN", type:"Private", sites:93, hookup:"57 full hookups, 36 electric/water, 20/30/50 amp, 70 pull-through, 55ft max RV length", phone:"(865) 494-9386", web:"knoxvillecampground.com", tags:["I-75 access","Pool","Big rig friendly","Pet-friendly"] },
   { name:"Tennessee Country Campground & RV Park", address:"520 Hwy 309, Niota, TN 37826", year:"", city:"Niota", county:"McMinn", state:"Tennessee", region:"East TN", type:"Private", sites:20, hookup:"16 full hookups, 4 electric/water, 20/30/50 amp, 14 pull-through, city water/sewer, WiFi", phone:"(423) 568-2939", web:"tncountrycamp.com", tags:["I-75 access","WiFi","Pull-through sites"] },
+  { name:"Bunch Hollow Campground & Resort", address:"1651 Bunch Hollow Rd, New Tazewell, TN 37825", year:"", city:"New Tazewell", county:"Claiborne", state:"Tennessee", region:"East TN", type:"Private", sites:75, hookup:"Water, sewer, 30/50/100 amp electric", phone:"(865) 919-2427", web:"bunchhollow.com", tags:["Norris Lake","Lake Views","Long-Term Leasing","Boat Launch"] },
+  { name:"Norris Landing Marina RV Campground", address:"1015 Marina Landing Rd, Tazewell, TN 37879", year:"", city:"Tazewell", county:"Claiborne", state:"Tennessee", region:"East TN", type:"Private", sites:23, hookup:"Full hookups - electric, water, sewer", phone:"(423) 626-1818", web:"norrislandingmarina.com", tags:["Norris Lake","Marina","Boat Slips","Restaurant On-Site"] },
+  { name:"Yeary Valley Farms Cabins and Campground", address:"8862 TN-63, Speedwell, TN 37870", year:"", city:"Speedwell", county:"Claiborne", state:"Tennessee", region:"East TN", type:"Private", sites:4, hookup:"Full hookups - 30/50 amp electric, water, sewer", phone:"(606) 304-8729", web:"yearyvalleyfarms.com", tags:["Farm Stay","Cabins On-Site","Small Park","Family-Friendly"] },
+  { name:"Blue Springs Boat Dock", address:"680 Blue Springs Rd, Speedwell, TN 37870", year:"", city:"Speedwell", county:"Claiborne", state:"Tennessee", region:"East TN", type:"Private", sites:39, hookup:"30/50/100 amp electric, water/sewer", phone:"(423) 562-9953", web:"bluespringsboatdock.com", tags:["Norris Lake","Marina","Waterfront","Year-Round"] },
+  { name:"River Forge RV Park & Campground", address:"2042 Forge Ridge Rd, Harrogate, TN 37752", year:"", city:"Harrogate", county:"Claiborne", state:"Tennessee", region:"East TN", type:"Private", sites:70, hookup:"Full hookups - 30/50 amp electric, sewer", phone:"(423) 441-1256", web:"riverforgecampground.com", tags:["Indian Creek","Near Cumberland Gap National Park","Near Lincoln Memorial University"] },
+  { name:"Lakeside Campground", address:"348 Needham Hollow Rd, New Tazewell, TN 37825", year:"", city:"New Tazewell", county:"Claiborne", state:"Tennessee", region:"East TN", type:"Private", sites:30, hookup:"Full hookups, electric", phone:"(423) 626-2320", web:"", tags:["RVs Only","All Ages","Lake Access","Boat Ramp"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TENNESSEE — LARGE PARKS, 100+ sites  (14 parks)
+  //  TENNESSEE — LARGE PARKS, 100+ sites  (15 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Greenbrier Campground", address:"2353 East Pkwy, Gatlinburg, TN 37738", year:"", city:"Gatlinburg", county:"Sevier", state:"Tennessee", region:"East TN", type:"Private", sites:120, hookup:"Full hookups, 20/30/50 amp, cable TV, WiFi", phone:"(865) 430-7415", web:"smokymountaincamping.com", tags:["Little Pigeon River","Near Greenbrier entrance to Smokies","Cabins available","River-frontage sites"] },
@@ -146,6 +152,7 @@ const PARKS = [
   { name:"Caney Creek RV Resort & Marina", address:"3615 Roane State Hwy, Harriman, TN 37748", year:"", city:"Harriman", county:"Roane", state:"Tennessee", region:"Chattanooga Metro TN", type:"Private", sites:178, hookup:"Full hookups, 30/50 amp, water, sewer, paved pull-through", phone:"(865) 882-4042", web:"caneycreekrvresort.com", tags:["Watts Bar Lake","Marina","Big rig friendly"] },
   { name:"Deer Run RV Resort", address:"3609 Peavine Firetower Rd, Crossville, TN 38571", year:"", city:"Crossville", county:"Cumberland", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:100, hookup:"Full hookups, water, 30/50 amp electric, sewer", phone:"931-484-3333", web:"deerrunrvresort.com", tags:["Gated entrance","Private lake","Pool"] },
   { name:"Lost Creek RV Park", address:"320 Rush Sharp Ln, Sharps Chapel, TN 37866", year:"", city:"Sharps Chapel", county:"Union", state:"Tennessee", region:"East TN", type:"Private", sites:120, hookup:"Full hookups, water, sewer, electric", phone:"(865) 278-3539", web:"lostcreekrvparktn.com", tags:["Norris Lake shoreline","Boat launch ramp","Boat slips","50 acres"] },
+  { name:"Lone Mountain Marina and Campground", address:"325 Lone Mountain Boat Dock Ln, Tazewell, TN 37879", year:"", city:"Tazewell", county:"Claiborne", state:"Tennessee", region:"East TN", type:"Private", sites:226, hookup:"30/50 amp electric, sewer, freshwater", phone:"(423) 626-9437", web:"lonemountainmarinaandcampground.com", tags:["Norris Lake","Marina","Boat Rentals","Family-Oriented"] },
 
   // ──────────────────────────────────────────────────────────
   //  ALABAMA  (102 parks)
