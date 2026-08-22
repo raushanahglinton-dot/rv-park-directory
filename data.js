@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (562 parks)
+  //  TEXAS  (565 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1094,9 +1094,12 @@ const PARKS = [
   { name:"Lola & Ethel's RV Park", address:"1327 N Ocean Dr, Port Lavaca, TX 77979", year:"", city:"Port Lavaca", county:"Calhoun", state:"Texas", region:"Gulf Coast TX", type:"Private", sites:9, hookup:"Full hookups, 50 amp electric, water, sewer", phone:"(361) 746-8022", web:"", tags:["Magnolia Beach waterfront","Free local pier nearby","Pet friendly"] },
   { name:"Paisano RV Park and Mobile Home Park", address:"5540 Highway 359, Alice, TX 78332", year:"", city:"Alice", county:"Jim Wells", state:"Texas", region:"South TX", type:"Private", sites:77, hookup:"Full hookups, 30/50 amp electric, pull-through sites", phone:"(361) 664-3909", web:"paisanopark.com", tags:["Pool","Pet friendly","Oilfield country","Long-term stays"] },
   { name:"Guinea Run RV Park", address:"275 County Road 422, Premont, TX 78375", year:"", city:"Premont", county:"Jim Wells", state:"Texas", region:"South TX", type:"Private", sites:36, hookup:"Covered and open sites, water hookups, on-site laundry", phone:"(361) 455-0181", web:"guinearunrvpark.com", tags:["Family-owned","Covered sites","Oilfield country","Small town"] },
+  { name:"Twin Pines RV Park", address:"508 W Hillmont Rd, Odessa, TX 79764", year:"", city:"Odessa", county:"Ector", state:"Texas", region:"Permian Basin TX", type:"Private", sites:35, hookup:"Full hookups, water, sewer, electric; cable TV available", phone:"(432) 243-3104", web:"twin-pinesrvpark.com", tags:["Dog park","24/7 onsite security","Dump station","Level, spacious sites"] },
+  { name:"RV Park Blue Lanterns", address:"4610 S County Rd 1175, Midland, TX 79706", year:"", city:"Midland", county:"Midland", state:"Texas", region:"Permian Basin TX", type:"Private", sites:26, hookup:"Full hookups, 30/50 amp electric, water, internet", phone:"(432) 889-1106", web:"", tags:["Family owned & operated","3 miles southeast of I-20","Near Rankin Hwy 349"] },
+  { name:"Rock Hollow RV Park", address:"6608 N Huber Ave, Odessa, TX 79764", year:"", city:"Odessa", county:"Ector", state:"Texas", region:"Permian Basin TX", type:"Private", sites:14, hookup:"Full hookups, water, sewer, electric included; large 30'x60' sites", phone:"(432) 230-7255", web:"rvparkinodessatx.com", tags:["Extra-large sites","All utilities included in rate","Weekly & monthly rates"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (152 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (153 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -1291,6 +1294,7 @@ const PARKS = [
   { name:"Belaire Junction RV Park", address:"13103 NE HK Dodgen Loop, Temple, TX 76501", year:"", city:"Temple", county:"Bell", state:"Texas", region:"Central TX", type:"Private", sites:184, hookup:"Full hookups, water, sewer, electric, cable", phone:"(254) 314-8033", web:"belairejunctionrvpark.com", tags:["Pool & splash pad","Fenced dog parks","Near Fort Cavazos","Pickleball court"] },
   { name:"Basin RV Resort - Belton", address:"10502 FM-2410, Belton, TX 76513", year:"", city:"Belton", county:"Bell", state:"Texas", region:"Central TX", type:"Private", sites:139, hookup:"Full hookups, 30/50 amp electric", phone:"(254) 393-1450", web:"basinrvresorts.com", tags:["Pool & hot tub","Playground","Onsite library","20-acre resort"] },
   { name:"Phil's Boys Estates", address:"402 Arnold Blvd, Abilene, TX 79601", year:"", city:"Abilene", county:"Taylor", state:"Texas", region:"West TX", type:"Private", sites:120, hookup:"Full hookups, 30/50 amp, water, sewer", phone:"(956) 329-3560", web:"philsboysrvpark.com", tags:["Gated community","Mobile home & RV park","Big rig friendly"] },
+  { name:"Mesquite Oasis RV Park", address:"7601 W 42nd St, Odessa, TX 79764", year:"", city:"Odessa", county:"Ector", state:"Texas", region:"Permian Basin TX", type:"Private", sites:241, hookup:"Full hookups, 30/50 amp, 110v GFI pedestals; concrete pads on select sites", phone:"(432) 381-2707", web:"mesquiteoasis.net", tags:["Gated with security monitoring","Seasonal pool","Fitness center","Dog park & wash station"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
