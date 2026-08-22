@@ -18,7 +18,7 @@
 const PARKS = [
 
   // ──────────────────────────────────────────────────────────
-  //  TENNESSEE  (83 parks)
+  //  TENNESSEE  (85 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Mountain Glen RV Park", address:"6182 Brockdell Rd, Greeneville, TN 37745", year:"", city:"Greeneville", county:"Greene", state:"Tennessee", region:"East TN", type:"Private", sites:45, hookup:"Full hookups, 50A, pull-throughs", phone:"(423) 234-0404", web:"mountainglenrv.com", tags:["Fishing pond","Pavilion","WiFi"] },
@@ -104,6 +104,8 @@ const PARKS = [
   { name:"Horseshoe Bend Marina & Campgrounds", address:"6040 Webbs Camp Rd, Walling, TN 38587", year:"", city:"Walling", county:"White", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:30, hookup:"Water and electric hookups (no sewer)", phone:"(931) 657-5080", web:"horseshoebendmarina.net", tags:["Marina on Center Hill Lake","Boat & kayak rentals","Camp store"] },
   { name:"Tennessee Hills Campground", address:"847 Tennessee Hills Ln, Manchester, TN 37355", year:"", city:"Manchester", county:"Coffee", state:"Tennessee", region:"Nashville Metro TN", type:"Private", sites:45, hookup:"Full hookups, electric (25/50 amp per site)", phone:"(931) 394-2141", web:"", tags:["Pool","Playground","Pet-friendly"] },
   { name:"Whispering Oaks Campground", address:"812 Sixteenth Model Rd, Manchester, TN 37355", year:"", city:"Manchester", county:"Coffee", state:"Tennessee", region:"Nashville Metro TN", type:"Private", sites:37, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(931) 728-0225", web:"whisperingoakscampgroundtn.com", tags:["Pool","Playground","Fishing pond"] },
+  { name:"Coops Creek RV Campground", address:"381 Walnut St, Dunlap, TN 37327", year:"", city:"Dunlap", county:"Sequatchie", state:"Tennessee", region:"Chattanooga Metro TN", type:"Private", sites:10, hookup:"Full hookups, water, sewer, electric at every site", phone:"(423) 304-1208", web:"", tags:["Sequatchie Valley","Wi-Fi","Near downtown Dunlap"] },
+  { name:"Hales Bar Marina RV Park", address:"1265 Hales Bar Rd, Guild, TN 37340", year:"", city:"Guild", county:"Marion", state:"Tennessee", region:"Chattanooga Metro TN", type:"Private", sites:53, hookup:"Full hookups, septic, water, 50/30/20 amp electric", phone:"(423) 942-9000", web:"halesbarmarina.com", tags:["Nickajack Lake","Waterfront & off-water sites","Full-service marina"] },
 
   // ──────────────────────────────────────────────────────────
   //  TENNESSEE — LARGE PARKS, 100+ sites  (13 parks)
@@ -124,7 +126,7 @@ const PARKS = [
   { name:"Deer Run RV Resort", address:"3609 Peavine Firetower Rd, Crossville, TN 38571", year:"", city:"Crossville", county:"Cumberland", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:100, hookup:"Full hookups, water, 30/50 amp electric, sewer", phone:"931-484-3333", web:"deerrunrvresort.com", tags:["Gated entrance","Private lake","Pool"] },
 
   // ──────────────────────────────────────────────────────────
-  //  ALABAMA  (79 parks)
+  //  ALABAMA  (83 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Arrowhead RV Resort at Smith Lake", address:"761 County Rd 941, Crane Hill, AL 35053", year:"", city:"Crane Hill", county:"Cullman", state:"Alabama", region:"North AL", type:"Private", sites:60, hookup:"Full hookups, 30/50A, lakeside sites", phone:"(256) 739-6767", web:"arrowheadsmithlake.com", tags:["Lewis Smith Lake","Boat dock","Bar & Grill","Fishing"] },
@@ -206,9 +208,13 @@ const PARKS = [
   { name:"Clear Creek Cove RV Resort", address:"765 Willingham Rd, Talladega, AL 35160", year:"", city:"Talladega", county:"Talladega", state:"Alabama", region:"Birmingham Metro AL", type:"Private", sites:20, hookup:"Full hookups, 30/50 amp, water, garbage, sewer", phone:"(256) 589-5377", web:"", tags:["Logan Martin Lake","Boat docks & ramp","Sandy beach"] },
   { name:"Dogwood Meadows Campground", address:"76626 AL Hwy 77, Lincoln, AL 35096", year:"", city:"Lincoln", county:"Talladega", state:"Alabama", region:"Birmingham Metro AL", type:"Private", sites:70, hookup:"Full hookups (42 of 70 sites), 30/50 amp", phone:"(205) 763-7454", web:"", tags:["Near Talladega Superspeedway","Pull-through sites","Playground"] },
   { name:"Paradise Island RV Park", address:"735 Honda Dr, Lincoln, AL 35096", year:"", city:"Lincoln", county:"Talladega", state:"Alabama", region:"Birmingham Metro AL", type:"Private", sites:70, hookup:"City water and sewer, 50 amp (30 amp with adapter)", phone:"(256) 454-6589", web:"paradiseislandrv.net", tags:["Logan Martin Lake","Boat launch","Community pier"] },
+  { name:"JG's Campen Life RV Campground", address:"2060 County Road 438, Cullman, AL 35057", year:"", city:"Cullman", county:"Cullman", state:"Alabama", region:"Birmingham Metro AL", type:"Private", sites:67, hookup:"Full hookups, 30/50 amp, pull-through and back-in sites", phone:"(256) 930-3060", web:"jgscampenlife.com", tags:["Near Lewis Smith Lake","In-ground pool","Pickleball"] },
+  { name:"Hanceville RV Park LLC", address:"15959 AL Highway 91, Hanceville, AL 35077", year:"", city:"Hanceville", county:"Cullman", state:"Alabama", region:"Birmingham Metro AL", type:"Private", sites:33, hookup:"Full hookups, 30/50 amp, all pull-through", phone:"(256) 352-4678", web:"myrvhanceville.com", tags:["RV-only","Fenced dog park","Near I-65"] },
+  { name:"Good Hope Campground", address:"330 Super Saver Road, Cullman, AL 35055", year:"", city:"Cullman", county:"Cullman", state:"Alabama", region:"Birmingham Metro AL", type:"Private", sites:36, hookup:"Full hookups, 30 amp, electric only sites", phone:"(256) 739-1319", web:"", tags:["Pull-through sites","Dump station","Laundry facilities"] },
+  { name:"Little Creek RV Park", address:"185 County Road 1843, Arab, AL 35016", year:"", city:"Arab", county:"Marshall", state:"Alabama", region:"North AL", type:"Private", sites:7, hookup:"Full hookups, 20/30/50 amp", phone:"(256) 486-3358", web:"", tags:["Small/quiet","Big-rig friendly","Pet friendly"] },
 
   // ──────────────────────────────────────────────────────────
-  //  ALABAMA — LARGE PARKS, 100+ sites  (22 parks)
+  //  ALABAMA — LARGE PARKS, 100+ sites  (23 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Gulf Shores RV Resort", address:"18717 Barefoot Way, Gulf Shores, AL 36542", year:"", city:"Gulf Shores", county:"Baldwin", state:"Alabama", region:"South AL", type:"Private", sites:176, hookup:"Full hookups, 30/50 amp, water, sewer, cable, concrete pads", phone:"(251) 244-1015", web:"rvcoutdoors.com/gulf-shores-rv-resort", tags:["Waterfront lake sites","Heated pool","Pickleball","Stocked fishing lakes"] },
@@ -233,6 +239,7 @@ const PARKS = [
   { name:"Lakeside Landing RV Park & Marina - Cropwell AL", address:"4600 Martin Street South, Cropwell, AL 35054", year:"", city:"Cropwell", county:"St. Clair", state:"Alabama", region:"Birmingham Metro AL", type:"Private", sites:180, hookup:"Full hookups, pull-through sites, 30/50 amp, water, electric, garbage", phone:"(205) 525-5701", web:"lakesidelandingrvmarina.com", tags:["Logan Martin Lake","Marina & boat launch","Family-owned 20+ years"] },
   { name:"Unhitched Logan-Martin Lake", address:"10 Lighthouse Ln, Lincoln, AL 35096", year:"", city:"Lincoln", county:"Talladega", state:"Alabama", region:"Birmingham Metro AL", type:"Private", sites:153, hookup:"Full hookups, 30/50 amp electric, waterfront sites", phone:"(205) 763-7732", web:"unhitchedrv.com", tags:["Logan Martin Lake","Two boat ramps","Zero-entry pool"] },
   { name:"Talladega RV Park", address:"3014 Speedway Boulevard, Lincoln, AL 35096", year:"", city:"Lincoln", county:"Talladega", state:"Alabama", region:"Birmingham Metro AL", type:"Private", sites:320, hookup:"50 amp electric and water, pull-through sites", phone:"659-200-2599", web:"talladegarvpark.com", tags:["Adjacent to Talladega Superspeedway","Big rig friendly"] },
+  { name:"Speegle's RV Park & Campground", address:"7146 County Road 310, Crane Hill, AL 35053", year:"", city:"Crane Hill", county:"Cullman", state:"Alabama", region:"Birmingham Metro AL", type:"Private", sites:126, hookup:"Full hookups, 50 amp, water/sewer/WiFi", phone:"(256) 734-0698", web:"speeglesmarina.net", tags:["Lewis Smith Lake","Lakefront/lake-view lots","Private boat ramp","Gated entrance"] },
 
   // ──────────────────────────────────────────────────────────
   //  NORTH CAROLINA  (67 parks)
