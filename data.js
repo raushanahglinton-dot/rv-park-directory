@@ -388,7 +388,7 @@ const PARKS = [
   { name:"Grandfather Mountain Campground RV Resort & Cabins", address:"125 Profile View Rd, Banner Elk, NC 28604", year:"", city:"Banner Elk", county:"Avery", state:"North Carolina", region:"High Country NC", type:"Private", sites:128, hookup:"Full hookups, 30/50A, pull-through sites", phone:"(828) 355-4535", web:"grandfatherrv.com", tags:["Stocked trout pond","Cabin rentals","Watauga River fishing"] },
 
   // ──────────────────────────────────────────────────────────
-  //  SOUTH CAROLINA  (35 parks)
+  //  SOUTH CAROLINA  (38 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"The Point at Lake Hartwell RV Resort", address:"400 Ponderosa Point Rd, Townville, SC 29689", year:"", city:"Townville", county:"Anderson", state:"South Carolina", region:"Upstate SC", type:"Private", sites:65, hookup:"Full hookups, 30/50A, waterfront sites", phone:"(864) 287-3376", web:"thepointatlakerv.com", tags:["Hartwell Lake","Boat ramp","Fishing","Swimming"] },
@@ -426,9 +426,12 @@ const PARKS = [
   { name:"Wateroak RV Living", address:"29691 US-76, Clinton, SC 29325", year:"", city:"Clinton", county:"Laurens", state:"South Carolina", region:"Upstate SC", type:"Private", sites:48, hookup:"Full hookups, 30/50 amp", phone:"(864) 386-2710", web:"wateroakrvparksc.com", tags:["Oversized sites","High-speed WiFi","Near Sumter National Forest"] },
   { name:"Moon Landing RV Park & Marina", address:"4105 Watts Bridge Road, Cross Hill, SC 29332", year:"", city:"Cross Hill", county:"Laurens", state:"South Carolina", region:"Upstate SC", type:"Private", sites:70, hookup:"56 full hookup, 30/50 amp", phone:"(864) 998-4292", web:"moonlandingrvpark.com", tags:["Lake Greenwood","Marina and boat docks","Fishing"] },
   { name:"April Valley RV Campground", address:"149 April Valley Ln, Pickens, SC 29671", year:"", city:"Pickens", county:"Pickens", state:"South Carolina", region:"Upstate SC", type:"Private", sites:18, hookup:"Full hookups, 20/30/50 amp", phone:"(864) 775-2033", web:"aprilvalleyrvpark.com", tags:["Adults-only 45+","Gated waterfront park","Game room"] },
+  { name:"Carolina Hills Mobile Home and RV Park", address:"224 Marks Rd, Jackson, SC 29831", year:"", city:"Jackson", county:"Aiken", state:"South Carolina", region:"Aiken SC", type:"Private", sites:18, hookup:"Full hookups, electric 30/50 amp", phone:"(803) 265-1300", web:"", tags:["Near Augusta GA","RVs only","Pet-friendly"] },
+  { name:"Johnson's Landing", address:"1648 New Market Rd, Hartsville, SC 29550", year:"", city:"Hartsville", county:"Darlington", state:"South Carolina", region:"Pee Dee SC", type:"Private", sites:20, hookup:"Electric, water, sewer hookups", phone:"(843) 332-7189", web:"", tags:["Lake Robinson","Boat landing","Swimming","Big rig friendly"] },
+  { name:"Easterling Landing", address:"1540 Easterling Landing Rd, Hartsville, SC 29550", year:"", city:"Hartsville", county:"Darlington", state:"South Carolina", region:"Pee Dee SC", type:"Private", sites:20, hookup:"Electric, water, sewer hookups", phone:"(843) 992-1849", web:"", tags:["Lake Robinson","Boat landing","Water skiing","Game room"] },
 
   // ──────────────────────────────────────────────────────────
-  //  SOUTH CAROLINA — LARGE PARKS, 100+ sites  (13 parks)
+  //  SOUTH CAROLINA — LARGE PARKS, 100+ sites  (15 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Ocean Lakes Family Campground", address:"6001 South Kings Hwy, Myrtle Beach, SC 29575", year:"", city:"Myrtle Beach", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:859, hookup:"20/30/50A electric, water, sewer, cable TV, concrete pads on most sites", phone:"(877) 510-1413", web:"oceanlakes.com", tags:["Oceanfront","One-mile beachfront","Family campground","Big rig friendly"] },
@@ -444,6 +447,8 @@ const PARKS = [
   { name:"Charlotte/Fort Mill KOA Journey", address:"940 Gold Hill Rd, Fort Mill, SC 29708", year:"", city:"Fort Mill", county:"York", state:"South Carolina", region:"Charlotte Metro SC", type:"Private", sites:236, hookup:"Full hookups (164 sites), electric-only and water/electric options, 20/30/50/120 amp", phone:"(803) 547-5416", web:"koa.com/campgrounds/charlotte", tags:["Pool","Mini golf","20 min from uptown Charlotte"] },
   { name:"Crown Cove RV Park", address:"8332 Regent Pkwy, Fort Mill, SC 29715", year:"", city:"Fort Mill", county:"York", state:"South Carolina", region:"Charlotte Metro SC", type:"Private", sites:134, hookup:"Full hookups, 30/50 amp", phone:"", web:"crowncovervpark.com", tags:["Near Carowinds","Minutes from Charlotte","Cable TV"] },
   { name:"Spacious Skies Peach Haven", address:"160 Sarratt School Rd, Gaffney, SC 29341", year:"", city:"Gaffney", county:"Cherokee", state:"South Carolina", region:"Upstate SC", type:"Private", sites:140, hookup:"Full hookups plus water/electric-only sites, 30/50 amp", phone:"(864) 489-2022", web:"spaciousskiescampgrounds.com/peach-haven", tags:["Pool and mini golf","Two dog parks","Fishing ponds"] },
+  { name:"Florence RV Park", address:"1115 E. Campground Road, Florence, SC 29506", year:"", city:"Florence", county:"Florence", state:"South Carolina", region:"Pee Dee SC", type:"Private", sites:128, hookup:"Full hookups (30/50A, water, sewer), mostly pull-through, level sites", phone:"(843) 665-7007", web:"frvpark.com", tags:["Near I-95","Swimming pool","Dog park","Fishing pond"] },
+  { name:"Camp Pedro RV Park (South of the Border)", address:"3346 US-301 N, Hamer, SC 29547", year:"", city:"Hamer", county:"Dillon", state:"South Carolina", region:"Pee Dee SC", type:"Private", sites:100, hookup:"Full hookups, 30/50A pull-through and back-in sites", phone:"(843) 774-2411", web:"sobpedro.com", tags:["South of the Border landmark","I-95 corridor","Pool passes","Pet-friendly"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS  (421 parks)
