@@ -396,7 +396,7 @@ const PARKS = [
   { name:"Grandfather Mountain Campground RV Resort & Cabins", address:"125 Profile View Rd, Banner Elk, NC 28604", year:"", city:"Banner Elk", county:"Avery", state:"North Carolina", region:"High Country NC", type:"Private", sites:128, hookup:"Full hookups, 30/50A, pull-through sites", phone:"(828) 355-4535", web:"grandfatherrv.com", tags:["Stocked trout pond","Cabin rentals","Watauga River fishing"] },
 
   // ──────────────────────────────────────────────────────────
-  //  SOUTH CAROLINA  (46 parks)
+  //  SOUTH CAROLINA  (48 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"The Point at Lake Hartwell RV Resort", address:"400 Ponderosa Point Rd, Townville, SC 29689", year:"", city:"Townville", county:"Anderson", state:"South Carolina", region:"Upstate SC", type:"Private", sites:65, hookup:"Full hookups, 30/50A, waterfront sites", phone:"(864) 287-3376", web:"thepointatlakerv.com", tags:["Hartwell Lake","Boat ramp","Fishing","Swimming"] },
@@ -445,9 +445,11 @@ const PARKS = [
   { name:"Lakeside Marina & Resort", address:"107 Cypress Shores Rd, Eutawville, SC 29048", year:"", city:"Eutawville", county:"Orangeburg", state:"South Carolina", region:"Santee Cooper SC", type:"Private", sites:55, hookup:"Water & electric (30/50A), dump station, no full hookups", phone:"(803) 492-7226", web:"", tags:["Lake Marion","Marina","Pool","Boat launch"] },
   { name:"Taylor's Landing and Campground", address:"708 Ferguson Landing Way, Eutawville, SC 29048", year:"", city:"Eutawville", county:"Orangeburg", state:"South Carolina", region:"Santee Cooper SC", type:"Private", sites:21, hookup:"Full hookups (30/50A electric, sewer), concrete pads, pull-through", phone:"(843) 732-8084", web:"", tags:["Lake Marion","Boat ramp","Marina","Fishing"] },
   { name:"Lake Marion Resort & Marina", address:"510 Ragtime Trail, Santee, SC 29142", year:"", city:"Santee", county:"Orangeburg", state:"South Carolina", region:"Santee Cooper SC", type:"Private", sites:54, hookup:"Full hookups, 30/50 amp, water, sewer", phone:"(803) 854-2136", web:"lakemarionresortmarina.com", tags:["Lake Marion","Marina","Full hookups","Fishing"] },
+  { name:"Stoney Crest Plantation Campground", address:"419 May River Rd, Bluffton, SC 29910", year:"", city:"Bluffton", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:33, hookup:"Full hookups, 30 amp, water & sewer, WiFi", phone:"(843) 757-3249", web:"stoneycrestplantationcampground.com", tags:["Wooded sites","Near Old Town Bluffton","Family owned"] },
+  { name:"Driftwood RV Park", address:"2558 Trask Pkwy, Beaufort, SC 29906", year:"", city:"Beaufort", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:17, hookup:"Full hookups (water, sewer, electric), WiFi", phone:"(843) 846-4360", web:"", tags:["Established 1960","Weekly/monthly rates","Small quiet park"] },
 
   // ──────────────────────────────────────────────────────────
-  //  SOUTH CAROLINA — LARGE PARKS, 100+ sites  (18 parks)
+  //  SOUTH CAROLINA — LARGE PARKS, 100+ sites  (22 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Ocean Lakes Family Campground", address:"6001 South Kings Hwy, Myrtle Beach, SC 29575", year:"", city:"Myrtle Beach", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:859, hookup:"20/30/50A electric, water, sewer, cable TV, concrete pads on most sites", phone:"(877) 510-1413", web:"oceanlakes.com", tags:["Oceanfront","One-mile beachfront","Family campground","Big rig friendly"] },
@@ -468,6 +470,10 @@ const PARKS = [
   { name:"Carolina Shores RV Resort", address:"5403 S. Kings Hwy, Myrtle Beach, SC 29575", year:"", city:"Myrtle Beach", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:813, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(843) 214-2644", web:"thousandtrails.com", tags:["Beachfront access","Lazy river","80-acre resort","Pet-friendly"] },
   { name:"Pirateland Family Camping Resort", address:"5401 S Kings Hwy, Myrtle Beach, SC 29575", year:"", city:"Myrtle Beach", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:1493, hookup:"Full hookups, 30/50 amp, water, sewer, pull-through and back-in sites", phone:"(843) 238-5155", web:"pirateland.com", tags:["Oceanfront","Family resort","Big rig friendly","Operating since 1966"] },
   { name:"Crooked Oaks RV Park", address:"1720 Hwy 544, Conway, SC 29526", year:"", city:"Conway", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:143, hookup:"Full hookups, 30/50 amp, concrete pads", phone:"(843) 347-1250", web:"crookedoaksrvpark.com", tags:["New RV park","Pool and splash pad","Pickleball court","Dog park"] },
+  { name:"Hilton Head National RV Resort", address:"36 Hilton Head National Dr, Bluffton, SC 29910", year:"", city:"Bluffton", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:341, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 707-4800", web:"hiltonheadrv.com", tags:["Golf course resort","5 minutes from Hilton Head Island","Pool","Big rig friendly"] },
+  { name:"Lake Jasper RV Park", address:"44 Camp Lake Dr, Hardeeville, SC 29927", year:"", city:"Hardeeville", county:"Jasper", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:100, hookup:"Full hookups, 30/50A, cable TV, WiFi", phone:"(843) 784-5200", web:"camplakejasper.com", tags:["Lakefront sites","30 min to Hilton Head & Savannah","Pet-friendly"] },
+  { name:"Hardeeville RV - Thomas Parks and Sites", address:"3090 S Okatie Hwy, Hardeeville, SC 29927", year:"", city:"Hardeeville", county:"Jasper", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:100, hookup:"Full hookups, 30/50/100A electric, pull-through sites", phone:"(843) 784-6210", web:"hardeevillerv.com", tags:["Near GA border","Big rig friendly","Cable TV","Pet-friendly"] },
+  { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS  (421 parks)
