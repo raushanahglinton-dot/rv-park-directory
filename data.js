@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (529 parks)
+  //  TEXAS  (532 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1061,6 +1061,9 @@ const PARKS = [
   { name:"Bushman's RV Park", address:"51152 US-69, Bullard, TX 75757", year:"", city:"Bullard", county:"Cherokee", state:"Texas", region:"East TX", type:"Private", sites:97, hookup:"Full hookups (water/sewer/electric), 30/50 amp, concrete pads", phone:"(903) 894-8221", web:"bushmansrvpark.com", tags:["Gated community","Pool and hot tub","Fishing pond","Owned by Kiepersol Winery"] },
   { name:"Lavender RV Park and Plantation", address:"2296 CR 3432, Bullard, TX 75757", year:"", city:"Bullard", county:"Cherokee", state:"Texas", region:"East TX", type:"Private", sites:24, hookup:"Full hookups, pull-through, 20/30/50 amp", phone:"(903) 617-4731", web:"lavenderrv.com", tags:["Lavender farm on-site","Fishing and boat launch","Open year-round"] },
   { name:"Castle on the Lake Inn & RV Resort", address:"9110 US Hwy 79 W, Jacksonville, TX 75766", year:"", city:"Jacksonville", county:"Cherokee", state:"Texas", region:"East TX", type:"Private", sites:32, hookup:"Full hookups, 30/50 amp, pull-through, big rig friendly", phone:"(903) 721-3593", web:"jacksonvillecastle.com", tags:["Event venue and inn on-site","Open to all ages","Near Lake Jacksonville"] },
+  { name:"Tyler RV Park", address:"9161 County Rd 2192, Whitehouse, TX 75791", year:"", city:"Whitehouse", county:"Smith", state:"Texas", region:"East TX", type:"Private", sites:23, hookup:"Full hookups, electric, water, 20/30/50 amp, pull-thrus", phone:"(903) 871-1111", web:"tylertxrvpark.com", tags:["Near Lake Tyler","Fenced dog park","Stocked fishing pond","Long-term friendly"] },
+  { name:"Hilltop RV Park at Lake Tyler", address:"13277 County Rd 2175, Whitehouse, TX 75791", year:"", city:"Whitehouse", county:"Smith", state:"Texas", region:"East TX", type:"Private", sites:11, hookup:"Full hookups, 30/50 amp electric (metered), water, sewer, concrete pads", phone:"(903) 316-7060", web:"hilltoprvpark.net", tags:["Less than 2 miles from Lake Tyler Marina","Covered sites","Fenced dog area"] },
+  { name:"Quiet Oaks RV Park", address:"13129 FM 346 W, Bullard, TX 75757", year:"", city:"Bullard", county:"Smith", state:"Texas", region:"East TX", type:"Private", sites:48, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(903) 286-1049", web:"quietoaksrvpark.com", tags:["North Bullard","Fishing pond","Individual mailboxes","Near Lake Palestine"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS — LARGE PARKS, 100+ sites  (151 parks)
