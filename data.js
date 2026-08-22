@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (483 parks)
+  //  TEXAS  (487 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1015,6 +1015,10 @@ const PARKS = [
   { name:"Los Rios Campground", address:"751 River Rd, Camp Wood, TX 78833", year:"", city:"Camp Wood", county:"Real", state:"Texas", region:"Hill Country TX", type:"Private", sites:4, hookup:"Full hookups, 30/50 amp, pull-through", phone:"(830) 291-8444", web:"losrioscampground.com", tags:["Nueces River frontage","Cabins on-site","Fire pits"] },
   { name:"Nueces River RV & Cabin Resort", address:"32598 TX-55, Camp Wood, TX 78833", year:"", city:"Camp Wood", county:"Real", state:"Texas", region:"Hill Country TX", type:"Private", sites:29, hookup:"Full hookups, 30/50 amp, pull-through", phone:"(830) 597-5280", web:"nuecesriverrv.com", tags:["Nueces River access","Cabins on-site","Big rig friendly"] },
   { name:"Camp Eagle", address:"6424 Hackberry Rd, Rocksprings, TX 78880", year:"", city:"Rocksprings", county:"Edwards", state:"Texas", region:"Hill Country TX", type:"Private", sites:20, hookup:"Water and electric hookups", phone:"(830) 205-5789", web:"campeagle.org", tags:["Nueces River frontage","Adventure retreat facility"] },
+  { name:"Tilden Trailer Park", address:"305 Washington Street, Tilden, TX 78072", year:"", city:"Tilden", county:"McMullen", state:"Texas", region:"South TX", type:"Private", sites:33, hookup:"Water and electric, 30/50 amp, all bills included", phone:"(830) 570-5604", web:"", tags:["All bills included","Laundry on site","Near Choke Canyon Reservoir","WiFi included"] },
+  { name:"Falcon Lake RV Park", address:"192 Madison Ave, Zapata, TX 78076", year:"", city:"Zapata", county:"Zapata", state:"Texas", region:"South TX", type:"Private", sites:65, hookup:"Full hookups (water, sewer, electric), 30/50 amp, cable TV, WiFi", phone:"(956) 744-4629", web:"falconlakervpark.com", tags:["On Falcon Lake","Pool","Pull-through sites","Bass fishing"] },
+  { name:"Oso Blanco Motel & RV Park", address:"2132 US Highway 83 South, Zapata, TX 78076", year:"", city:"Zapata", county:"Zapata", state:"Texas", region:"South TX", type:"Private", sites:15, hookup:"Full hookups, 20/30/50 amp, cable TV", phone:"(956) 765-4339", web:"", tags:["RVs only","Big rig friendly","Pet-friendly","Playground"] },
+  { name:"Stinson RV Park & Storage", address:"3299 S US Highway 83, Zapata, TX 78076", year:"", city:"Zapata", county:"Zapata", state:"Texas", region:"South TX", type:"Private", sites:66, hookup:"Full hookups, 30 amp", phone:"(956) 765-5162", web:"stinsonrvparkandstorage.com", tags:["RV storage available","Clubhouse","Cable TV","Pet-friendly"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS — LARGE PARKS, 100+ sites  (138 parks)
