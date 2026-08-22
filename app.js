@@ -110,6 +110,7 @@ function applyFilters() {
   const stateF  = document.getElementById("state-filter").value;
   const typeF   = document.getElementById("type-filter").value;
   const regionF = document.getElementById("region-filter").value;
+  const webF    = document.getElementById("website-filter").value; // "" = any, "no" = no website, "yes" = has website
   const sizeF   = document.getElementById("size-filter").value; // "" = under 100, "100+" = large
   const maxSites= parseInt(document.getElementById("max-sites").value, 10);
   const sortBy  = document.getElementById("sort-by").value;
@@ -132,6 +133,8 @@ function applyFilters() {
     if (stateF  && p.state  !== stateF)  return false;
     if (typeF   && p.type   !== typeF)   return false;
     if (regionF && p.region !== regionF) return false;
+    if (webF === "no"  && p.web)  return false;
+    if (webF === "yes" && !p.web) return false;
     if (largeMode) {
       if (!isLarge(p))                   return false;
     } else {
@@ -246,6 +249,7 @@ function resetFilters() {
   document.getElementById("state-filter").value     = "";
   document.getElementById("type-filter").value      = "";
   document.getElementById("region-filter").value    = "";
+  document.getElementById("website-filter").value   = "";
   document.getElementById("size-filter").value      = "";
   document.getElementById("max-sites").value        = 99;
   document.getElementById("site-val").textContent   = "99";

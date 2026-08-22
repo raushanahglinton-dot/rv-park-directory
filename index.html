@@ -59,6 +59,14 @@
       </select>
     </div>
     <div class="filter-group">
+      <label class="filter-label">Website</label>
+      <select id="website-filter" onchange="applyFilters()">
+        <option value="">Any</option>
+        <option value="no">No website listed</option>
+        <option value="yes">Has website</option>
+      </select>
+    </div>
+    <div class="filter-group">
       <label class="filter-label">Site count</label>
       <select id="size-filter" onchange="applyFilters()">
         <option value="">Under 100 sites</option>
