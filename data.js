@@ -18,7 +18,7 @@
 const PARKS = [
 
   // ──────────────────────────────────────────────────────────
-  //  TENNESSEE  (90 parks)
+  //  TENNESSEE  (92 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Mountain Glen RV Park", address:"6182 Brockdell Rd, Greeneville, TN 37745", year:"", city:"Greeneville", county:"Greene", state:"Tennessee", region:"East TN", type:"Private", sites:45, hookup:"Full hookups, 50A, pull-throughs", phone:"(423) 234-0404", web:"mountainglenrv.com", tags:["Fishing pond","Pavilion","WiFi"] },
@@ -111,6 +111,8 @@ const PARKS = [
   { name:"Sycamore Lake Campground", address:"24524 TN-104, Lexington, TN 38351", year:"", city:"Lexington", county:"Henderson", state:"Tennessee", region:"West TN", type:"Private", sites:42, hookup:"Full hookups at most sites, waterfront", phone:"", web:"", tags:["Sycamore Reservoir","Boat launch","Fishing"] },
   { name:"Roberson Camper Lots", address:"6300 W Hwy 22, Hornbeak, TN 38232", year:"", city:"Hornbeak", county:"Obion", state:"Tennessee", region:"West TN", type:"Private", sites:58, hookup:"Full hookups, 30/50A electric, water, sewer, dump station", phone:"(731) 446-2537", web:"", tags:["Reelfoot Lake area","Family-owned","Pull-throughs"] },
   { name:"Sportsman's Resort", address:"100 Sportsmans Resort Lane, Tiptonville, TN 38079", year:"", city:"Tiptonville", county:"Lake", state:"Tennessee", region:"West TN", type:"Private", sites:40, hookup:"Full hookups, 30/50A electric", phone:"(731) 253-6581", web:"", tags:["Reelfoot Lake","Fishing packages","Big rig friendly (up to 70ft)"] },
+  { name:"Whispering Falls at Burgess RV Park", address:"2091 Coles Chapel Road, Sparta, TN 38583", year:"", city:"Sparta", county:"White", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:23, hookup:"Full hookups (water, electric, sewer), 50/30/20 amp", phone:"(931) 761-7275", web:"whisperingfallsrvpark.com", tags:["Next to Burgess Falls State Park entrance","Big-rig friendly, 20x60 pads","Near Center Hill Lake"] },
+  { name:"Fishlipz Resort & Grill at Pates Ford Marina", address:"6323 Jefferson Road, Smithville, TN 37166", year:"", city:"Smithville", county:"DeKalb", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:30, hookup:"Sewer, water, 30/50 amp electric", phone:"(615) 597-4807", web:"fishlipzmarina.com", tags:["Center Hill Lake marina","On-site restaurant and bar","Boat and pontoon rentals"] },
 
   // ──────────────────────────────────────────────────────────
   //  TENNESSEE — LARGE PARKS, 100+ sites  (13 parks)
