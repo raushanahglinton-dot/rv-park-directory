@@ -18,7 +18,7 @@
 const PARKS = [
 
   // ──────────────────────────────────────────────────────────
-  //  TENNESSEE  (85 parks)
+  //  TENNESSEE  (90 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Mountain Glen RV Park", address:"6182 Brockdell Rd, Greeneville, TN 37745", year:"", city:"Greeneville", county:"Greene", state:"Tennessee", region:"East TN", type:"Private", sites:45, hookup:"Full hookups, 50A, pull-throughs", phone:"(423) 234-0404", web:"mountainglenrv.com", tags:["Fishing pond","Pavilion","WiFi"] },
@@ -106,6 +106,11 @@ const PARKS = [
   { name:"Whispering Oaks Campground", address:"812 Sixteenth Model Rd, Manchester, TN 37355", year:"", city:"Manchester", county:"Coffee", state:"Tennessee", region:"Nashville Metro TN", type:"Private", sites:37, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(931) 728-0225", web:"whisperingoakscampgroundtn.com", tags:["Pool","Playground","Fishing pond"] },
   { name:"Coops Creek RV Campground", address:"381 Walnut St, Dunlap, TN 37327", year:"", city:"Dunlap", county:"Sequatchie", state:"Tennessee", region:"Chattanooga Metro TN", type:"Private", sites:10, hookup:"Full hookups, water, sewer, electric at every site", phone:"(423) 304-1208", web:"", tags:["Sequatchie Valley","Wi-Fi","Near downtown Dunlap"] },
   { name:"Hales Bar Marina RV Park", address:"1265 Hales Bar Rd, Guild, TN 37340", year:"", city:"Guild", county:"Marion", state:"Tennessee", region:"Chattanooga Metro TN", type:"Private", sites:53, hookup:"Full hookups, septic, water, 50/30/20 amp electric", phone:"(423) 942-9000", web:"halesbarmarina.com", tags:["Nickajack Lake","Waterfront & off-water sites","Full-service marina"] },
+  { name:"Joy-O RV Park", address:"150 US Hwy 138, Denmark, TN 38391", year:"", city:"Denmark", county:"Madison", state:"Tennessee", region:"West TN", type:"Private", sites:40, hookup:"Full hookups, 20 pull-throughs, 30/50A electric", phone:"(731) 424-3725", web:"", tags:["I-40 Exit 68","Big rig friendly","Pool"] },
+  { name:"Whispering Pines RV Park", address:"129 McKenzie Rd, Jackson, TN 38301", year:"", city:"Jackson", county:"Madison", state:"Tennessee", region:"West TN", type:"Private", sites:30, hookup:"Full hookups, 15/20/30/50A electric, pull-throughs", phone:"(731) 422-3682", web:"", tags:["Near I-40","Pet-friendly","RVs only"] },
+  { name:"Sycamore Lake Campground", address:"24524 TN-104, Lexington, TN 38351", year:"", city:"Lexington", county:"Henderson", state:"Tennessee", region:"West TN", type:"Private", sites:42, hookup:"Full hookups at most sites, waterfront", phone:"", web:"", tags:["Sycamore Reservoir","Boat launch","Fishing"] },
+  { name:"Roberson Camper Lots", address:"6300 W Hwy 22, Hornbeak, TN 38232", year:"", city:"Hornbeak", county:"Obion", state:"Tennessee", region:"West TN", type:"Private", sites:58, hookup:"Full hookups, 30/50A electric, water, sewer, dump station", phone:"(731) 446-2537", web:"", tags:["Reelfoot Lake area","Family-owned","Pull-throughs"] },
+  { name:"Sportsman's Resort", address:"100 Sportsmans Resort Lane, Tiptonville, TN 38079", year:"", city:"Tiptonville", county:"Lake", state:"Tennessee", region:"West TN", type:"Private", sites:40, hookup:"Full hookups, 30/50A electric", phone:"(731) 253-6581", web:"", tags:["Reelfoot Lake","Fishing packages","Big rig friendly (up to 70ft)"] },
 
   // ──────────────────────────────────────────────────────────
   //  TENNESSEE — LARGE PARKS, 100+ sites  (13 parks)
