@@ -396,7 +396,7 @@ const PARKS = [
   { name:"Grandfather Mountain Campground RV Resort & Cabins", address:"125 Profile View Rd, Banner Elk, NC 28604", year:"", city:"Banner Elk", county:"Avery", state:"North Carolina", region:"High Country NC", type:"Private", sites:128, hookup:"Full hookups, 30/50A, pull-through sites", phone:"(828) 355-4535", web:"grandfatherrv.com", tags:["Stocked trout pond","Cabin rentals","Watauga River fishing"] },
 
   // ──────────────────────────────────────────────────────────
-  //  SOUTH CAROLINA  (38 parks)
+  //  SOUTH CAROLINA  (40 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"The Point at Lake Hartwell RV Resort", address:"400 Ponderosa Point Rd, Townville, SC 29689", year:"", city:"Townville", county:"Anderson", state:"South Carolina", region:"Upstate SC", type:"Private", sites:65, hookup:"Full hookups, 30/50A, waterfront sites", phone:"(864) 287-3376", web:"thepointatlakerv.com", tags:["Hartwell Lake","Boat ramp","Fishing","Swimming"] },
@@ -437,9 +437,11 @@ const PARKS = [
   { name:"Carolina Hills Mobile Home and RV Park", address:"224 Marks Rd, Jackson, SC 29831", year:"", city:"Jackson", county:"Aiken", state:"South Carolina", region:"Aiken SC", type:"Private", sites:18, hookup:"Full hookups, electric 30/50 amp", phone:"(803) 265-1300", web:"", tags:["Near Augusta GA","RVs only","Pet-friendly"] },
   { name:"Johnson's Landing", address:"1648 New Market Rd, Hartsville, SC 29550", year:"", city:"Hartsville", county:"Darlington", state:"South Carolina", region:"Pee Dee SC", type:"Private", sites:20, hookup:"Electric, water, sewer hookups", phone:"(843) 332-7189", web:"", tags:["Lake Robinson","Boat landing","Swimming","Big rig friendly"] },
   { name:"Easterling Landing", address:"1540 Easterling Landing Rd, Hartsville, SC 29550", year:"", city:"Hartsville", county:"Darlington", state:"South Carolina", region:"Pee Dee SC", type:"Private", sites:20, hookup:"Electric, water, sewer hookups", phone:"(843) 992-1849", web:"", tags:["Lake Robinson","Boat landing","Water skiing","Game room"] },
+  { name:"Barefoot RV Resort", address:"920 37th Ave S, North Myrtle Beach, SC 29582", year:"", city:"North Myrtle Beach", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:75, hookup:"Full hookups, 50 amp electric, water, sewer, concrete pads", phone:"(843) 663-4000", web:"barefootrvresort.com", tags:["Gated resort","Family owned","Near Barefoot Landing","Big rig friendly"] },
+  { name:"Big Cypress Lake RV Park and Fishing Retreat", address:"6531 Browns Way Shortcut Rd, Conway, SC 29527", year:"", city:"Conway", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:45, hookup:"30 full hookup sites, 10 pull-through, 15 tent sites, on private lake", phone:"(843) 902-9090", web:"bigcypresslake.com", tags:["Private fishing lake","Small campground","Quiet setting","Pull-through sites"] },
 
   // ──────────────────────────────────────────────────────────
-  //  SOUTH CAROLINA — LARGE PARKS, 100+ sites  (15 parks)
+  //  SOUTH CAROLINA — LARGE PARKS, 100+ sites  (18 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Ocean Lakes Family Campground", address:"6001 South Kings Hwy, Myrtle Beach, SC 29575", year:"", city:"Myrtle Beach", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:859, hookup:"20/30/50A electric, water, sewer, cable TV, concrete pads on most sites", phone:"(877) 510-1413", web:"oceanlakes.com", tags:["Oceanfront","One-mile beachfront","Family campground","Big rig friendly"] },
@@ -457,6 +459,9 @@ const PARKS = [
   { name:"Spacious Skies Peach Haven", address:"160 Sarratt School Rd, Gaffney, SC 29341", year:"", city:"Gaffney", county:"Cherokee", state:"South Carolina", region:"Upstate SC", type:"Private", sites:140, hookup:"Full hookups plus water/electric-only sites, 30/50 amp", phone:"(864) 489-2022", web:"spaciousskiescampgrounds.com/peach-haven", tags:["Pool and mini golf","Two dog parks","Fishing ponds"] },
   { name:"Florence RV Park", address:"1115 E. Campground Road, Florence, SC 29506", year:"", city:"Florence", county:"Florence", state:"South Carolina", region:"Pee Dee SC", type:"Private", sites:128, hookup:"Full hookups (30/50A, water, sewer), mostly pull-through, level sites", phone:"(843) 665-7007", web:"frvpark.com", tags:["Near I-95","Swimming pool","Dog park","Fishing pond"] },
   { name:"Camp Pedro RV Park (South of the Border)", address:"3346 US-301 N, Hamer, SC 29547", year:"", city:"Hamer", county:"Dillon", state:"South Carolina", region:"Pee Dee SC", type:"Private", sites:100, hookup:"Full hookups, 30/50A pull-through and back-in sites", phone:"(843) 774-2411", web:"sobpedro.com", tags:["South of the Border landmark","I-95 corridor","Pool passes","Pet-friendly"] },
+  { name:"Carolina Shores RV Resort", address:"5403 S. Kings Hwy, Myrtle Beach, SC 29575", year:"", city:"Myrtle Beach", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:813, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(843) 214-2644", web:"thousandtrails.com", tags:["Beachfront access","Lazy river","80-acre resort","Pet-friendly"] },
+  { name:"Pirateland Family Camping Resort", address:"5401 S Kings Hwy, Myrtle Beach, SC 29575", year:"", city:"Myrtle Beach", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:1493, hookup:"Full hookups, 30/50 amp, water, sewer, pull-through and back-in sites", phone:"(843) 238-5155", web:"pirateland.com", tags:["Oceanfront","Family resort","Big rig friendly","Operating since 1966"] },
+  { name:"Crooked Oaks RV Park", address:"1720 Hwy 544, Conway, SC 29526", year:"", city:"Conway", county:"Horry", state:"South Carolina", region:"Grand Strand SC", type:"Private", sites:143, hookup:"Full hookups, 30/50 amp, concrete pads", phone:"(843) 347-1250", web:"crookedoaksrvpark.com", tags:["New RV park","Pool and splash pad","Pickleball court","Dog park"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS  (421 parks)
