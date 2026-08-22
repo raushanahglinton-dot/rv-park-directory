@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (576 parks)
+  //  TEXAS  (579 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1108,9 +1108,12 @@ const PARKS = [
   { name:"Bankersmith Campground and RV Park", address:"8142 Old San Antonio Rd, Fredericksburg, TX 78624", year:"", city:"Fredericksburg", county:"Gillespie", state:"Texas", region:"Hill Country TX", type:"Private", sites:30, hookup:"Dry camping, no hookups; restrooms and water at adjacent saloon", phone:"(512) 953-9428", web:"", tags:["Near Luckenbach","Historic dance hall & saloon","Pet-friendly"] },
   { name:"Heritage Oaks RV Park", address:"1692 Goehmann Ln, Fredericksburg, TX 78624", year:"", city:"Fredericksburg", county:"Gillespie", state:"Texas", region:"Hill Country TX", type:"Private", sites:88, hookup:"Full hookups, 30/50 amp electric, water, sewer, covered carports", phone:"(830) 992-3057", web:"heritageoaksrvpark.com", tags:["Covered parking carports","Near Main Street","Wine Trail access"] },
   { name:"Stonewall Motor Lodge & RV Park", address:"14818 US Highway 290 E, Stonewall, TX 78671", year:"", city:"Stonewall", county:"Gillespie", state:"Texas", region:"Hill Country TX", type:"Private", sites:4, hookup:"Full hookups, 50 amp electric, sewer", phone:"(830) 644-1040", web:"stonewallmotorlodge.com", tags:["Restored 1960s motor lodge","Wine Trail location","Pet-friendly"] },
+  { name:"Henly RV Park", address:"710 Henly Loop, Dripping Springs, TX 78620", year:"", city:"Dripping Springs", county:"Hays", state:"Texas", region:"Austin Area TX", type:"Private", sites:15, hookup:"Full hookups, 20/30/50 amp electric", phone:"(512) 660-1273", web:"henlyrvpark.com", tags:["Off-leash dog park","Swimming pool","Pet-friendly"] },
+  { name:"Cottonwood Creek RV Park", address:"2951 FM 165, Dripping Springs, TX 78620", year:"", city:"Dripping Springs", county:"Hays", state:"Texas", region:"Austin Area TX", type:"Private", sites:64, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(512) 858-0321", web:"cottonwoodcreekrvpark.com", tags:["Shaded dog park","Clubhouse","Near Pedernales Falls SP"] },
+  { name:"Crestview RV Park", address:"15700 S Interstate 35 Frontage Rd, Buda, TX 78610", year:"", city:"Buda", county:"Hays", state:"Texas", region:"Austin Area TX", type:"Private", sites:69, hookup:"Full hookups, 30/50 amp electric, cable TV/WiFi", phone:"(512) 282-3516", web:"crestviewrv.com", tags:["Big-rig & pull-through friendly","Clubhouse","Near I-35"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (154 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (156 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -1307,6 +1310,8 @@ const PARKS = [
   { name:"Phil's Boys Estates", address:"402 Arnold Blvd, Abilene, TX 79601", year:"", city:"Abilene", county:"Taylor", state:"Texas", region:"West TX", type:"Private", sites:120, hookup:"Full hookups, 30/50 amp, water, sewer", phone:"(956) 329-3560", web:"philsboysrvpark.com", tags:["Gated community","Mobile home & RV park","Big rig friendly"] },
   { name:"Mesquite Oasis RV Park", address:"7601 W 42nd St, Odessa, TX 79764", year:"", city:"Odessa", county:"Ector", state:"Texas", region:"Permian Basin TX", type:"Private", sites:241, hookup:"Full hookups, 30/50 amp, 110v GFI pedestals; concrete pads on select sites", phone:"(432) 381-2707", web:"mesquiteoasis.net", tags:["Gated with security monitoring","Seasonal pool","Fitness center","Dog park & wash station"] },
   { name:"Oakwood RV Resort", address:"78 FM 2093, Fredericksburg, TX 78624", year:"1988", city:"Fredericksburg", county:"Gillespie", state:"Texas", region:"Hill Country TX", type:"Private", sites:132, hookup:"Full hookups, water, electric, sewer, free WiFi", phone:"(830) 997-9817", web:"oakwoodrvresort.com", tags:["Family-owned since 1988","Swimming pool","Pet-friendly","Near wineries"] },
+  { name:"Horseshoe Ridge RV Resort", address:"17901 Ranch Road 12, Wimberley, TX 78676", year:"", city:"Wimberley", county:"Hays", state:"Texas", region:"Austin Area TX", type:"Private", sites:124, hookup:"Full hookups, 30/50 amp electric, fiber WiFi", phone:"(737) 307-2288", web:"horseshoeridgerv.com", tags:["Resort-style pool","Pickleball courts","Pet-friendly","Big-rig friendly"] },
+  { name:"The Old El Camino", address:"9087 Camino Real, Kyle, TX 78640", year:"", city:"Kyle", county:"Hays", state:"Texas", region:"Austin Area TX", type:"Private", sites:141, hookup:"Full hookups, concrete pads, pull-through & back-in", phone:"(737) 587-4106", web:"theoldelcamino.com", tags:["Pool & hot tub","Cabins on site","Big-rig friendly"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
