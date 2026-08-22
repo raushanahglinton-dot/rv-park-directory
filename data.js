@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (514 parks)
+  //  TEXAS  (519 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1046,6 +1046,11 @@ const PARKS = [
   { name:"Salado RV Park", address:"10511 S Interstate 35, Salado, TX 76571", year:"", city:"Salado", county:"Bell", state:"Texas", region:"Central TX", type:"Private", sites:15, hookup:"Full hookups, 30/50 amp electric", phone:"(254) 390-9500", web:"saladorvpark.com", tags:["I-35 access","Walking trail","Near historic downtown Salado"] },
   { name:"Shining Star RV Park", address:"14895 S Hwy 36, Gatesville, TX 76528", year:"", city:"Gatesville", county:"Coryell", state:"Texas", region:"Central TX", type:"Private", sites:23, hookup:"Full hookups, 30/50 amp electric, water, sewer, back-in and pull-thru", phone:"(254) 217-5599", web:"shiningstarrvpark.com", tags:["Laundry facilities","WiFi","Pet friendly"] },
   { name:"The Hideaway RV Park", address:"351 Cattle Dr, Gatesville, TX 76528", year:"", city:"Gatesville", county:"Coryell", state:"Texas", region:"Central TX", type:"Private", sites:18, hookup:"Full hookups, 30/50 amp electric, water, sewer, pull-through sites", phone:"(254) 865-6678", web:"thehideawayrvpark.com", tags:["Big rig friendly, 60 ft max","Laundry","Showers"] },
+  { name:"Lake Palestine Gateway RV Park", address:"1300 State Highway 31 East, Chandler, TX 75758", year:"", city:"Chandler", county:"Henderson", state:"Texas", region:"East TX", type:"Private", sites:41, hookup:"41 full hookup sites, 20/30/50 amp, concrete pads", phone:"(903) 426-3926", web:"lakepalestinegatewayrvpark.com", tags:["Waterfront on Lake Palestine","Neches River access","Kayak rentals","Pet-friendly"] },
+  { name:"JB's RV Resort", address:"2870 FM 315, Chandler, TX 75758", year:"", city:"Chandler", county:"Henderson", state:"Texas", region:"East TX", type:"Private", sites:60, hookup:"60 full hookup sites, 20/30/50 amp", phone:"(903) 283-8044", web:"", tags:["20-acre lakefront grounds","4 fishing/swimming piers","Boat launch","Family-friendly"] },
+  { name:"Flat Creek Marina & RV Camping", address:"20758 Twin Oaks Dr, Chandler, TX 75758", year:"", city:"Chandler", county:"Henderson", state:"Texas", region:"East TX", type:"Private", sites:50, hookup:"Full hookups (50+% waterfront sites), 30/50 amp", phone:"(903) 849-6356", web:"flatcreekmarina.com", tags:["42-slip marina","Waterfront sites","Pet-friendly","Kayak rentals"] },
+  { name:"Trails End RV Camp", address:"17122 FM 344 W, Flint, TX 75762", year:"", city:"Flint", county:"Smith", state:"Texas", region:"East TX", type:"Private", sites:25, hookup:"Full hookups, 50 amp electric, water, cable TV, internet", phone:"(903) 825-1008", web:"trailsendrvcamp.com", tags:["On Lake Palestine shoreline","Gated community","Private boat launch","Big rig only"] },
+  { name:"Big Steve's RV Park", address:"23491 County Rd 4117, Frankston, TX 75763", year:"", city:"Frankston", county:"Henderson", state:"Texas", region:"East TX", type:"Private", sites:25, hookup:"23 full hookup sites, 30/50 amp", phone:"(903) 617-0297", web:"bigstevesresort.com", tags:["12 sites on the water","Private boat ramp","Lake Palestine marina"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS — LARGE PARKS, 100+ sites  (151 parks)
