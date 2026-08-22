@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (560 parks)
+  //  TEXAS  (562 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1092,6 +1092,8 @@ const PARKS = [
   { name:"Magnolia Beach RV Park", address:"352 Margie Tewmey Rd, Port Lavaca, TX 77979", year:"", city:"Port Lavaca", county:"Calhoun", state:"Texas", region:"Gulf Coast TX", type:"Private", sites:16, hookup:"Full hookups, 50/30/20 amp, concrete & non-concrete pads", phone:"", web:"magnoliabeachrvpark.com", tags:["Near Magnolia Beach","Fishing destination","Long-term stays"] },
   { name:"Bay Vista RV Park at Magnolia Beach", address:"8530 State Highway 316, Port Lavaca, TX 77979", year:"", city:"Port Lavaca", county:"Calhoun", state:"Texas", region:"Gulf Coast TX", type:"Private", sites:9, hookup:"Full hookups, water, sewer, 50 amp electric", phone:"(501) 944-6946", web:"bay-vista-rv.com", tags:["Magnolia Beach","Small quiet park","Fishing & kayaking"] },
   { name:"Lola & Ethel's RV Park", address:"1327 N Ocean Dr, Port Lavaca, TX 77979", year:"", city:"Port Lavaca", county:"Calhoun", state:"Texas", region:"Gulf Coast TX", type:"Private", sites:9, hookup:"Full hookups, 50 amp electric, water, sewer", phone:"(361) 746-8022", web:"", tags:["Magnolia Beach waterfront","Free local pier nearby","Pet friendly"] },
+  { name:"Paisano RV Park and Mobile Home Park", address:"5540 Highway 359, Alice, TX 78332", year:"", city:"Alice", county:"Jim Wells", state:"Texas", region:"South TX", type:"Private", sites:77, hookup:"Full hookups, 30/50 amp electric, pull-through sites", phone:"(361) 664-3909", web:"paisanopark.com", tags:["Pool","Pet friendly","Oilfield country","Long-term stays"] },
+  { name:"Guinea Run RV Park", address:"275 County Road 422, Premont, TX 78375", year:"", city:"Premont", county:"Jim Wells", state:"Texas", region:"South TX", type:"Private", sites:36, hookup:"Covered and open sites, water hookups, on-site laundry", phone:"(361) 455-0181", web:"guinearunrvpark.com", tags:["Family-owned","Covered sites","Oilfield country","Small town"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS — LARGE PARKS, 100+ sites  (152 parks)
