@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (509 parks)
+  //  TEXAS  (514 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1041,9 +1041,14 @@ const PARKS = [
   { name:"Medina River RV Park and Camping", address:"605 Lakeshore Ln, Bandera, TX 78003", year:"", city:"Bandera", county:"Bandera", state:"Texas", region:"Hill Country TX", type:"Private", sites:16, hookup:"Partial and full 20/30/50 amp hookups, water, sewer, WiFi", phone:"(830) 423-6922", web:"medinariverrvparkandcamping.com", tags:["Veteran & family-owned","Medina River access","Boat launch","Pet-friendly"] },
   { name:"Riverside RV Park", address:"760 State Hwy 16 S, Bandera, TX 78003", year:"", city:"Bandera", county:"Bandera", state:"Texas", region:"Hill Country TX", type:"Private", sites:78, hookup:"Full hookups, 30/50 amp electric, cable TV, WiFi", phone:"(830) 796-3636", web:"riversidervbandera.com", tags:["Medina River","Cowboy Capital of the World","Coin laundry","Recreation hall"] },
   { name:"Big Oak RV Park", address:"2261 US-90, Castroville, TX 78009", year:"", city:"Castroville", county:"Medina", state:"Texas", region:"South TX", type:"Private", sites:16, hookup:"RV hookups available", phone:"(830) 521-9111", web:"bigoakrvpark.wixsite.com/borv", tags:["Family-owned","Established 2020","Quiet atmosphere"] },
+  { name:"Belton RV Park", address:"2905 S I-35, Belton, TX 76513", year:"", city:"Belton", county:"Bell", state:"Texas", region:"Central TX", type:"Private", sites:84, hookup:"Full hookups, 30/50 amp electric, water, sewer, trash pick-up", phone:"(254) 939-1961", web:"beltonrvpark.com", tags:["Pool","Fitness center","Pet park","Near Cadence Center"] },
+  { name:"Salado Sky RV Park", address:"5644 FM 2484, Salado, TX 76571", year:"", city:"Salado", county:"Bell", state:"Texas", region:"Central TX", type:"Private", sites:26, hookup:"Full hookups, pull-thru and back-in sites", phone:"(254) 410-3091", web:"saladoskyrvpark.com", tags:["Quiet country setting","Pet friendly","High-speed WiFi"] },
+  { name:"Salado RV Park", address:"10511 S Interstate 35, Salado, TX 76571", year:"", city:"Salado", county:"Bell", state:"Texas", region:"Central TX", type:"Private", sites:15, hookup:"Full hookups, 30/50 amp electric", phone:"(254) 390-9500", web:"saladorvpark.com", tags:["I-35 access","Walking trail","Near historic downtown Salado"] },
+  { name:"Shining Star RV Park", address:"14895 S Hwy 36, Gatesville, TX 76528", year:"", city:"Gatesville", county:"Coryell", state:"Texas", region:"Central TX", type:"Private", sites:23, hookup:"Full hookups, 30/50 amp electric, water, sewer, back-in and pull-thru", phone:"(254) 217-5599", web:"shiningstarrvpark.com", tags:["Laundry facilities","WiFi","Pet friendly"] },
+  { name:"The Hideaway RV Park", address:"351 Cattle Dr, Gatesville, TX 76528", year:"", city:"Gatesville", county:"Coryell", state:"Texas", region:"Central TX", type:"Private", sites:18, hookup:"Full hookups, 30/50 amp electric, water, sewer, pull-through sites", phone:"(254) 865-6678", web:"thehideawayrvpark.com", tags:["Big rig friendly, 60 ft max","Laundry","Showers"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (149 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (151 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -1235,6 +1240,8 @@ const PARKS = [
   { name:"Sanger/Denton North KOA Journey", address:"13037 Interstate 35, Sanger, TX 76266", year:"", city:"Sanger", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:168, hookup:"Full hookups, 30/50 amp, big-rig friendly, pull-throughs up to 90ft", phone:"(940) 458-5979", web:"koa.com/campgrounds/sanger", tags:["KOA franchise","Pool","Catch-and-release fishing ponds","Dog park"] },
   { name:"Lovely RV Resort", address:"901 Highway 276, West Tawakoni, TX 75474", year:"", city:"West Tawakoni", county:"Hunt", state:"Texas", region:"North TX", type:"Private", sites:105, hookup:"Full hookups, back-in and pull-through, shaded and unshaded sites", phone:"(903) 513-2098", web:"lovelyrvresort.com", tags:["Lake Tawakoni access","Pet friendly","Monthly rates available"] },
   { name:"Thousand Trails Medina Lake", address:"215 Spettle Rd, Lakehills, TX 78063", year:"", city:"Lakehills", county:"Bandera", state:"Texas", region:"Hill Country TX", type:"Private", sites:387, hookup:"220 full hookups, 167 electric/water sites, 30/50 amp available", phone:"(830) 751-2406", web:"thousandtrails.com", tags:["Medina Lake","Membership campground","Fishing","Open year-round"] },
+  { name:"Belaire Junction RV Park", address:"13103 NE HK Dodgen Loop, Temple, TX 76501", year:"", city:"Temple", county:"Bell", state:"Texas", region:"Central TX", type:"Private", sites:184, hookup:"Full hookups, water, sewer, electric, cable", phone:"(254) 314-8033", web:"belairejunctionrvpark.com", tags:["Pool & splash pad","Fenced dog parks","Near Fort Cavazos","Pickleball court"] },
+  { name:"Basin RV Resort - Belton", address:"10502 FM-2410, Belton, TX 76513", year:"", city:"Belton", county:"Bell", state:"Texas", region:"Central TX", type:"Private", sites:139, hookup:"Full hookups, 30/50 amp electric", phone:"(254) 393-1450", web:"basinrvresorts.com", tags:["Pool & hot tub","Playground","Onsite library","20-acre resort"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
