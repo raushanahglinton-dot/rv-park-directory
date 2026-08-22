@@ -184,6 +184,13 @@ body {
 }
 .search-wrap input:focus { outline: 2px solid var(--green-500); border-color: transparent; }
 .results-count { font-size: 13px; color: var(--text-400); white-space: nowrap; }
+.csv-btn {
+  padding: 8px 14px; font-size: 13px; font-weight: 600; white-space: nowrap;
+  background: var(--cream-card); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); color: var(--text-600);
+  cursor: pointer; transition: background 0.15s;
+}
+.csv-btn:hover { background: var(--green-50); color: var(--green-700); border-color: var(--green-400); }
 
 /* ---- STATE TABS ---- */
 .state-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }

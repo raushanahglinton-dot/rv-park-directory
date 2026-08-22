@@ -12,6 +12,7 @@ const TYPE_BADGE = {
 
 let activeState = "";
 let largeMode   = false; // true = viewing the 100+ sites tab for activeState
+let lastFiltered = []; // parks currently shown, kept in sync for CSV export
 
 const isLarge = p => p.sites >= 100;
 
@@ -166,8 +167,33 @@ function applyFilters() {
     return a.name.localeCompare(b.name); // default: name A-Z
   });
 
+  lastFiltered = filtered;
   renderCards(filtered);
   updateResultsCount(filtered.length);
+}
+
+// ---- CSV export (for CRM import) ----
+// Company Name, Contact Name, and Email aren't tracked in this dataset —
+// those columns are exported blank so a CRM can still map them.
+function downloadCSV() {
+  const headers = ["Park Name", "Company Name", "Contact Name", "Phone", "Email", "City", "State"];
+  const rows = lastFiltered.map(p => [p.name, "", "", p.phone || "", "", p.city, p.state]);
+  const csv = [headers, ...rows].map(row => row.map(csvEscape).join(",")).join("\r\n");
+
+  const blob = new Blob(["﻿" + csv], { type: "text/csv;charset=utf-8;" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href = url;
+  a.download = `rv-parks-export-${new Date().toISOString().slice(0, 10)}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function csvEscape(value) {
+  const s = String(value ?? "");
+  return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 }
 
 // ---- Render cards ----
