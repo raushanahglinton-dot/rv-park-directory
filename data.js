@@ -18,7 +18,7 @@
 const PARKS = [
 
   // ──────────────────────────────────────────────────────────
-  //  TENNESSEE  (103 parks)
+  //  TENNESSEE  (106 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Mountain Glen RV Park", address:"6182 Brockdell Rd, Greeneville, TN 37745", year:"", city:"Greeneville", county:"Greene", state:"Tennessee", region:"East TN", type:"Private", sites:45, hookup:"Full hookups, 50A, pull-throughs", phone:"(423) 234-0404", web:"mountainglenrv.com", tags:["Fishing pond","Pavilion","WiFi"] },
@@ -124,9 +124,12 @@ const PARKS = [
   { name:"Hidden Lake Campground & Resort", address:"1481 Belltown Rd, Tellico Plains, TN 37385", year:"", city:"Tellico Plains", county:"Monroe", state:"Tennessee", region:"East TN", type:"Private", sites:11, hookup:"Full hookups (water/electric/sewer); some water & electric only", phone:"(423) 295-2161", web:"hiddenlaketellico.com", tags:["Private lake","Cherohala Skyway","Group rentals","Cabins on site"] },
   { name:"Little Arrow Outdoor Resort", address:"118 Stables Dr, Townsend, TN 37882", year:"", city:"Townsend", county:"Blount", state:"Tennessee", region:"East TN", type:"Private", sites:76, hookup:"Full hookups, 50 amp", phone:"(865) 448-6363", web:"camplittlearrow.com", tags:["Smokies foothills","Glamping/Airstream rentals","Pool","Little River"] },
   { name:"Whispering River Resort", address:"5050 Old Walland Highway, Walland, TN 37886", year:"", city:"Walland", county:"Blount", state:"Tennessee", region:"East TN", type:"Private", sites:77, hookup:"Full hookups, 30/50 amp, cable", phone:"(865) 981-4300", web:"whisperingriverresort.com", tags:["Little River access","Smokies foothills","Pool","Big rig friendly"] },
+  { name:"Sunset Cove RV Park", address:"345 Hickory Valley Rd, Maynardville, TN 37807", year:"", city:"Maynardville", county:"Union", state:"Tennessee", region:"East TN", type:"Private", sites:20, hookup:"Full hookups, 15/20/30/50 amp electric, water, sewer, WiFi, back-in sites only", phone:"(865) 745-3000", web:"sunsetcovervparktn.com", tags:["Norris Lake access","Fishing pond","Pool","Petting farm"] },
+  { name:"Knoxville Campground", address:"2423 N Charles G Seivers Blvd, Clinton, TN 37716", year:"", city:"Clinton", county:"Anderson", state:"Tennessee", region:"East TN", type:"Private", sites:93, hookup:"57 full hookups, 36 electric/water, 20/30/50 amp, 70 pull-through, 55ft max RV length", phone:"(865) 494-9386", web:"knoxvillecampground.com", tags:["I-75 access","Pool","Big rig friendly","Pet-friendly"] },
+  { name:"Tennessee Country Campground & RV Park", address:"520 Hwy 309, Niota, TN 37826", year:"", city:"Niota", county:"McMinn", state:"Tennessee", region:"East TN", type:"Private", sites:20, hookup:"16 full hookups, 4 electric/water, 20/30/50 amp, 14 pull-through, city water/sewer, WiFi", phone:"(423) 568-2939", web:"tncountrycamp.com", tags:["I-75 access","WiFi","Pull-through sites"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TENNESSEE — LARGE PARKS, 100+ sites  (13 parks)
+  //  TENNESSEE — LARGE PARKS, 100+ sites  (14 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Greenbrier Campground", address:"2353 East Pkwy, Gatlinburg, TN 37738", year:"", city:"Gatlinburg", county:"Sevier", state:"Tennessee", region:"East TN", type:"Private", sites:120, hookup:"Full hookups, 20/30/50 amp, cable TV, WiFi", phone:"(865) 430-7415", web:"smokymountaincamping.com", tags:["Little Pigeon River","Near Greenbrier entrance to Smokies","Cabins available","River-frontage sites"] },
@@ -142,6 +145,7 @@ const PARKS = [
   { name:"Southlake RV Park", address:"3730 Maryville Pike, Knoxville, TN 37920", year:"", city:"Knoxville", county:"Knox", state:"Tennessee", region:"Knoxville Metro TN", type:"Private", sites:123, hookup:"Full hookups, pull-through sites", phone:"(865) 573-1837", web:"southlakervpark.com", tags:["Fort Loudoun Reserve","Tennessee River","Near downtown Knoxville"] },
   { name:"Caney Creek RV Resort & Marina", address:"3615 Roane State Hwy, Harriman, TN 37748", year:"", city:"Harriman", county:"Roane", state:"Tennessee", region:"Chattanooga Metro TN", type:"Private", sites:178, hookup:"Full hookups, 30/50 amp, water, sewer, paved pull-through", phone:"(865) 882-4042", web:"caneycreekrvresort.com", tags:["Watts Bar Lake","Marina","Big rig friendly"] },
   { name:"Deer Run RV Resort", address:"3609 Peavine Firetower Rd, Crossville, TN 38571", year:"", city:"Crossville", county:"Cumberland", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:100, hookup:"Full hookups, water, 30/50 amp electric, sewer", phone:"931-484-3333", web:"deerrunrvresort.com", tags:["Gated entrance","Private lake","Pool"] },
+  { name:"Lost Creek RV Park", address:"320 Rush Sharp Ln, Sharps Chapel, TN 37866", year:"", city:"Sharps Chapel", county:"Union", state:"Tennessee", region:"East TN", type:"Private", sites:120, hookup:"Full hookups, water, sewer, electric", phone:"(865) 278-3539", web:"lostcreekrvparktn.com", tags:["Norris Lake shoreline","Boat launch ramp","Boat slips","50 acres"] },
 
   // ──────────────────────────────────────────────────────────
   //  ALABAMA  (102 parks)
