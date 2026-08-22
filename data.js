@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (501 parks)
+  //  TEXAS  (504 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1033,6 +1033,9 @@ const PARKS = [
   { name:"Waggin' Tail Ranch RV Resort", address:"10801 FM 2931, Pilot Point, TX 76258", year:"", city:"Pilot Point", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:98, hookup:"Full hookups, electric (20/30/50 amp), water, sewer", phone:"(940) 595-2510", web:"waggintailrv.com", tags:["Fenced dog park with pond","Pool with hot tub","Fenced RV yards","Pet grooming on-site"] },
   { name:"Sharktooth RV Ranch", address:"11670 Massey Road, Pilot Point, TX 76258", year:"", city:"Pilot Point", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:90, hookup:"Full hookups (utilities included daily/weekly), free WiFi, propane fill station", phone:"(940) 600-2749", web:"sharktoothrvranch.com", tags:["Adjacent to Sharkarosa Wildlife Ranch","Two fishing ponds","Walking trails"] },
   { name:"Clear Creek RV Park", address:"5265 Duck Creek Rd, Sanger, TX 76266", year:"", city:"Sanger", county:"Denton", state:"Texas", region:"North TX", type:"Private", sites:24, hookup:"Full hookups, 30/50 amp at all sites", phone:"(940) 206-0881", web:"myclearcreek.com", tags:["Family owned","Small park","Dog park","Near I-35"] },
+  { name:"Sam Rayburn Marina Resort", address:"4404 W Recreational Rd 255, Brookeland, TX 75931", year:"", city:"Brookeland", county:"Jasper", state:"Texas", region:"East TX", type:"Private", sites:22, hookup:"Full hookups, 30/50 amp electric, water, sewer, cable TV", phone:"(409) 698-2696", web:"samrayburnmarinaresort.com", tags:["Lake Sam Rayburn","Marina","Cabin rentals","Pet-free"] },
+  { name:"Kervins RV Park", address:"5972 State Highway 147, Zavalla, TX 75980", year:"", city:"Zavalla", county:"Angelina", state:"Texas", region:"East TX", type:"Private", sites:71, hookup:"Full hookups, 30/50 amp, pull-through sites, dump station", phone:"(936) 427-7998", web:"kervinsrvparktx.com", tags:["Angelina National Forest","Lake Sam Rayburn access","Pool","Pet-friendly"] },
+  { name:"Crankbait Cove RV Park", address:"1207 SH-147 North, Zavalla, TX 75980", year:"", city:"Zavalla", county:"Angelina", state:"Texas", region:"East TX", type:"Private", sites:34, hookup:"Full hookup sites", phone:"(903) 752-2294", web:"crankbaitcove.com", tags:["Gated community","Lake Sam Rayburn","Full hookups"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS — LARGE PARKS, 100+ sites  (148 parks)
