@@ -18,7 +18,7 @@
 const PARKS = [
 
   // ──────────────────────────────────────────────────────────
-  //  TENNESSEE  (99 parks)
+  //  TENNESSEE  (103 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Mountain Glen RV Park", address:"6182 Brockdell Rd, Greeneville, TN 37745", year:"", city:"Greeneville", county:"Greene", state:"Tennessee", region:"East TN", type:"Private", sites:45, hookup:"Full hookups, 50A, pull-throughs", phone:"(423) 234-0404", web:"mountainglenrv.com", tags:["Fishing pond","Pavilion","WiFi"] },
@@ -120,6 +120,10 @@ const PARKS = [
   { name:"Timber Ridge Horse Campground", address:"1426 Darrow Ridge Rd, Jamestown, TN 38556", year:"", city:"Jamestown", county:"Fentress", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:24, hookup:"30/50 amp electric and water hookups, pull-through sites, dump station", phone:"(931) 310-1530", web:"timberridgehorsecampground.com", tags:["Big South Fork trail access","Horse camping","Cabin rentals","Pet-friendly"] },
   { name:"True West Campground & Stables", address:"3341 Leatherwood Ford Rd, Jamestown, TN 38556", year:"", city:"Jamestown", county:"Fentress", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:34, hookup:"Water and electric hookups, some sites with sewer, RV dump station", phone:"(931) 752-8272", web:"truewestcampgroundandstables.com", tags:["Big South Fork","Stocked fishing ponds","Horse stables","WiFi"] },
   { name:"Laurel Creek Campground", address:"150 Laurel Creek Campground Rd, Jamestown, TN 38556", year:"", city:"Jamestown", county:"Fentress", state:"Tennessee", region:"Upper Cumberland TN", type:"Private", sites:37, hookup:"Full hookups and electric/water sites, 30/50 amp", phone:"(931) 879-7696", web:"camplaurelcreek.com", tags:["In-ground pool","Near Pickett State Park & Big South Fork","Free WiFi","Fishing"] },
+  { name:"Sweetwater KOA", address:"269 Murray's Chapel Rd, Sweetwater, TN 37874", year:"", city:"Sweetwater", county:"Monroe", state:"Tennessee", region:"East TN", type:"Private", sites:66, hookup:"Full hookups, 20/30/50 amp, pull-throughs", phone:"(865) 213-3900", web:"koa.com/campgrounds/sweetwater", tags:["I-75 access","Lost Sea nearby","Cherohala Skyway","Dog park"] },
+  { name:"Hidden Lake Campground & Resort", address:"1481 Belltown Rd, Tellico Plains, TN 37385", year:"", city:"Tellico Plains", county:"Monroe", state:"Tennessee", region:"East TN", type:"Private", sites:11, hookup:"Full hookups (water/electric/sewer); some water & electric only", phone:"(423) 295-2161", web:"hiddenlaketellico.com", tags:["Private lake","Cherohala Skyway","Group rentals","Cabins on site"] },
+  { name:"Little Arrow Outdoor Resort", address:"118 Stables Dr, Townsend, TN 37882", year:"", city:"Townsend", county:"Blount", state:"Tennessee", region:"East TN", type:"Private", sites:76, hookup:"Full hookups, 50 amp", phone:"(865) 448-6363", web:"camplittlearrow.com", tags:["Smokies foothills","Glamping/Airstream rentals","Pool","Little River"] },
+  { name:"Whispering River Resort", address:"5050 Old Walland Highway, Walland, TN 37886", year:"", city:"Walland", county:"Blount", state:"Tennessee", region:"East TN", type:"Private", sites:77, hookup:"Full hookups, 30/50 amp, cable", phone:"(865) 981-4300", web:"whisperingriverresort.com", tags:["Little River access","Smokies foothills","Pool","Big rig friendly"] },
 
   // ──────────────────────────────────────────────────────────
   //  TENNESSEE — LARGE PARKS, 100+ sites  (13 parks)
