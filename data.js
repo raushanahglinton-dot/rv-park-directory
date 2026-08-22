@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (421 parks)
+  //  TEXAS  (429 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -953,9 +953,17 @@ const PARKS = [
   { name:"AcreWood Mobile Home & RV Park", address:"2211 North 1st Street, Carrizo Springs, TX 78834", year:"", city:"Carrizo Springs", county:"Dimmit", state:"Texas", region:"South TX", type:"Private", sites:60, hookup:"Water and electric, 30/50 amp", phone:"830-255-1103", web:"", tags:["Fiber-optic internet","Security cameras","Pet-friendly"] },
   { name:"Quail Valley RV Park", address:"1675 FM 1556, Carrizo Springs, TX 78834", year:"", city:"Carrizo Springs", county:"Dimmit", state:"Texas", region:"South TX", type:"Private", sites:40, hookup:"Full hookups", phone:"979-268-1280", web:"", tags:["Pull-through sites","Laundry & game room","Established 2010"] },
   { name:"C.M.O.'s RV Park & RV Rentals", address:"2606 Hwy 83 S, Carrizo Springs, TX 78834", year:"", city:"Carrizo Springs", county:"Dimmit", state:"Texas", region:"South TX", type:"Private", sites:15, hookup:"Full hookups, 30 amp", phone:"(830) 255-9360", web:"", tags:["RV rentals also available"] },
+  { name:"Cowboy RV Park", address:"10225 State Park Rd, Lockhart, TX 78644", year:"", city:"Lockhart", county:"Caldwell", state:"Texas", region:"Central TX", type:"Private", sites:60, hookup:"Full hookups, 30/50/60 amp electric-water", phone:"(512) 293-1532", web:"cowboyrvpark.com", tags:["Dog park","Laundry","Pet friendly","Big rig friendly"] },
+  { name:"State Park RV Village", address:"10710 State Park Rd, Lockhart, TX 78644", year:"", city:"Lockhart", county:"Caldwell", state:"Texas", region:"Central TX", type:"Private", sites:44, hookup:"Full hookups, 30/50 amp electric", phone:"(512) 764-9322", web:"stateparkrvvillage.com", tags:["Gated community","Long-term stays","Free WiFi","Near Lockhart State Park"] },
+  { name:"Pecan Creek RV Park", address:"2018 FM 672, Lockhart, TX 78644", year:"", city:"Lockhart", county:"Caldwell", state:"Texas", region:"Central TX", type:"Private", sites:40, hookup:"Full hookups, 20/30/50 amp electric, sewer, water", phone:"(512) 736-8493", web:"pecancreekrvpark.com", tags:["Onsite laundry","Picnic tables","Grills"] },
+  { name:"Hidden Path RV Park", address:"270 Hidden Path Rd, Lockhart, TX 78644", year:"", city:"Lockhart", county:"Caldwell", state:"Texas", region:"Central TX", type:"Private", sites:15, hookup:"Full hookups, 30/50 amp electric", phone:"(210) 863-9314", web:"hiddenpath2paradise.com", tags:["Small intimate park","Shaded sites","Pet friendly (under 30 lbs)"] },
+  { name:"Arrow RV Park", address:"300 Arrow Lane, Luling, TX 78648", year:"", city:"Luling", county:"Caldwell", state:"Texas", region:"Central TX", type:"Private", sites:54, hookup:"Full hookups, 20/30/50 amp electric, cable TV", phone:"(830) 875-0150", web:"arrowrvpark.com", tags:["30 wooded acres","Hiking trails","Pool","Pet friendly"] },
+  { name:"River Acres RV Park", address:"55 Breiger Rd, Gonzales, TX 78629", year:"", city:"Gonzales", county:"Gonzales", state:"Texas", region:"South TX", type:"Private", sites:56, hookup:"Full hookups, 50 amp electric, water, sewer, concrete-gravel pads", phone:"(210) 519-2710", web:"riveracresrvpark.com", tags:["Guadalupe River access","Fiber WiFi","Dog park","Kayaking"] },
+  { name:"Patriot RV Park - Gonzales", address:"5784 US 90 Alt, Gonzales, TX 78629", year:"", city:"Gonzales", county:"Gonzales", state:"Texas", region:"South TX", type:"Private", sites:83, hookup:"Full hookups, 30/50 amp electric", phone:"(830) 468-5709", web:"patriotrvparks.com", tags:["Pull-through & back-in sites","Dog park","Free WiFi"] },
+  { name:"The Oasis RV Park", address:"100 N Walnut St, Nixon, TX 78140", year:"", city:"Nixon", county:"Gonzales", state:"Texas", region:"South TX", type:"Private", sites:33, hookup:"Full hookups, 30/50 amp electric", phone:"(830) 461-7266", web:"oasisrvparknixon.com", tags:["Small playground","Laundry facility","Small town setting"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS — LARGE PARKS, 100+ sites  (134 parks)
+  //  TEXAS — LARGE PARKS, 100+ sites  (135 parks)
   //  Bigger resorts we track for reference — outside the site's
   //  usual small-park focus, shown under each state's "100+" tab.
   // ──────────────────────────────────────────────────────────
@@ -1132,6 +1140,7 @@ const PARKS = [
   { name:"Top of the Hill RV Resort & Cabins", address:"12 Green Cedar Rd, Boerne, TX 78006", year:"", city:"Boerne", county:"Kendall", state:"Texas", region:"Hill Country TX", type:"Private", sites:103, hookup:"103 full hookup sites, 30/50 amp", phone:"(830) 537-3666", web:"topofthehillrvresort.com", tags:["Cabins on site","Pool","Clubhouse"] },
   { name:"Wandering Oaks RV Resort", address:"10502 I-20 Frontage Rd, Eastland, TX 76448", year:"", city:"Eastland", county:"Eastland", state:"Texas", region:"North TX", type:"Private", sites:107, hookup:"Full hookups, 30/50 amp", phone:"(254) 433-9090", web:"wanderingoaksrvpark.com", tags:["Big rig friendly","Pull-through sites","I-20 access"] },
   { name:"Asherton RV Park", address:"9193 U.S. 83, Asherton, TX 78827", year:"", city:"Asherton", county:"Dimmit", state:"Texas", region:"South TX", type:"Private", sites:107, hookup:"Full hookups, 30/50 amp, water & waste disposal", phone:"(830) 410-8105", web:"ashertonrvpark.com", tags:["Fiber-optic WiFi","Pet-friendly","On-site manager"] },
+  { name:"4L RV Ranch", address:"26 Lucas Lane, Gonzales, TX 78629", year:"", city:"Gonzales", county:"Gonzales", state:"Texas", region:"South TX", type:"Private", sites:132, hookup:"30/50 amp electric, septic, city water", phone:"(830) 672-6057", web:"4lrvandcabins.com", tags:["Pool","Free Dish Network","Laundry with wash-and-fold"] },
 
   // ──────────────────────────────────────────────────────────
   //  ADD YOUR NEXT STATE HERE
