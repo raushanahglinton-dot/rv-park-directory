@@ -483,7 +483,7 @@ const PARKS = [
   { name:"Hilton Head Harbor RV Resort & Marina", address:"43 Jenkins Rd, Hilton Head Island, SC 29926", year:"", city:"Hilton Head Island", county:"Beaufort", state:"South Carolina", region:"Lowcountry SC", type:"Private", sites:200, hookup:"Full hookups, 30/50A, concrete pads", phone:"(843) 681-3256", web:"hiltonheadharbor.com", tags:["Marina on Skull Creek","Waterfront sites","Pool & hot tub","On-site restaurant"] },
 
   // ──────────────────────────────────────────────────────────
-  //  TEXAS  (472 parks)
+  //  TEXAS  (475 parks)
   // ──────────────────────────────────────────────────────────
 
   { name:"Dos Rios RV Park", address:"4500 Dos Rios Trail, Mason, TX 76856", year:"", city:"Mason", county:"Mason", state:"Texas", region:"Hill Country TX", type:"Private", sites:19, hookup:"Full hookups, riverfront sites", phone:"(512) 553-3977", web:"dosriosrvpark.com", tags:["Llano River","Dog-friendly","Stargazing","Fredericksburg nearby"] },
@@ -1004,6 +1004,9 @@ const PARKS = [
   { name:"B2 Hideaway RV Park", address:"357 Charter Oak Drive, Canyon Lake, TX 78133", year:"", city:"Canyon Lake", county:"Comal", state:"Texas", region:"South TX", type:"Private", sites:13, hookup:"Full hookups, 30/50 amp electric, water, sewer", phone:"(830) 237-0525", web:"b2hideaway.com", tags:["Between Sattler and Startzville","Near Canyon Lake","Hot tub area","Oak-shaded sites"] },
   { name:"Yogi Bear's Jellystone Park Hill Country", address:"12915 FM 306, Canyon Lake, TX 78133", year:"", city:"Canyon Lake", county:"Comal", state:"Texas", region:"South TX", type:"Private", sites:78, hookup:"Full hookups, electric, water, sewer", phone:"(830) 256-0088", web:"jellystonehillcountry.com", tags:["Family resort","Back-in & pull-thru sites","Near Canyon Lake","Three swimming pools"] },
   { name:"Guadalupe's Best RV Park", address:"104 GBRV Loop, Canyon Lake, TX 78133", year:"", city:"Canyon Lake", county:"Comal", state:"Texas", region:"South TX", type:"Private", sites:30, hookup:"Full hookups, 30/50 amp electric, water, sewer, pull-through sites", phone:"(830) 964-3393", web:"rvparkcanyonlaketx.com", tags:["Below Canyon Lake Dam","Guadalupe River access","Pull-through sites","Free WiFi"] },
+  { name:"Diamond B RV Park", address:"434 FM 2604, Whitney, TX 76692", year:"", city:"Whitney", county:"Hill", state:"Texas", region:"Central TX", type:"Private", sites:30, hookup:"Full hookups (water/sewer/electric), 30/50A, pull-throughs", phone:"(903) 396-7777", web:"diamondbrv.com", tags:["Lake Whitney","WiFi","Near Cedar Creek Park"] },
+  { name:"Bosque Bottoms RV Park", address:"314 River St, Meridian, TX 76665", year:"", city:"Meridian", county:"Bosque", state:"Texas", region:"Central TX", type:"Private", sites:36, hookup:"Full hookups, 30/50A", phone:"(254) 717-2359", web:"bosquebottomsrv.com", tags:["Bosque River","Pavilion rental","RVs only"] },
+  { name:"Lake Whitney RV Park & Mini Warehouses", address:"121 Peanut Patch Ln, Whitney, TX 76692", year:"", city:"Whitney", county:"Hill", state:"Texas", region:"Central TX", type:"Private", sites:39, hookup:"Full hookups, 30/50A, concrete pads, covered & uncovered sites", phone:"(254) 707-4365", web:"lakewhitneyrvresort.com", tags:["Lake Whitney","Storage on-site","Laundry"] },
 
   // ──────────────────────────────────────────────────────────
   //  TEXAS — LARGE PARKS, 100+ sites  (138 parks)
